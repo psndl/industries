@@ -1,726 +1,780 @@
 {
-  "quizTitle": "A-Level Chemistry: Periodicity and Inorganic Reactions",
+  "quizTitle": "Organic Chemistry: Functional Groups and Reactions",
   "quiz": [
     {
       "id": 1,
-      "question": "How does the chemical nature of oxides change across the third period from Na₂O to Cl₂O₇?",
+      "question": "What is the characteristic reaction of alkenes, and what type of bonds are formed and broken?",
       "options": {
-        "A": "Strongly acidic to strongly basic",
-        "B": "Strongly basic to strongly acidic",
-        "C": "Consistently neutral across the period",
-        "D": "Amphoteric to acidic to basic"
+        "A": "Electrophilic Substitution; one π-bond is broken, one σ-bond is formed.",
+        "B": "Nucleophilic Addition; one σ-bond is broken, two π-bonds are formed.",
+        "C": "Electrophilic Addition; one π-bond is broken, two new σ-bonds are formed.",
+        "D": "Free-Radical Substitution; two σ-bonds are broken, two new σ-bonds are formed."
       },
-      "answer": "B",
-      "explanation": "According to the table on page 1, the trend for oxides across Period 3 is from strongly basic (Na₂O) through basic (MgO), amphoteric (Al₂O₃), to increasingly acidic (SiO₂, P₄O₁₀, SO₃, Cl₂O₇)."
+      "answer": "C",
+      "explanation": "As stated in section 1.1, the characteristic reaction for alkenes is Electrophilic Addition, where the electron-rich π-bond is broken to form two new σ-bonds."
     },
     {
       "id": 2,
-      "question": "Which oxide in the third period is classified as amphoteric?",
+      "question": "According to Markovnikov's rule, what is the major product of the reaction between propene (CH₃CH=CH₂) and HBr?",
       "options": {
-        "A": "MgO",
-        "B": "SiO₂",
-        "C": "Al₂O₃",
-        "D": "P₄O₁₀"
+        "A": "1-bromopropane, via a primary carbocation.",
+        "B": "2-bromopropane, via a secondary carbocation.",
+        "C": "1-bromopropane, via a secondary carbocation.",
+        "D": "2-bromopropane, via a primary carbocation."
       },
-      "answer": "C",
-      "explanation": "Aluminum oxide (Al₂O₃) is listed as amphoteric, meaning it can react with both acids and bases. This is a key example of an amphoteric oxide in the middle of the period."
+      "answer": "B",
+      "explanation": "Markovnikov's rule (1.1.1) states H⁺ adds to the carbon with more hydrogens (C1), forming a more stable secondary (2°) carbocation at C2. The Br⁻ then attacks this carbocation, forming 2-bromopropane (CH₃CH(Br)CH₃)."
     },
     {
       "id": 3,
-      "question": "What is the correct bonding type for silicon dioxide (SiO₂)?",
+      "question": "Under what specific conditions does the addition of HBr to propene yield 1-bromopropane, and what is the mechanism?",
       "options": {
-        "A": "Ionic",
-        "B": "Simple Covalent",
-        "C": "Metallic",
-        "D": "Network Covalent"
+        "A": "In the presence of a Lewis acid, via an ionic mechanism.",
+        "B": "In the presence of peroxides (RO-OR), via a free-radical addition mechanism.",
+        "C": "With high heat and pressure, via an electrophilic addition mechanism.",
+        "D": "In a non-polar solvent, via a carbocation rearrangement."
       },
-      "answer": "D",
-      "explanation": "The table on page 1 shows that SiO₂ has a Network Covalent structure, which accounts for its high melting point and insolubility in water."
+      "answer": "B",
+      "explanation": "Section 1.1, 'Anti-Markovnikov Addition of HBr (Peroxide Effect)', states this occurs only with HBr in the presence of peroxides. The mechanism is explicitly mentioned as a free-radical addition, not an ionic one."
     },
     {
       "id": 4,
-      "question": "What is the main product when sodium oxide (Na₂O) reacts with water?",
+      "question": "The addition of Br₂ to ethene (H₂C=CH₂) proceeds via which type of intermediate?",
       "options": {
-        "A": "Sodium metal and oxygen gas",
-        "B": "Sodium hydride",
-        "C": "Sodium hydroxide",
-        "D": "Sodium peroxide"
+        "A": "A secondary carbocation",
+        "B": "A vinylic anion",
+        "C": "A cyclic bromonium ion",
+        "D": "A free radical"
       },
       "answer": "C",
-      "explanation": "Basic oxides like Na₂O react with water to form hydroxides. The reaction is: Na₂O(s) + H₂O(l) → 2NaOH(aq)."
+      "explanation": "The mechanism for the addition of halogens to an alkene (Section 1.1) involves the formation of a cyclic bromonium ion intermediate, which is then attacked by a bromide ion."
     },
     {
       "id": 5,
-      "question": "Which equation correctly represents the reaction of aluminum oxide with a strong base like sodium hydroxide?",
+      "question": "What is the final product when propene (CH₃CH=CH₂) is treated with cold, concentrated H₂SO₄, followed by heating with water?",
       "options": {
-        "A": "Al₂O₃ + 6NaOH → 2Al(OH)₃ + 3Na₂O",
-        "B": "Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O",
-        "C": "Al₂O₃ + 2NaOH + 3H₂O → 2NaAl(OH)₄",
-        "D": "Al₂O₃ + NaOH → No reaction"
+        "A": "Propan-1-ol",
+        "B": "Propan-2-ol",
+        "C": "Propane-1,2-diol",
+        "D": "Propanone"
       },
-      "answer": "C",
-      "explanation": "As an amphoteric oxide, Al₂O₃ reacts with strong bases. The correct equation shown on page 1 is: Al₂O₃(s) + 2NaOH(aq) + 3H₂O(l) → 2NaAl(OH)₄(aq)."
+      "answer": "B",
+      "explanation": "This is a two-step hydration of an alkene (Section 1.1). Step 1 is the addition of H₂SO₄ according to Markovnikov's rule to form CH₃CH(OSO₃H)CH₃. Step 2 is hydrolysis, where the -OSO₃H group is replaced by -OH, yielding Propan-2-ol (CH₃CH(OH)CH₃)."
     },
     {
       "id": 6,
-      "question": "Which statement is true regarding the reaction of silicon dioxide (SiO₂)?",
+      "question": "What is observed during Baeyer's Test for unsaturation when an alkene like propene is reacted with cold, dilute, alkaline KMnO₄?",
       "options": {
-        "A": "It reacts vigorously with water to form silicic acid.",
-        "B": "It is weakly acidic and reacts with strong bases like NaOH.",
-        "C": "It is a basic oxide and reacts with acids.",
-        "D": "It is completely inert and does not react with acids or bases."
+        "A": "The purple solution turns green, and a gas is evolved.",
+        "B": "A silver mirror is formed on the test tube.",
+        "C": "The purple color of KMnO₄ disappears, and a brown precipitate of MnO₂ forms.",
+        "D": "The solution remains purple, indicating a positive test."
       },
-      "answer": "B",
-      "explanation": "Page 2 states that SiO₂ is weakly acidic, shows no reaction with water, but reacts with strong bases. The reaction is: SiO₂(s) + 2NaOH(aq) → Na₂SiO₃(aq) + H₂O(l)."
+      "answer": "C",
+      "explanation": "Baeyer's Test (Section 1.1) is a test for unsaturation. The purple MnO₄⁻ ion is reduced to brown solid MnO₂, and the alkene is oxidized to a diol. The disappearance of the purple color and formation of the brown precipitate indicates a positive test."
     },
     {
       "id": 7,
-      "question": "What acid is produced when phosphorus pentoxide (P₄O₁₀) dissolves in water?",
+      "question": "What is the final product when propyne (CH₃C≡CH) is hydrated using HgSO₄ and dilute H₂SO₄ as catalysts?",
       "options": {
-        "A": "Phosphorous acid (H₃PO₃)",
-        "B": "Phosphoric acid (H₃PO₄)",
-        "C": "Hypophosphorous acid (H₃PO₂)",
-        "D": "Peroxyphosphoric acid (H₃PO₅)"
+        "A": "Propanal",
+        "B": "Propan-2-ol",
+        "C": "Propanone (Acetone)",
+        "D": "Propene"
       },
-      "answer": "B",
-      "explanation": "The reaction of the acidic oxide P₄O₁₀ with water produces phosphoric acid: P₄O₁₀(s) + 6H₂O(l) → 4H₃PO₄(aq)."
+      "answer": "C",
+      "explanation": "Hydration of an alkyne (Section 1.2) follows Markovnikov's rule. The -OH group adds to the more substituted carbon, forming an unstable enol [CH₃C(OH)=CH₂]. This enol rapidly tautomerizes to the stable keto form, which is propanone (CH₃C(=O)CH₃)."
     },
     {
       "id": 8,
-      "question": "Which of the following is NOT a property of carbon monoxide (CO)?",
+      "question": "Which catalyst is used to stop the hydrogenation of an alkyne at the alkene stage?",
       "options": {
-        "A": "It is a highly poisonous gas.",
-        "B": "It acts as a reducing agent in iron production.",
-        "C": "It has a typical C=O double bond.",
-        "D": "It can act as a ligand due to a lone pair on the carbon atom."
+        "A": "Finely powdered Pt, Pd, or Ni",
+        "B": "Anhydrous AlCl₃",
+        "C": "Raney Ni at high pressure",
+        "D": "Lindlar's Catalyst (Pd on BaSO₄, deactivated with quinoline)"
       },
-      "answer": "C",
-      "explanation": "Page 2 explicitly states that CO has a triple bond character, which makes the bond shorter and stronger than a typical C=O double bond."
+      "answer": "D",
+      "explanation": "Section 1.2, 'Partial Reduction to Alkene', specifies that a poisoned catalyst, Lindlar's Catalyst, is used to stop the catalytic hydrogenation reaction at the alkene stage."
     },
     {
       "id": 9,
-      "question": "Sulfur dioxide (SO₂) can act as both an oxidizing and a reducing agent. Which reaction shows SO₂ acting as an oxidizing agent?",
+      "question": "Why is the hydrogen atom on a terminal alkyne (R-C≡C-H) weakly acidic?",
       "options": {
-        "A": "5SO₂(g) + 2KMnO₄(aq) + 2H₂O(l) → K₂SO₄(aq) + 2MnSO₄(aq) + 2H₂SO₄(aq)",
-        "B": "SO₂(g) + 2H₂S(aq) → 3S(s) + 2H₂O(l)",
-        "C": "2Mg(s) + SO₂(g) → 2MgO(s) + S(s)",
-        "D": "SO₂(g) + H₂O(l) → H₂SO₃(aq)"
+        "A": "Because the C-H bond is non-polar.",
+        "B": "Because the resulting carbanion is sp³ hybridized and unstable.",
+        "C": "Because the carbon is sp hybridized (50% s-character), making it more electronegative and able to stabilize the negative charge.",
+        "D": "Because it readily forms a stable carbocation upon losing a proton."
       },
       "answer": "C",
-      "explanation": "In the reaction with magnesium (2Mg + SO₂ → 2MgO + S), sulfur's oxidation state decreases from +4 in SO₂ to 0 in S. A decrease in oxidation state means SO₂ has been reduced and is therefore acting as the oxidizing agent."
+      "explanation": "The acidity of terminal alkynes (Section 1.2) is due to the high s-character (50%) of the sp-hybridized carbon. This makes the carbon atom more electronegative, which helps to stabilize the negative charge on the resulting acetylide anion."
     },
     {
       "id": 10,
-      "question": "The trend in the nature of third-period hydroxides from NaOH to HClO₄ is:",
+      "question": "What is the electrophile in the nitration of benzene?",
       "options": {
-        "A": "Similar to the trend of the corresponding oxides (basic to acidic).",
-        "B": "Opposite to the trend of the corresponding oxides (acidic to basic).",
-        "C": "All are strongly acidic.",
-        "D": "All are neutral."
+        "A": "The NO₃⁻ ion",
+        "B": "The NO₂⁺ (Nitronium) ion",
+        "C": "A polarized HNO₃ molecule",
+        "D": "The SO₃H⁺ ion"
       },
-      "answer": "A",
-      "explanation": "Page 3 states that the properties of third-period hydroxides show a similar trend to their corresponding oxides, transitioning from strongly basic (NaOH) to very strongly acidic (HClO₄)."
+      "answer": "B",
+      "explanation": "For the nitration of benzene (Section 1.3.2), concentrated nitric acid and concentrated sulfuric acid react to form the powerful electrophile, the nitronium ion (NO₂⁺)."
     },
     {
       "id": 11,
-      "question": "What happens when nitrous acid (HNO₂) undergoes disproportionation?",
+      "question": "Which of these statements about the structure of benzene is INCORRECT?",
       "options": {
-        "A": "It forms N₂ and H₂O.",
-        "B": "It forms HNO₃ and NO.",
-        "C": "It forms N₂O and H₂O.",
-        "D": "It decomposes into H₂, N₂, and O₂."
+        "A": "It is a planar ring of six sp² hybridized carbon atoms.",
+        "B": "It has a delocalized π-electron cloud above and below the ring.",
+        "C": "All C-C bond lengths are identical.",
+        "D": "It readily undergoes addition reactions to break the delocalized system."
       },
-      "answer": "B",
-      "explanation": "The disproportionation reaction for nitrous acid is given as: 3HNO₂(aq) → HNO₃(aq) + 2NO(g) + H₂O(l). Here, nitrogen is both oxidized (from +3 to +5) and reduced (from +3 to +2)."
+      "answer": "D",
+      "explanation": "Benzene's exceptional stability, due to its delocalized aromatic system, causes it to undergo substitution (EAS) instead of addition, as this preserves the stable aromatic ring (Section 1.3.2)."
     },
     {
       "id": 12,
-      "question": "What are the products when concentrated nitric acid reacts with a less reactive metal like copper?",
+      "question": "What is the role of Anhydrous AlCl₃ in the Friedel-Crafts alkylation of benzene?",
       "options": {
-        "A": "Cu(NO₃)₂, NO, H₂O",
-        "B": "Cu(NO₃)₂, NO₂, H₂O",
-        "C": "Cu(NO₃)₂, H₂",
-        "D": "No reaction"
+        "A": "It acts as a solvent for the reaction.",
+        "B": "It acts as a Brønsted-Lowry base.",
+        "C": "It acts as a Lewis acid catalyst to help generate the carbocation electrophile.",
+        "D": "It acts as an oxidizing agent to activate the benzene ring."
       },
-      "answer": "B",
-      "explanation": "The reaction of copper with concentrated nitric acid is: Cu(s) + 4HNO₃(l) → Cu(NO₃)₂(aq) + 2NO₂(g) + 2H₂O(l). Dilute nitric acid would produce NO gas instead of NO₂."
+      "answer": "C",
+      "explanation": "In Friedel-Crafts reactions (Alkylation and Acylation, Section 1.3.2), anhydrous AlCl₃ is a Lewis acid catalyst. It accepts a halide from the alkyl/acyl halide to generate a potent electrophile (a carbocation or acylium ion)."
     },
     {
       "id": 13,
-      "question": "What is the role of concentrated sulfuric acid in its reaction with glucose (C₆H₁₂O₆)?",
+      "question": "Which statement correctly describes the directing effect of substituents on a benzene ring?",
       "options": {
-        "A": "Oxidizing agent",
-        "B": "Reducing agent",
-        "C": "Dehydrating agent",
-        "D": "Catalyst"
+        "A": "The -NO₂ group is an activator and ortho, para-directing.",
+        "B": "The -OH group is a deactivator and meta-directing.",
+        "C": "Halogens (-Cl, -Br) are deactivating but are ortho, para-directing.",
+        "D": "The -CH₃ (alkyl) group is a deactivator and meta-directing."
       },
       "answer": "C",
-      "explanation": "Concentrated H₂SO₄ is a powerful dehydrating agent. It removes water elements from glucose, leaving behind carbon. The reaction is: C₆H₁₂O₆(s) → 6C(s) + 6H₂O(g)."
+      "explanation": "Section 1.3.3 explains the directing effects. Halogens are a key exception: they are electron-withdrawing (deactivating) due to induction, but their lone pairs allow them to be ortho, para-directing via resonance."
     },
     {
       "id": 14,
-      "question": "How does the acidic strength of the oxoacids of chlorine change?",
+      "question": "Which set of conditions would favor the elimination (E) reaction over the substitution (Sₙ) reaction for an alkyl halide like 1-bromopropane?",
       "options": {
-        "A": "Increases as the oxidation number of chlorine increases (HClO < HClO₄).",
-        "B": "Decreases as the oxidation number of chlorine increases (HClO > HClO₄).",
-        "C": "They all have the same acidic strength.",
-        "D": "The trend is unpredictable."
+        "A": "Aqueous NaOH, cold",
+        "B": "KCN in ethanol/water",
+        "C": "Alcoholic/Ethanolic KOH, heat",
+        "D": "Ammonia in a sealed tube"
       },
-      "answer": "A",
-      "explanation": "Page 4 states that the acidic strength increases with the oxidation number of chlorine: HClO (+1) < HClO₂ (+3) < HClO₃ (+5) < HClO₄ (+7)."
+      "answer": "C",
+      "explanation": "As stated in Section 2.1 under 'Elimination (E)', using a strong base like KOH in an alcoholic (ethanolic) solvent strongly favors elimination to form an alkene."
     },
     {
       "id": 15,
-      "question": "Why does hydrogen fluoride (HF) have an unusually high boiling point compared to other hydrogen halides?",
+      "question": "Why are aryl halides, like chlorobenzene, much less reactive towards nucleophilic substitution than alkyl halides?",
       "options": {
-        "A": "It has the strongest covalent bond.",
-        "B": "It has the largest molecular mass.",
-        "C": "It experiences extensive hydrogen bonding.",
-        "D": "It is the strongest acid in the group."
+        "A": "The phenyl cation is very stable.",
+        "B": "The C-X bond is non-polar.",
+        "C": "The C-X bond has partial double bond character due to resonance with the ring.",
+        "D": "The benzene ring sterically hinders the nucleophile."
       },
       "answer": "C",
-      "explanation": "HF's boiling point (20°C) is significantly higher than HCl, HBr, and HI due to the strong intermolecular hydrogen bonds formed between HF molecules."
+      "explanation": "Section 2.2 provides the reason for the low reactivity of aryl halides: resonance of the halogen's lone pairs with the benzene ring gives the C-X bond partial double bond character, making it stronger and harder to break."
     },
     {
       "id": 16,
-      "question": "A student adds aqueous ammonia to three test tubes containing precipitates of AgCl, AgBr, and AgI. Which observation is correct?",
+      "question": "Which of the following alcohols would react fastest with the Lucas Reagent (Conc. HCl + anhy. ZnCl₂)?",
       "options": {
-        "A": "Only AgCl dissolves in dilute ammonia.",
-        "B": "All three precipitates dissolve in dilute ammonia.",
-        "C": "AgCl and AgBr dissolve in dilute ammonia, but AgI does not.",
-        "D": "AgI dissolves in concentrated ammonia, but AgCl does not."
+        "A": "Ethanol (a primary alcohol)",
+        "B": "Propan-2-ol (a secondary alcohol)",
+        "C": "2-methylpropan-2-ol (a tertiary alcohol)",
+        "D": "All would react at the same rate."
       },
-      "answer": "A",
-      "explanation": "The solubility test with ammonia is a classic way to distinguish silver halides. AgCl (white) dissolves in dilute aqueous ammonia. AgBr (pale yellow) dissolves only in concentrated aqueous ammonia. AgI (yellow) is insoluble in both."
+      "answer": "C",
+      "explanation": "The Lucas Test (Section 3.1) distinguishes between 1°, 2°, and 3° alcohols. The reaction proceeds via an Sₙ1 mechanism, forming a carbocation. Tertiary alcohols form the most stable (3°) carbocation and thus react fastest, showing immediate turbidity."
     },
     {
       "id": 17,
-      "question": "What are the products of the complete hydrolysis of silicon tetrachloride (SiCl₄)?",
+      "question": "What is the product of the oxidation of a primary alcohol like ethanol with a strong oxidizing agent like acidified KMnO₄?",
       "options": {
-        "A": "SiO₂ and HCl",
-        "B": "Si(OH)₄ and Cl₂",
-        "C": "H₂SiO₃ and Cl₂",
-        "D": "Si and HClO₄"
+        "A": "Ethanal (an aldehyde)",
+        "B": "Ethene (an alkene)",
+        "C": "Ethanoic acid (a carboxylic acid)",
+        "D": "Ethane (an alkane)"
       },
-      "answer": "A",
-      "explanation": "The hydrolysis of SiCl₄ is vigorous. The equation on page 5 is SiCl₄(l) + 2H₂O(l) → SiO₂(s) + 4HCl(aq). Note: H₂SiO₃ is often written but quickly dehydrates to SiO₂."
+      "answer": "C",
+      "explanation": "Section 3.1 on Oxidation of alcohols states that primary alcohols are oxidized to aldehydes (with a mild oxidant like PCC) and then further oxidized to carboxylic acids with strong oxidants like KMnO₄ or K₂Cr₂O₇."
     },
     {
       "id": 18,
-      "question": "Which of the following covalent halides is known to be inert and does not hydrolyze in water?",
+      "question": "Why is phenol significantly more acidic than an alcohol like ethanol?",
       "options": {
-        "A": "PCl₅",
-        "B": "SiCl₄",
-        "C": "NCl₃",
-        "D": "CCl₄"
+        "A": "The O-H bond in phenol is weaker.",
+        "B": "The resulting phenoxide ion is stabilized by resonance, delocalizing the negative charge into the benzene ring.",
+        "C": "Ethanol can form stronger hydrogen bonds.",
+        "D": "The benzene ring is electron-donating, destabilizing the O-H bond."
       },
-      "answer": "D",
-      "explanation": "Page 6 notes that most covalent halides react vigorously with water, but CCl₄ is an exception. It is inert to hydrolysis, primarily because carbon lacks available d-orbitals to facilitate the initial attack by a water molecule."
+      "answer": "B",
+      "explanation": "The acidity of phenols (Section 3.2) is explained by the stability of its conjugate base. The phenoxide ion (Ar-O⁻) is resonance-stabilized because the negative charge on the oxygen can be delocalized into the aromatic ring."
     },
     {
       "id": 19,
-      "question": "Why is metallic aluminum generally non-reactive in air?",
+      "question": "Which of the following reagents can be used to distinguish between propanal (an aldehyde) and propanone (a ketone)?",
       "options": {
-        "A": "It is a noble metal like gold.",
-        "B": "It forms a protective, non-reactive layer of Al₂O₃ on its surface.",
-        "C": "It only reacts with non-metals at very high temperatures.",
-        "D": "It has a fully filled outer electron shell."
+        "A": "2,4-Dinitrophenylhydrazine (Brady's Reagent)",
+        "B": "Tollens' Reagent ([Ag(NH₃)₂]⁺)",
+        "C": "LiAlH₄ in dry ether",
+        "D": "Grignard reagent (RMgX)"
       },
       "answer": "B",
-      "explanation": "Aluminum is a reactive metal, but it readily forms a very thin, tough, and transparent layer of aluminum oxide (Al₂O₃) that protects the metal underneath from further reaction."
+      "explanation": "While Brady's reagent reacts with both, Tollens' reagent is a mild oxidizing agent that is reduced by aldehydes to form a silver mirror, but it does not react with ketones. This makes it a key distinguishing test (Section 3.3)."
     },
     {
       "id": 20,
-      "question": "What are the products when chlorine gas is bubbled through a hot, concentrated solution of sodium hydroxide?",
+      "question": "The Aldol Condensation reaction requires a carbonyl compound to have at least one:",
       "options": {
-        "A": "NaCl, NaOCl, and H₂O",
-        "B": "NaCl, NaClO₃, and H₂O",
-        "C": "NaClO₃, Cl₂O, and H₂O",
-        "D": "No reaction occurs."
+        "A": "β-hydrogen",
+        "B": "π-bond",
+        "C": "α-hydrogen",
+        "D": "carbonyl group attached to a benzene ring"
       },
-      "answer": "B",
-      "explanation": "This is a disproportionation reaction. With hot, concentrated NaOH (above 80°C), chlorine forms sodium chloride and sodium chlorate(V): 3Cl₂(g) + 6NaOH(aq) → 5NaCl(aq) + NaClO₃(aq) + 3H₂O(l)."
+      "answer": "C",
+      "explanation": "As described in Section 3.3, 'Reactions of α-Hydrogens (Aldol Condensation)', aldehydes and ketones must possess at least one α-hydrogen to undergo this base-catalyzed self-condensation."
     },
     {
       "id": 21,
-      "question": "What are the products of the reaction between excess ammonia and chlorine gas?",
+      "question": "Which of the following compounds is the most acidic?",
       "options": {
-        "A": "NCl₃ and HCl",
-        "B": "N₂ and HCl",
-        "C": "NH₄Cl and N₂",
-        "D": "N₂H₄ and HCl"
+        "A": "Ethanol",
+        "B": "Phenol",
+        "C": "Water",
+        "D": "Ethanoic Acid"
       },
-      "answer": "B",
-      "explanation": "When ammonia is in excess, it is oxidized to nitrogen gas. The equation is 2NH₃(g) + 3Cl₂(g) → N₂(g) + 6HCl(g). The HCl will then react with more excess ammonia to form NH₄Cl."
+      "answer": "D",
+      "explanation": "Section 3.4 gives the acidity trend: Carboxylic Acids > Phenols > Water > Alcohols. Carboxylic acids are most acidic because the carboxylate anion is highly stabilized by resonance over two equivalent oxygen atoms."
     },
     {
       "id": 22,
-      "question": "The thermal decomposition of ammonium nitrate (NH₄NO₃) produces which gases?",
+      "question": "Which reagent can reduce a carboxylic acid (R-COOH) to a primary alcohol (R-CH₂OH)?",
       "options": {
-        "A": "N₂ and H₂O",
-        "B": "NH₃ and HNO₃",
-        "C": "N₂O and H₂O",
-        "D": "NO₂ and H₂O"
+        "A": "NaBH₄",
+        "B": "H₂ / Pd",
+        "C": "LiAlH₄",
+        "D": "Zn(Hg) / conc. HCl"
       },
       "answer": "C",
-      "explanation": "The decomposition of ammonium nitrate yields dinitrogen monoxide (laughing gas) and water: NH₄NO₃(s) → N₂O(g) + 2H₂O(g)."
+      "explanation": "Section 3.4 on 'Reduction' states that carboxylic acids are reduced only by strong reducing agents like LiAlH₄. NaBH₄ is not strong enough to reduce carboxylic acids."
     },
     {
       "id": 23,
-      "question": "What is the product when hydrogen sulfide (H₂S) gas is passed through a solution of sodium hydroxide with limited H₂S?",
+      "question": "Arrange the following carboxylic acid derivatives in order of decreasing reactivity towards nucleophilic acyl substitution: Amide, Ester, Acid Chloride.",
       "options": {
-        "A": "NaHS and H₂O",
-        "B": "Na₂S and H₂O",
-        "C": "S and H₂",
-        "D": "Na₂SO₄ and H₂O"
+        "A": "Acid Chloride > Ester > Amide",
+        "B": "Amide > Ester > Acid Chloride",
+        "C": "Ester > Acid Chloride > Amide",
+        "D": "Acid Chloride > Amide > Ester"
       },
-      "answer": "B",
-      "explanation": "With limited H₂S (meaning NaOH is in excess), both acidic protons of H₂S react to form sodium sulfide: 2NaOH(aq) + H₂S(g) → Na₂S(s) + 2H₂O(l). With excess H₂S, sodium hydrogen sulfide (NaHS) would be formed."
+      "answer": "A",
+      "explanation": "Section 3.5 explicitly states the general reactivity order for nucleophilic acyl substitution is: Acid Chloride > Ester > Amide. This is based on the stability and leaving group ability of the Z group."
     },
     {
       "id": 24,
-      "question": "In the reaction 2H₂S(aq) + SO₂(g) → 3S(s) + 2H₂O(l), what is happening?",
+      "question": "What is the reason for the low basicity of aniline (aromatic amine) compared to an aliphatic amine like ethylamine?",
       "options": {
-        "A": "SO₂ is oxidized and H₂S is reduced.",
-        "B": "A displacement reaction.",
-        "C": "A redox reaction where H₂S is oxidized and SO₂ is reduced.",
-        "D": "A simple acid-base neutralization."
+        "A": "The NH₂ group in aniline is protonated more easily.",
+        "B": "The lone pair on the nitrogen atom in aniline is delocalized into the benzene ring by resonance.",
+        "C": "Alkyl groups in aliphatic amines are electron-withdrawing.",
+        "D": "Aniline is a smaller molecule and experiences less steric hindrance."
       },
-      "answer": "C",
-      "explanation": "This is a redox reaction. The oxidation state of sulfur in H₂S goes from -2 to 0 (oxidation). The oxidation state of sulfur in SO₂ goes from +4 to 0 (reduction). This reaction is used in the Claus process to recover elemental sulfur."
+      "answer": "B",
+      "explanation": "Section 4.1 on 'Basicity' explains that aniline is a weak base because the lone pair of electrons on the nitrogen is delocalized into the benzene ring, making it less available for protonation."
     },
     {
       "id": 25,
-      "question": "What is the oxidation number of chlorine in dichlorine heptoxide (Cl₂O₇)?",
+      "question": "What is the key difference in the reaction of a primary aliphatic amine versus a primary aromatic amine with nitrous acid (NaNO₂/HCl) at 0-5 °C?",
       "options": {
-        "A": "+1",
-        "B": "+3",
-        "C": "+5",
-        "D": "+7"
+        "A": "The aliphatic amine forms a stable diazonium salt, while the aromatic amine decomposes to an alcohol.",
+        "B": "Both form stable diazonium salts.",
+        "C": "The aliphatic amine forms an unstable diazonium salt that decomposes to an alcohol, while the aromatic amine forms a relatively stable aryl diazonium salt.",
+        "D": "Both immediately decompose to form N₂ gas and an alcohol."
       },
-      "answer": "D",
-      "explanation": "In the table on page 1, Cl₂O₇ is listed with an oxidation number of +7 for chlorine. This can be calculated as oxygen is -2, so 2(Cl) + 7(-2) = 0, which gives 2(Cl) = 14, and Cl = +7."
+      "answer": "C",
+      "explanation": "This is a critical distinguishing reaction described in Section 4.1. Primary aliphatic amines form unstable diazonium salts that decompose. Primary aromatic amines (like aniline) form aryl diazonium salts that are stable at low temperatures (0-5 °C), making them synthetically useful."
     },
     {
       "id": 26,
-      "question": "What is the nature of an aqueous solution of magnesium chloride (MgCl₂)?",
+      "question": "A Sandmeyer reaction involves the replacement of the -N₂⁺ group of an aryl diazonium salt. Which reagent would be used to replace the -N₂⁺ group with -CN?",
       "options": {
-        "A": "Neutral",
-        "B": "Strongly Acidic",
-        "C": "Very Weakly Acidic",
-        "D": "Basic"
+        "A": "H₃PO₂",
+        "B": "H₂O, heat",
+        "C": "CuCN",
+        "D": "KI"
       },
       "answer": "C",
-      "explanation": "According to the table on page 5, an aqueous solution of MgCl₂ is 'Very Weakly Acidic'. This is due to the hydrolysis of the hydrated Mg²⁺ ion, [Mg(H₂O)₆]²⁺, which releases a small amount of H⁺ ions."
+      "explanation": "Section 4.2 lists the Sandmeyer-type reactions. To introduce a cyano (-CN) group, the aryl diazonium salt is treated with CuCN."
     },
     {
       "id": 27,
-      "question": "What are the products of the partial hydrolysis of phosphorus pentachloride (PCl₅) with a limited amount of water?",
+      "question": "Azo coupling reactions involve an aryl diazonium ion acting as a weak electrophile. What kind of benzene ring is required for the coupling reaction to occur?",
       "options": {
-        "A": "H₃PO₄ and HCl",
-        "B": "P₂O₅ and HCl",
-        "C": "POCl₃ and HCl",
-        "D": "H₃PO₃ and HCl"
+        "A": "A deactivated ring, such as nitrobenzene.",
+        "B": "An un-substituted benzene ring.",
+        "C": "An activated, electron-rich aromatic ring, like phenol or aniline.",
+        "D": "A ring substituted with a halogen, like chlorobenzene."
       },
       "answer": "C",
-      "explanation": "Page 6 explicitly shows the reaction for partial hydrolysis: PCl₅(l) + H₂O(l) → POCl₃(aq) + 2HCl(aq). POCl₃ is phosphorus(V) oxychloride. Complete hydrolysis requires excess water."
+      "explanation": "As stated in Section 4.2, 'Coupling Reactions', the diazonium ion is a weak electrophile and therefore requires an activated, electron-rich ring (like phenol or aniline) to attack."
     },
     {
       "id": 28,
-      "question": "In its reaction with acidified potassium dichromate(VI) (K₂Cr₂O₇), what role does sulfur dioxide (SO₂) play?",
+      "question": "What is the primary mechanism for the Anti-Markovnikov addition of HBr to propene in the presence of peroxide?",
       "options": {
-        "A": "An oxidizing agent",
-        "B": "A reducing agent",
-        "C": "A dehydrating agent",
-        "D": "A base"
+        "A": "Electrophilic Addition via a 1° carbocation",
+        "B": "Free-Radical Addition",
+        "C": "Nucleophilic Substitution (Sₙ2)",
+        "D": "Electrophilic Aromatic Substitution"
       },
       "answer": "B",
-      "explanation": "The reaction on page 2 is: 3SO₂(g) + K₂Cr₂O₇(aq) + H₂SO₄(aq) → K₂SO₄(aq) + Cr₂(SO₄)₃(aq) + H₂O(l). The oxidation state of sulfur increases from +4 in SO₂ to +6 in the sulfate ions, meaning SO₂ is oxidized and thus acts as the reducing agent."
+      "explanation": "Section 1.1 explicitly states that the Anti-Markovnikov addition of HBr (Peroxide Effect) proceeds via a free-radical addition mechanism, not an ionic one involving carbocations."
     },
     {
       "id": 29,
-      "question": "How does the oxidizing power of the oxoacids of chlorine change as the oxidation number of chlorine increases?",
+      "question": "When propyne (CH₃C≡CH) reacts with one equivalent of HBr, what is the major product formed in the first step?",
       "options": {
-        "A": "It increases (HClO < HClO₄)",
-        "B": "It decreases (HClO > HClO₄)",
-        "C": "It remains the same for all oxoacids",
-        "D": "It is the same as the trend for acidic strength"
+        "A": "1-bromopropene",
+        "B": "3-bromopropyne",
+        "C": "2-bromopropene",
+        "D": "1,2-dibromopropane"
       },
-      "answer": "B",
-      "explanation": "Page 4 states that the oxidizing power decreases as the oxidation number of chlorine increases. The trend is: HClO > HClO₂ > HClO₃ > HClO₄. This is the opposite of the trend for acidic strength."
+      "answer": "C",
+      "explanation": "According to Section 1.2, the addition of hydrogen halides to alkynes follows Markovnikov's rule. The H⁺ adds to the carbon with more hydrogens (the terminal C), and the Br⁻ adds to the more substituted carbon (the middle C), forming 2-bromopropene (H₂C=C(Br)CH₃)."
     },
     {
       "id": 30,
-      "question": "Which set of products is formed when concentrated nitric acid reacts with solid carbon?",
+      "question": "Which statement best describes the general mechanism of Electrophilic Aromatic Substitution (EAS)?",
       "options": {
-        "A": "CO, NO, H₂O",
-        "B": "CO₂, NO₂, H₂O",
-        "C": "H₂CO₃, NO, H₂O",
-        "D": "C, N₂O, H₂O"
+        "A": "A single, concerted step where a proton is replaced by an electrophile.",
+        "B": "A fast initial attack by the electrophile, followed by a slow loss of a proton.",
+        "C": "A slow attack by the electrophile to form a resonance-stabilized arenium ion, followed by a fast removal of a proton to restore aromaticity.",
+        "D": "A nucleophilic attack on the benzene ring, leading to a temporary loss of aromaticity."
       },
-      "answer": "B",
-      "explanation": "Page 3 shows that concentrated nitric acid is a powerful oxidizing agent that can oxidize non-metals. The reaction is: C(s) + conc. 4HNO₃(l) → CO₂(g) + 4NO₂(g) + 2H₂O(l)."
+      "answer": "C",
+      "explanation": "Section 1.3.2 describes the two-step general mechanism for EAS: Step 1 is the slow, rate-determining attack of the electrophile to form the arenium ion, and Step 2 is the fast removal of a proton to regenerate the stable aromatic ring."
     },
     {
       "id": 31,
-      "question": "The hypochlorite ion (ClO⁻) disproportionates at high temperatures. What are the products of this reaction?",
+      "question": "What is the electrophile generated during the Friedel-Crafts acylation of benzene using ethanoyl chloride (CH₃COCl) and AlCl₃?",
       "options": {
-        "A": "Cl⁻ and ClO₂⁻",
-        "B": "Cl⁻ and ClO₃⁻",
-        "C": "Cl⁻ and ClO₄⁻",
-        "D": "Cl₂ and O₂"
+        "A": "CH₃⁺",
+        "B": "Cl⁺",
+        "C": "AlCl₄⁻",
+        "D": "CH₃CO⁺ (Acylium ion)"
       },
-      "answer": "B",
-      "explanation": "Page 7 describes the disproportionation of the hypochlorite ion at high temperatures: 3ClO⁻ → ClO₃⁻ + 2Cl⁻. The chlorine, initially at a +1 oxidation state, is oxidized to +5 (in ClO₃⁻) and reduced to -1 (in Cl⁻)."
+      "answer": "D",
+      "explanation": "As per Section 1.3.2 (and the details on page 4), in Friedel-Crafts Acylation, the Lewis acid (AlCl₃) removes the halide from the acyl chloride to form a resonance-stabilized acylium ion (RCO⁺), which acts as the electrophile."
     },
     {
       "id": 32,
-      "question": "Which reaction correctly shows aluminum reacting as an amphoteric metal with a base?",
+      "question": "What is the product when toluene (methylbenzene) is heated with a strong oxidizing agent like H⁺/KMnO₄?",
       "options": {
-        "A": "2Al(s) + 3X₂(g) → 2AlX₃(s)",
-        "B": "2Al(s) + N₂(g) → 2AlN(s)",
-        "C": "2Al(s) + 2OH⁻(aq) + 6H₂O(l) → 2[Al(OH)₄]⁻(aq) + 3H₂(g)",
-        "D": "4Al(s) + 3O₂(g) → 2Al₂O₃(s)"
+        "A": "No reaction, as the benzene ring is resistant to oxidation.",
+        "B": "Phenol",
+        "C": "Benzoic acid",
+        "D": "Benzaldehyde"
       },
       "answer": "C",
-      "explanation": "Amphoteric substances react with both acids and bases. Page 6 shows the reaction of aluminum metal with a base (like NaOH solution) to produce the tetrahydroxoaluminate(III) ion and hydrogen gas."
+      "explanation": "Section 'Other Reactions of Benzene' on page 4 states that while the ring is stable, alkyl side chains are oxidized to a carboxylic acid group (-COOH), provided the benzylic carbon has at least one H. Toluene is oxidized to benzoic acid."
     },
     {
       "id": 33,
-      "question": "What are the products when ammonia gas is passed over heated solid copper(II) oxide?",
+      "question": "Which of the following substituents is a deactivator and directs incoming electrophiles to the meta position?",
       "options": {
-        "A": "Copper(I) oxide, nitrogen, and water",
-        "B": "Copper metal, nitrogen gas, and water",
-        "C": "Copper(II) nitride and water",
-        "D": "Copper(II) nitrate, nitrogen, and water"
+        "A": "-NH₂ (Amino)",
+        "B": "-OH (Hydroxyl)",
+        "C": "-CH₃ (Alkyl)",
+        "D": "-NO₂ (Nitro)"
       },
-      "answer": "B",
-      "explanation": "On page 7, ammonia is shown acting as a reducing agent. It reduces copper(II) oxide to copper metal while being oxidized itself to nitrogen gas: 3CuO(s) + 2NH₃(g) → N₂(g) + 3Cu(s) + 3H₂O(g)."
+      "answer": "D",
+      "explanation": "According to Section 1.3.3, the -NO₂ group is a strong electron-withdrawing group, which deactivates the ring towards EAS and directs incoming electrophiles to the meta position."
     },
     {
       "id": 34,
-      "question": "The thermal decomposition of ammonium dichromate ((NH₄)₂Cr₂O₇) produces a green solid and two gases. What are these products?",
+      "question": "Which product is formed when 1-chlorobutane is treated with sodium ethoxide (NaOCH₂CH₃)?",
       "options": {
-        "A": "CrO₃, N₂O, and H₂O",
-        "B": "Cr₂O₃, N₂, and H₂O",
-        "C": "Cr, NO₂, and H₂O",
-        "D": "Cr(OH)₃, NH₃, and O₂"
+        "A": "Butan-1-ol",
+        "B": "Butanenitrile",
+        "C": "Butylamine",
+        "D": "Ethyl butyl ether"
       },
-      "answer": "B",
-      "explanation": "This is a famous intramolecular redox reaction. Page 7 gives the equation: (NH₄)₂Cr₂O₇(s) → N₂(g) + Cr₂O₃(s) + 4H₂O(g). The green solid is chromium(III) oxide."
+      "answer": "D",
+      "explanation": "This is a nucleophilic substitution (Williamson ether synthesis). According to the table in Section 2.1, the reaction of an alkyl halide (R-X) with an alkoxide (NaOR') produces an ether (R-O-R'). Here, 1-chlorobutane and sodium ethoxide yield ethyl butyl ether."
     },
     {
       "id": 35,
-      "question": "The thiosulfate ion (S₂O₃²⁻) is used as a reducing agent in titrations with iodine (I₂). What is the main sulfur-containing product of this reaction?",
+      "question": "The Sₙ2 mechanism is characterized by which of the following?",
       "options": {
-        "A": "Sulfate ion (SO₄²⁻)",
-        "B": "Sulfite ion (SO₃²⁻)",
-        "C": "Tetrathionate ion (S₄O₆²⁻)",
-        "D": "Elemental sulfur (S)"
+        "A": "A two-step process with a carbocation intermediate, favored by 3° halides.",
+        "B": "A one-step, concerted process involving backside attack, favored by 1° halides.",
+        "C": "A free-radical chain reaction.",
+        "D": "A rearrangement of the carbon skeleton before substitution."
       },
-      "answer": "C",
-      "explanation": "Page 4 provides the key equation for this common redox titration: 2S₂O₃²⁻(aq) + I₂(aq) → S₄O₆²⁻(aq) + 2I⁻(aq). The product is the tetrathionate ion."
+      "answer": "B",
+      "explanation": "Section 2.1 on 'Mechanisms' clearly defines the Sₙ2 reaction as a one-step (concerted) mechanism involving a backside attack by the nucleophile, which is favored by primary (1°) halides due to less steric hindrance."
     },
     {
       "id": 36,
-      "question": "Which reaction demonstrates concentrated sulfuric acid acting as an oxidizing agent with a non-metal?",
+      "question": "Why is it essential to use dry ether when preparing a Grignard reagent?",
       "options": {
-        "A": "H₂SO₄(aq) + Mg(s) → MgSO₄(aq) + H₂(g)",
-        "B": "C(s) + 2H₂SO₄(l) → CO₂(g) + 2SO₂(g) + 2H₂O(l)",
-        "C": "H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)",
-        "D": "C₆H₁₂O₆(s) + H₂SO₄(conc) → 6C(s) + 6H₂O(g)"
+        "A": "Water acts as a catalyst and makes the reaction too fast.",
+        "B": "The Grignard reagent is a strong base and will be destroyed by reacting with even weakly acidic protons from water.",
+        "C": "Water is non-polar and will not dissolve the magnesium.",
+        "D": "Dry ether is an oxidizing agent required for the reaction to start."
       },
       "answer": "B",
-      "explanation": "In the reaction on page 4, carbon is oxidized (from 0 to +4 in CO₂) and sulfur in H₂SO₄ is reduced (from +6 to +4 in SO₂). This confirms H₂SO₄ is acting as an oxidizing agent. Option A is dilute acid, C is neutralization, and D shows its dehydrating property."
+      "explanation": "The 'Key Property' of Grignard reagents (Section 2.1, page 5) highlights that they are very strong bases. They will react with any source of protons, including water, alcohols, etc. This reaction protonates the carbanion, destroying the Grignard reagent."
     },
     {
       "id": 37,
-      "question": "What is formed when excess carbon dioxide is bubbled through an aqueous solution of sodium carbonate?",
+      "question": "Which of the following reactions will NOT proceed as written?",
       "options": {
-        "A": "Sodium oxide and carbon monoxide",
-        "B": "Sodium hydrogencarbonate",
-        "C": "Sodium oxalate",
-        "D": "No further reaction occurs"
+        "A": "Phenol + NaOH → Sodium phenoxide + H₂O",
+        "B": "Ethanol + Na → Sodium ethoxide + ½ H₂",
+        "C": "Phenol + NaHCO₃ → Sodium phenoxide + H₂O + CO₂",
+        "D": "Ethanoic acid + NaHCO₃ → Sodium ethanoate + H₂O + CO₂"
       },
-      "answer": "B",
-      "explanation": "Page 2 shows that CO₂ reacts with bases. After forming sodium carbonate (Na₂CO₃), passing more CO₂ through the solution produces sodium hydrogencarbonate (also known as sodium bicarbonate): Na₂CO₃(aq) + CO₂(g) + H₂O(l) → 2NaHCO₃(aq)."
+      "answer": "C",
+      "explanation": "According to Section 3.2, phenols are more acidic than alcohols but weaker than carboxylic acids. They are acidic enough to react with strong bases like NaOH but are NOT acidic enough to react with weak bases like sodium bicarbonate (NaHCO₃) to liberate CO₂ gas."
     },
     {
       "id": 38,
-      "question": "Observing the hydrolysis reactions of AsCl₃, SbCl₃, and BiCl₃ on page 6, what trend is evident down the group?",
+      "question": "What is the product when propan-2-ol is dehydrated using concentrated H₂SO₄ and heat?",
       "options": {
-        "A": "All three form the simple metal hydroxide, M(OH)₃.",
-        "B": "The hydrolysis becomes less vigorous down the group.",
-        "C": "The product changes from a soluble oxoacid (H₃AsO₃) to insoluble oxychlorides (SbOCl, BiOCl).",
-        "D": "All three form the simple metal oxide, M₂O₃."
+        "A": "Propane",
+        "B": "Propyne",
+        "C": "Propanal",
+        "D": "Propene"
       },
-      "answer": "C",
-      "explanation": "Page 6 shows that AsCl₃ hydrolyzes completely to form arsenous acid (H₃AsO₃). Further down Group 15, SbCl₃ and BiCl₃ undergo partial hydrolysis to form the white precipitates of antimony oxychloride (SbOCl) and bismuth oxychloride (BiOCl). This reflects the increasing metallic character of the elements."
+      "answer": "D",
+      "explanation": "The dehydration of an alcohol is an elimination reaction (Section 3.1) that removes a molecule of water to form an alkene. Dehydration of propan-2-ol removes the -OH group and a hydrogen from an adjacent carbon to form propene."
     },
     {
       "id": 39,
-      "question": "The complete hydrolysis of phosphorus(V) chloride (PCl₅) with excess water produces phosphoric acid (H₃PO₄) and what other substance?",
+      "question": "The bromination of phenol with aqueous bromine (Br₂(aq)) differs from the bromination of benzene because:",
       "options": {
-        "A": "Chlorine gas (Cl₂)",
-        "B": "Hypochlorous acid (HClO)",
-        "C": "Hydrogen chloride (HCl)",
-        "D": "Phosphorus trichloride (PCl₃)"
+        "A": "Phenol requires a Lewis acid catalyst like FeBr₃.",
+        "B": "Phenol is deactivated and brominates very slowly.",
+        "C": "The -OH group is so strongly activating that no catalyst is needed, and it forms 2,4,6-tribromophenol.",
+        "D": "Phenol only undergoes meta-bromination."
       },
       "answer": "C",
-      "explanation": "Page 5 provides the overall equation for the complete hydrolysis reaction: PCl₅(g) + 4H₂O(l) → H₃PO₄(aq) + 5HCl(aq). The other product is hydrogen chloride."
+      "explanation": "As described in Section 3.2, the -OH group of phenol is a powerful activating group. The reaction with aqueous bromine is rapid, does not require a catalyst, and results in substitution at all available ortho and para positions, yielding 2,4,6-tribromophenol as a white precipitate."
     },
     {
       "id": 40,
-      "question": "Which of the following reactions shows ammonia acting as an acid?",
+      "question": "The reaction of a ketone, like propanone, with a Grignard reagent, like methylmagnesium bromide (CH₃MgBr), followed by acid hydrolysis, yields a:",
       "options": {
-        "A": "NH₃(g) + HCl(g) → NH₄Cl(s)",
-        "B": "2NH₃(g) + 3CuO(s) → N₂(g) + 3Cu(s) + 3H₂O(g)",
-        "C": "2Na(s) + 2NH₃(l) → 2NaNH₂(l) + H₂(g)",
-        "D": "NH₃(g) + H₂O(l) ⇌ NH₄OH(aq)"
+        "A": "Primary alcohol",
+        "B": "Secondary alcohol",
+        "C": "Tertiary alcohol",
+        "D": "Carboxylic acid"
       },
       "answer": "C",
-      "explanation": "While typically a base, ammonia can act as a very weak acid. In its reaction with a highly reactive metal like sodium (under anhydrous liquid ammonia conditions), it donates a proton to form the amide ion (NH₂⁻) and hydrogen gas. This is listed under 'As an oxidizing agent/acid (dry conditions)' on page 7."
+      "explanation": "Section 3.3 on the addition of Grignard reagents states that ketones react to form tertiary alcohols. Propanone reacting with CH₃MgBr will form 2-methylpropan-2-ol (a tertiary alcohol) after hydrolysis."
     },
     {
       "id": 41,
-      "question": "A student is given three unlabeled white powders known to be MgO, Al₂O₃, and P₄O₁₀. They add each to a separate beaker of deionized water and test the pH. Which set of results would correctly identify the powders?",
+      "question": "Which test gives a positive result (a brick-red precipitate of Cu₂O) with an aldehyde but not with a ketone?",
       "options": {
-        "A": "MgO: neutral pH; Al₂O₃: acidic pH; P₄O₁₀: basic pH",
-        "B": "MgO: basic pH; Al₂O₃: neutral pH (insoluble); P₄O₁₀: strongly acidic pH",
-        "C": "MgO: acidic pH; Al₂O₃: basic pH; P₄O₁₀: neutral pH",
-        "D": "All three would produce a neutral pH as they are oxides, not acids or bases."
+        "A": "Brady's Test (2,4-DNP)",
+        "B": "Lucas Test",
+        "C": "Fehling's Test",
+        "D": "Iodoform Test"
       },
-      "answer": "B",
-      "explanation": "This question tests the reaction of Period 3 oxides with water. MgO is a basic oxide and forms Mg(OH)₂, a sparingly soluble base, raising the pH. Al₂O₃ is amphoteric and effectively insoluble in water, so it won't change the pH significantly. P₄O₁₀ is a strongly acidic oxide that reacts vigorously with water to form phosphoric acid (H₃PO₄), causing a large drop in pH. (Concepts from Page 1 & 2)."
+      "answer": "C",
+      "explanation": "Fehling's Test (Section 3.3) uses a blue Cu²⁺ complex which is reduced by aldehydes upon heating to form a brick-red precipitate of copper(I) oxide (Cu₂O). Ketones are resistant to this mild oxidation and give no reaction."
     },
     {
       "id": 42,
-      "question": "A colorless gas 'X' is produced. When 'X' is passed over heated magnesium ribbon, it produces a white solid and a yellow solid. When 'X' is bubbled through acidified potassium permanganate solution, the purple solution turns colorless. What is gas 'X'?",
+      "question": "What reagent is used in the Clemmensen Reduction to convert a carbonyl group (C=O) into a methylene group (CH₂)?",
       "options": {
-        "A": "Carbon Monoxide (CO)",
-        "B": "Carbon Dioxide (CO₂)",
-        "C": "Sulfur Dioxide (SO₂)",
-        "D": "Hydrogen Sulfide (H₂S)"
+        "A": "LiAlH₄",
+        "B": "H₂ / Lindlar's catalyst",
+        "C": "Zn(Hg) / conc. HCl",
+        "D": "NaBH₄"
       },
       "answer": "C",
-      "explanation": "This is a two-part deduction. First, the reaction with magnesium (2Mg + SO₂ → 2MgO + S) shows SO₂ acting as an oxidizing agent, producing white magnesium oxide and yellow elemental sulfur. Second, the reaction with KMnO₄ (5SO₂ + 2KMnO₄ + 2H₂O → K₂SO₄ + 2MnSO₄ + 2H₂SO₄) shows SO₂ acting as a reducing agent. SO₂ is unique in the notes for showing both these properties clearly. (Concepts from Page 2)."
+      "explanation": "Section 3.3 on 'Reduction' describes the Clemmensen Reduction, which specifically uses zinc amalgam (Zn(Hg)) and concentrated hydrochloric acid to reduce an aldehyde or ketone completely to an alkane (CH₂ group)."
     },
     {
       "id": 43,
-      "question": "Both concentrated nitric acid and hot, concentrated sulfuric acid can oxidize solid sulfur. Which statement best contrasts the two reactions?",
+      "question": "What are the two products formed when an ester, like ethyl ethanoate, is reduced with LiAlH₄?",
       "options": {
-        "A": "Only nitric acid can oxidize sulfur; sulfuric acid is just a dehydrating agent.",
-        "B": "Both reactions produce SO₂, but nitric acid also produces H₂O.",
-        "C": "Nitric acid produces nitrogen dioxide (NO₂) as its reduction product, while sulfuric acid produces sulfur dioxide (SO₂) as its reduction product.",
-        "D": "Nitric acid produces N₂ gas, while sulfuric acid produces H₂S gas."
+        "A": "A single primary alcohol.",
+        "B": "A carboxylic acid and an alcohol.",
+        "C": "Two different alcohols.",
+        "D": "An ether and water."
       },
       "answer": "C",
-      "explanation": "This question requires comparing two different strong oxidizing acids. From page 3: S(s) + 6HNO₃(l) → H₂SO₄(l) + 6NO₂(g) + 2H₂O(l). From page 4: S(s) + 2H₂SO₄(l) → 3SO₂(g) + 2H₂O(l). In both cases, sulfur is oxidized to a higher oxidation state (+4 or +6). The key difference is the reduction product of the acid itself: HNO₃ is reduced to NO₂, while H₂SO₄ is reduced to SO₂."
+      "explanation": "The reduction of esters with LiAlH₄ (Section 3.5) cleaves the ester bond and reduces both parts. The acyl portion (R-CO-) is reduced to a primary alcohol (R-CH₂OH), and the alkoxide portion (-OR') is liberated as its corresponding alcohol (R'-OH). So, two alcohol products are formed."
     },
     {
       "id": 44,
-      "question": "The chloride of a Period 3 element, X, is a fuming liquid at room temperature. When added to water, it hydrolyzes completely to form a white solid precipitate and a solution with a pH of 1. What is element X?",
+      "question": "The basic hydrolysis of an ester with NaOH is called saponification and is an irreversible process. Why is it irreversible?",
       "options": {
-        "A": "Sodium (Na)",
-        "B": "Magnesium (Mg)",
-        "C": "Aluminum (Al)",
-        "D": "Silicon (Si)"
+        "A": "A large amount of heat is released.",
+        "B": "The final carboxylate anion is resonance-stabilized and too unreactive to reform the ester.",
+        "C": "The alcohol produced is volatile and escapes.",
+        "D": "The reaction requires a catalyst that is consumed."
       },
-      "answer": "D",
-      "explanation": "Let's analyze the clues. 'Fuming liquid' suggests a volatile covalent chloride. 'Hydrolyzes completely' points away from ionic NaCl/MgCl₂. 'White solid precipitate' is the key. The hydrolysis of SiCl₄ (SiCl₄ + 2H₂O → SiO₂ + 4HCl) produces solid silicon dioxide (SiO₂) and strong acid (HCl), which explains the pH of 1. AlCl₃ hydrolysis is complex and gives a clear acidic solution, not a distinct white precipitate in this manner. (Concepts from Page 5)."
+      "answer": "B",
+      "explanation": "As described in Section 3.5, basic hydrolysis (saponification) is irreversible because the final step involves the deprotonation of the carboxylic acid by the strong base (OH⁻) to form a very stable, unreactive carboxylate anion (R-COO⁻). This anion will not react with the alcohol to reform the ester."
     },
     {
       "id": 45,
-      "question": "Why is HF considered a weak acid in aqueous solution, while HCl, HBr, and HI are strong acids?",
+      "question": "Which of the following nitrogen-containing compounds is the least basic?",
       "options": {
-        "A": "The extensive hydrogen bonding in HF prevents it from dissolving in water.",
-        "B": "Fluorine is less electronegative than Cl, Br, and I, making the H-F bond less polar.",
-        "C": "The H-F bond dissociation energy is exceptionally high, making it difficult for the molecule to ionize.",
-        "D": "HF is a much larger molecule than HCl, HBr, and HI."
+        "A": "Ammonia (NH₃)",
+        "B": "Ethylamine (CH₃CH₂NH₂)",
+        "C": "Aniline (C₆H₅NH₂)",
+        "D": "Ethanamide (CH₃CONH₂)"
       },
-      "answer": "C",
-      "explanation": "This is a classic question that distinguishes between two properties. Hydrogen bonding (Option A) explains HF's high boiling point, not its acid strength. The primary reason for its weakness as an acid is the very strong covalent bond between H and F, which has a high bond dissociation energy. More energy is required to break this bond to release H⁺ compared to the other hydrogen halides. (Concept from Page 4)."
+      "answer": "D",
+      "explanation": "The basicity trend (Section 4.1) is Aliphatic Amine > Ammonia > Aromatic Amine. However, the note also mentions that amides are much less basic than amines because the nitrogen lone pair is delocalized onto the adjacent, highly electronegative carbonyl oxygen, making it significantly less available for protonation."
     },
     {
       "id": 46,
-      "question": "An oxide of a Period 3 element 'Y' is insoluble in water but dissolves readily in both hydrochloric acid and aqueous sodium hydroxide. Which of the following statements about the chloride of element Y is most likely true?",
+      "question": "What is the product of the reaction between propanal and ethylamine (CH₃CH₂NH₂)?",
       "options": {
-        "A": "It is an ionic solid that forms a neutral solution in water.",
-        "B": "It is a covalent solid that hydrolyzes in water to produce a strongly acidic solution.",
-        "C": "It is an ionic solid that forms a basic solution in water.",
-        "D": "It is a gas that does not react with water."
+        "A": "An amide",
+        "B": "A secondary amine",
+        "C": "An imine (Schiff Base)",
+        "D": "A diazonium salt"
       },
-      "answer": "B",
-      "explanation": "First, identify element Y. An oxide that reacts with both acid and base is amphoteric. In Period 3, this is Al₂O₃, so Y is Aluminum. Now, consider the chloride of Y, which is AlCl₃. According to the table on page 5, AlCl₃ has covalent character and its aqueous solution is acidic due to hydrolysis: [Al(H₂O)₆]³⁺(aq) ⇌ [Al(H₂O)₅OH]²⁺(aq) + H⁺(aq). It exists as a solid, Al₂Cl₆ dimer, but the description of its solution behavior is what's being tested. (Links concepts from Page 1 and 5)."
+      "answer": "C",
+      "explanation": "Section 4.1 lists 'Reaction with Aldehydes/Ketones' as a key reaction for amines acting as nucleophiles. This reaction forms an imine, also known as a Schiff base, which contains a C=N double bond."
     },
     {
       "id": 47,
-      "question": "A chemist wants to produce sodium chlorate(V) (NaClO₃) via a disproportionation reaction. Which set of conditions should be used?",
+      "question": "Which reagent is used to carry out deamination, the process of replacing an -NH₂ group on a benzene ring with an -H atom, via a diazonium salt intermediate?",
       "options": {
-        "A": "Bubble chlorine gas through cold, dilute aqueous sodium hydroxide.",
-        "B": "Bubble chlorine gas through hot, concentrated aqueous sodium hydroxide.",
-        "C": "Expose a solution of sodium chloride to intense light.",
-        "D": "React chlorine gas with water at room temperature."
+        "A": "H₂O, heat",
+        "B": "KI",
+        "C": "H₃PO₂ (hypophosphorous acid)",
+        "D": "CuCl"
       },
-      "answer": "B",
-      "explanation": "The products of the disproportionation of chlorine depend on the conditions. Page 7 shows that cold, dilute NaOH produces NaCl and NaOCl (sodium hypochlorite, or chlorate(I)). To get the higher oxidation state chlorate(V) (NaClO₃), hot (above 80°C), concentrated NaOH must be used: 3Cl₂ + 6NaOH → 5NaCl + NaClO₃ + 3H₂O."
+      "answer": "C",
+      "explanation": "Section 4.2 lists the key replacement reactions for aryl diazonium salts. The reaction with H₃PO₂ is specifically used for deamination, which removes the diazonium group and replaces it with a hydrogen atom."
     },
     {
       "id": 48,
-      "question": "A student wants to synthesize nitrogen trichloride (NCl₃), a highly explosive liquid. Based on the reactions of ammonia, which reactant stoichiometry should be used to maximize the yield of NCl₃?",
+      "question": "Benzenediazonium chloride is coupled with β-Naphthol in NaOH. What is the primary purpose of the NaOH in this reaction?",
       "options": {
-        "A": "React excess ammonia with a limited amount of chlorine.",
-        "B": "React a limited amount of ammonia with excess chlorine.",
-        "C": "React ammonia and chlorine in a 1:1 molar ratio.",
-        "D": "React sodium amide (NaNH₂) with chlorine gas."
+        "A": "To catalyze the formation of the diazonium ion.",
+        "B": "To act as the electrophile.",
+        "C": "To deprotonate the weakly acidic β-Naphthol, forming a highly activated naphthoxide ion for coupling.",
+        "D": "To neutralize the chloride ion."
       },
-      "answer": "B",
-      "explanation": "The outcome of the reaction between ammonia and chlorine depends entirely on which reactant is in excess. Page 7 shows two possibilities. With excess ammonia, the product is N₂ gas. To produce the hazardous NCl₃, ammonia must be the limiting reagent and reacted with excess chlorine: NH₃(g) + 3Cl₂(g) → NCl₃(l) + 3HCl(g)."
+      "answer": "C",
+      "explanation": "Azo coupling reactions (Section 4.2) require a highly activated ring to be attacked by the weak diazonium electrophile. β-Naphthol is a phenol-like compound. The basic conditions (NaOH) deprotonate its -OH group to form a much more strongly activating -O⁻ group, which facilitates the electrophilic attack and leads to the formation of the red azo dye (as mentioned on page 10)."
     },
     {
       "id": 49,
-      "question": "A student adds a few drops of dilute hydrochloric acid to a solution of sodium thiosulfate (Na₂S₂O₃). What observation would be expected?",
+      "question": "What is the reason Markovnikov's rule is followed in the addition of HX to an asymmetric alkene?",
       "options": {
-        "A": "The solution remains clear and a gas with a 'rotten eggs' odor is evolved.",
-        "B": "A white precipitate forms and the solution turns purple.",
-        "C": "The solution fizzes, producing hydrogen gas.",
-        "D": "The solution turns cloudy/a fine yellow precipitate forms, and a gas with a sharp, choking smell is evolved."
+        "A": "The reaction favors the formation of the most sterically hindered product.",
+        "B": "It proceeds through the most stable carbocation intermediate.",
+        "C": "The hydrogen halide is a non-polar molecule.",
+        "D": "The reaction is driven by a free-radical mechanism."
       },
-      "answer": "D",
-      "explanation": "Sodium thiosulfate solution contains the S₂O₃²⁻ ion. In acidic conditions, thiosulfuric acid (H₂S₂O₃) is formed, which is unstable and immediately decomposes. Page 4 gives the decomposition: H₂S₂O₃(aq) → S(s) + SO₂(g) + H₂O(l). The solid sulfur (S) is a fine yellow precipitate that makes the solution cloudy, and the gas evolved is sulfur dioxide (SO₂), which has a sharp, choking smell."
+      "answer": "B",
+      "explanation": "Section 1.1.1 explicitly states that the addition of H⁺ leads to the formation of a more stable carbocation intermediate (Tertiary > Secondary > Primary), which dictates the regioselectivity of the reaction."
     },
     {
       "id": 50,
-      "question": "What is the correct representation and property of the aluminum ion as it exists in aqueous solution?",
+      "question": "What is the organic product formed when propene undergoes oxidation with cold, dilute, alkaline KMnO₄ (Baeyer's Test)?",
       "options": {
-        "A": "Al³⁺(aq), which is a simple ion and makes the solution neutral.",
-        "B": "[Al(H₂O)₆]³⁺(aq), which acts as a Brønsted-Lowry acid, making the solution acidic.",
-        "C": "[Al(OH)₄]⁻(aq), which is formed in neutral water and makes the solution basic.",
-        "D": "Al₂O₃(aq), which is a dissolved form of the amphoteric oxide."
+        "A": "Propanoic acid",
+        "B": "Propanone",
+        "C": "Propane-1,2-diol",
+        "D": "Propan-1-ol"
       },
-      "answer": "B",
-      "explanation": "In aqueous solution, the small, highly charged Al³⁺ ion is hydrated by six water molecules, forming the hexaquaaluminum(III) complex ion, [Al(H₂O)₆]³⁺. This complex ion is acidic because the high charge density on the Al³⁺ polarizes the O-H bonds in the surrounding water ligands, making it easier for a proton (H⁺) to be released. This is mentioned on Page 6 and explains why AlCl₃ solution is acidic on Page 5."
+      "answer": "C",
+      "explanation": "According to the Baeyer's Test section on page 2, the oxidation of an alkene with cold, dilute KMnO₄ results in a diol (glycol). For propene, this would be propane-1,2-diol (CH₃CH(OH)CH₂(OH))."
     },
     {
       "id": 51,
-      "question": "Which of the following Period 3 oxides would show no reaction when stirred with a warm, dilute solution of hydrochloric acid?",
+      "question": "What reagent is used to specifically test for the presence of a terminal alkyne, forming a white precipitate?",
       "options": {
-        "A": "Na₂O",
-        "B": "MgO",
-        "C": "Al₂O₃",
-        "D": "P₄O₁₀"
+        "A": "Br₂(aq)",
+        "B": "Ag⁺(NH₃/AgNO₃) (Tollens' reagent in this context)",
+        "C": "KMnO₄(aq, cold)",
+        "D": "Conc. H₂SO₄"
       },
-      "answer": "D",
-      "explanation": "Hydrochloric acid is an acid. Basic oxides (Na₂O, MgO) and amphoteric oxides (Al₂O₃) will react with it in a neutralization reaction. However, phosphorus pentoxide (P₄O₁₀) is a strongly acidic oxide. Acids do not react with other acids, so no reaction would occur. (Concept from Page 1)."
+      "answer": "B",
+      "explanation": "Section 1.2 on the acidity of terminal alkynes (page 3) lists the reaction with ammoniacal silver nitrate (R-C≡CH + Ag⁺(NH₃/AgNO₃)) to form a white precipitate of a silver acetylide (R-C≡C-Ag(s))."
     },
     {
       "id": 52,
-      "question": "Nitric acid is stored in brown bottles because it decomposes in the presence of light. What is the brown-colored product of this decomposition that stains the acid?",
+      "question": "The exceptional stability of benzene is quantified by its resonance energy. What is the approximate value of this energy?",
       "options": {
-        "A": "Nitrogen monoxide (NO)",
-        "B": "Nitrogen dioxide (NO₂)",
-        "C": "Dinitrogen monoxide (N₂O)",
-        "D": "Elemental nitrogen (N₂)"
+        "A": "52 kJ/mol",
+        "B": "152 kJ/mol",
+        "C": "252 kJ/mol",
+        "D": "352 kJ/mol"
       },
       "answer": "B",
-      "explanation": "Page 3 shows the decomposition reaction: 4HNO₃(aq) --(light)--> 4NO₂(g) + O₂(g) + 2H₂O(l). Nitrogen dioxide (NO₂) is a brown gas which, when dissolved in the remaining acid, gives it a yellow-brown tinge."
+      "explanation": "Section 1.3.1 on the structure and stability of benzene mentions that its delocalization gives it a resonance energy of approximately 152 kJ/mol."
     },
     {
       "id": 53,
-      "question": "How does the nature of the thermal decomposition of ammonium chloride (NH₄Cl) differ from that of ammonium nitrite (NH₄NO₂)?",
+      "question": "Hydrogenation of benzene to form cyclohexane requires more vigorous conditions than the hydrogenation of an alkene. Why?",
       "options": {
-        "A": "Both undergo redox; NH₄Cl produces N₂ and NH₄NO₂ produces N₂O.",
-        "B": "NH₄Cl undergoes a reversible acid-base dissociation, while NH₄NO₂ undergoes an irreversible intramolecular redox reaction.",
-        "C": "Both dissociate into ammonia and the corresponding acid.",
-        "D": "NH₄Cl is stable to heat, while NH₄NO₂ decomposes explosively."
+        "A": "Benzene is a gas at room temperature.",
+        "B": "The C-H bonds in benzene are stronger.",
+        "C": "The reaction is endothermic for benzene but exothermic for alkenes.",
+        "D": "Significant energy is required to overcome the aromatic stabilization of the benzene ring."
       },
-      "answer": "B",
-      "explanation": "This question contrasts two types of decomposition. On page 7, NH₄Cl(s) ⇌ NH₃(g) + HCl(g) is a simple dissociation into a base and an acid. However, NH₄NO₂(s) → N₂(g) + 2H₂O(g) is a redox reaction where the nitrogen in NH₄⁺ (-3) is oxidized and the nitrogen in NO₂⁻ (+3) is reduced, both to N₂ (0)."
+      "answer": "D",
+      "explanation": "Section 'Other Reactions of Benzene' on page 4 notes that hydrogenation requires more vigorous conditions (e.g., Raney Ni, 150°C, high pressure) due to benzene's aromatic stability, which must be overcome."
     },
     {
       "id": 54,
-      "question": "Among the oxoacids of chlorine (HClO, HClO₂, HClO₃, HClO₄), which compound is the strongest oxidizing agent and simultaneously the weakest acid?",
+      "question": "A key property of a Grignard reagent (R-Mg-X) is the reversal of the carbon atom's polarity. How is the C-Mg bond polarized?",
       "options": {
-        "A": "HClO",
-        "B": "HClO₂",
-        "C": "HClO₃",
-        "D": "HClO₄"
+        "A": "Cδ⁺—Mgδ⁻",
+        "B": "Cδ⁻—Mgδ⁺",
+        "C": "It is a non-polar covalent bond.",
+        "D": "It is a pure ionic bond with C⁻ and Mg²⁺ ions."
       },
-      "answer": "A",
-      "explanation": "Page 4 presents two opposing trends. Acidic strength increases with the oxidation number of chlorine (HClO < HClO₄). Oxidizing power decreases with the oxidation number of chlorine (HClO > HClO₄). Therefore, hypochlorous acid (HClO), with the lowest oxidation state (+1), is the weakest acid but the strongest oxidizing agent in the series."
+      "answer": "B",
+      "explanation": "Section 2.1 on the formation of Grignard reagents (page 5) explicitly states that the carbon atom's polarity is reversed to Cδ⁻—Mgδ⁺, making the carbon atom strongly nucleophilic and basic."
     },
     {
       "id": 55,
-      "question": "Besides forming an oxide and halides, aluminum metal can also react directly with another element in the air when heated. What is the product of this reaction?",
+      "question": "Which of these alcohols is resistant to oxidation under mild conditions?",
       "options": {
-        "A": "Aluminum carbide (Al₄C₃)",
-        "B": "Aluminum sulfide (Al₂S₃)",
-        "C": "Aluminum nitride (AlN)",
-        "D": "Aluminum phosphide (AlP)"
+        "A": "Butan-1-ol",
+        "B": "Butan-2-ol",
+        "C": "2-Methylpropan-1-ol",
+        "D": "2-Methylpropan-2-ol"
       },
-      "answer": "C",
-      "explanation": "While air is ~78% nitrogen, this reaction usually requires heat. Page 6 lists the direct synthesis reactions of aluminum, including the reaction with nitrogen: 2Al(s) + N₂(g) → 2AlN(s), forming aluminum nitride."
+      "answer": "D",
+      "explanation": "2-Methylpropan-2-ol is a tertiary (3°) alcohol. According to the 'Oxidation' section for alcohols (page 6), tertiary alcohols are resistant to oxidation because the carbon atom bearing the -OH group has no hydrogen atoms attached to it."
     },
     {
       "id": 56,
-      "question": "A solution contains an unknown halide ion. Addition of aqueous silver nitrate produces a pale yellow precipitate. This precipitate is then treated with dilute aqueous ammonia and no change is observed. Finally, concentrated aqueous ammonia is added and the precipitate dissolves. The halide ion is:",
+      "question": "What reagent is specifically used for the mild oxidation of a primary alcohol to an aldehyde, stopping the reaction from proceeding to a carboxylic acid?",
       "options": {
-        "A": "Fluoride (F⁻)",
-        "B": "Chloride (Cl⁻)",
-        "C": "Bromide (Br⁻)",
-        "D": "Iodide (I⁻)"
+        "A": "Hot, concentrated KMnO₄",
+        "B": "Acidified K₂Cr₂O₇",
+        "C": "PCC (Pyridinium chlorochromate)",
+        "D": "Ozone (O₃)"
       },
       "answer": "C",
-      "explanation": "This tests the sequential identification of silver halides from page 5. A pale yellow precipitate is AgBr. It is insoluble in dilute ammonia but dissolves in concentrated ammonia. (AgCl is white and dissolves in dilute NH₃; AgI is yellow and is insoluble in both)."
+      "explanation": "Section 3.1 on the oxidation of primary alcohols (page 6) specifies that PCC is the reagent used to selectively oxidize a primary alcohol to an aldehyde."
     },
     {
       "id": 57,
-      "question": "Which of the following reactions involving chlorine is NOT a disproportionation reaction?",
+      "question": "What is the initial product of a base-catalyzed Aldol Condensation between two molecules of ethanal, before any heating or dehydration occurs?",
       "options": {
-        "A": "Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq)",
-        "B": "3Cl₂(g) + 6NaOH(aq) (hot, conc) → 5NaCl(aq) + NaClO₃(aq) + 3H₂O(l)",
-        "C": "2FeCl₂(s) + Cl₂(g) → 2FeCl₃(s)",
-        "D": "Cl₂(g) + 2NaOH(aq) (cold, dilute) → NaCl(aq) + NaOCl(aq) + H₂O(l)"
+        "A": "But-2-enal",
+        "B": "3-Hydroxybutanal (an 'aldol')",
+        "C": "Butanoic acid",
+        "D": "Butan-1-ol"
       },
-      "answer": "C",
-      "explanation": "A disproportionation reaction is where an element is simultaneously oxidized and reduced. In A, B, and D, chlorine (oxidation state 0) is reduced to -1 (in HCl/NaCl) and oxidized to +1 (in HOCl/NaOCl) or +5 (in NaClO₃). In reaction C, chlorine (0) is only reduced to -1 (in FeCl₃), while iron is oxidized from +2 to +3. This is a simple redox reaction, not disproportionation. (Concepts from Page 6 & 7)."
+      "answer": "B",
+      "explanation": "Section 3.3 on Aldol Condensation states that the initial product is a β-hydroxy aldehyde/ketone, which is called an 'aldol'. For ethanal, this would be 3-hydroxybutanal."
     },
     {
       "id": 58,
-      "question": "In the Claus process, toxic hydrogen sulfide is converted to elemental sulfur via the reaction: 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). What are the initial and final oxidation states of the sulfur atoms?",
+      "question": "What is the product when an ester, like ethyl propanoate, reacts with two equivalents of a Grignard reagent (e.g., CH₃MgBr) followed by hydrolysis?",
       "options": {
-        "A": "S starts at -2 and +2, and ends at 0.",
-        "B": "S starts at -2 and +4, and ends at 0.",
-        "C": "S starts at +1 and +4, and ends at +2.",
-        "D": "S starts at -2 and +4, and ends at +6."
+        "A": "A secondary alcohol and a primary alcohol",
+        "B": "A ketone",
+        "C": "A tertiary alcohol and a primary alcohol",
+        "D": "A carboxylic acid"
       },
-      "answer": "B",
-      "explanation": "This requires calculating oxidation states. In the reactant H₂S, H is +1, so S must be -2. In the reactant SO₂, O is -2, so S must be +4. In the product, elemental sulfur (S) has an oxidation state of 0. This reaction is a synproportionation, the opposite of disproportionation. (Reaction on Page 8)."
+      "answer": "C",
+      "explanation": "The reaction of an ester with a Grignard reagent is described in Section 3.5 (page 8). The Grignard reagent adds twice. The first equivalent displaces the alkoxide (-OR') to form a ketone intermediate, which then immediately reacts with a second equivalent to form a tertiary alcohol after hydrolysis. The original alkoxide part becomes a primary alcohol (ethanol in this case)."
     },
     {
       "id": 59,
-      "question": "Why does a solution of aluminum chloride (AlCl₃) have a significantly lower pH than a solution of sodium chloride (NaCl) of the same concentration?",
+      "question": "What is the final organic product when an amide, such as propanamide (CH₃CH₂CONH₂), is reduced with LiAlH₄?",
       "options": {
-        "A": "AlCl₃ is a stronger acid than NaCl.",
-        "B": "NaCl is ionic, forming a neutral solution. AlCl₃ has covalent character and the hydrated Al³⁺ ion hydrolyzes water, releasing H⁺ ions.",
-        "C": "Chlorine ions react with water to form HCl, and there are more of them in AlCl₃.",
-        "D": "Sodium is a more reactive metal, so its salt solution is more basic."
+        "A": "Propanoic acid",
+        "B": "Propan-1-ol",
+        "C": "Propylamine (CH₃CH₂CH₂NH₂)",
+        "D": "Propene"
       },
-      "answer": "B",
-      "explanation": "This question connects bonding, hydration, and hydrolysis. NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so it's neutral. AlCl₃ is the salt of a strong acid (HCl) and a weak base (Al(OH)₃). The small, highly charged Al³⁺ ion becomes hydrated to [Al(H₂O)₆]³⁺. This complex ion is acidic as it polarizes the water ligands, causing the release of H⁺ and lowering the pH. This links the bonding trend and hydrolysis reactions from page 5."
+      "answer": "C",
+      "explanation": "Section 3.5 on amides (page 8) states that reduction with LiAlH₄ converts the carbonyl group of the amide into a methylene group (CH₂), yielding an amine. Propanamide is reduced to propylamine."
     },
     {
       "id": 60,
-      "question": "A student wants to synthesize a sample of magnesium sulfide (MgS). According to the notes, which of the following reactions could be used to produce MgS as one of the solid products?",
+      "question": "Which statement accurately describes the reaction of a primary aliphatic amine (R-NH₂) with nitrous acid (NaNO₂/HCl)?",
       "options": {
-        "A": "Heating magnesium in sulfurous acid.",
-        "B": "Reacting magnesium oxide with hydrogen sulfide gas.",
-        "C": "Reacting magnesium metal with a limited supply of sulfur dioxide gas.",
-        "D": "Burning magnesium metal in an atmosphere of sulfur dioxide gas."
+        "A": "It forms a stable diazonium salt at 0-5 °C.",
+        "B": "It forms an imine (Schiff base).",
+        "C": "It forms an unstable diazonium salt which decomposes to an alcohol and nitrogen gas.",
+        "D": "It does not react under these conditions."
+      },
+      "answer": "C",
+      "explanation": "Section 4.1 on the reaction with nitrous acid (page 9) explicitly states that primary aliphatic amines form an unstable diazonium salt that decomposes to an alcohol and N₂ gas. This is in contrast to primary aromatic amines."
+    },
+    {
+      "id": 61,
+      "question": "What is the color of the azo dye, p-hydroxyazobenzene, formed by coupling benzenediazonium chloride with phenol in NaOH?",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Blue",
+        "D": "Orange"
       },
       "answer": "D",
-      "explanation": "This is a detail-oriented question from page 2. The reaction of SO₂ with Mg has two potential outcomes shown. The one that produces magnesium sulfide is: 3Mg(s) + SO₂(g) → 2MgO(s) + MgS(s). This is described as occurring when magnesium is burned in the gas, implying a high-energy reaction. The other options are not listed in the notes."
+      "explanation": "Section 4.2 on coupling reactions (page 9) gives the specific example of benzenediazonium chloride + phenol yielding p-hydroxyazobenzene, which is described as an orange dye."
+    },
+    {
+      "id": 62,
+      "question": "When formaldehyde (HCHO) is treated with a Grignard reagent (R'MgX) followed by hydrolysis, what class of alcohol is produced?",
+      "options": {
+        "A": "Primary Alcohol",
+        "B": "Secondary Alcohol",
+        "C": "Tertiary Alcohol",
+        "D": "A diol"
+      },
+      "answer": "A",
+      "explanation": "Section 3.3 on the Addition of Grignard Reagents (page 7) specifies the outcomes: Formaldehyde yields primary alcohols, other aldehydes yield secondary alcohols, and ketones yield tertiary alcohols."
+    },
+    {
+      "id": 63,
+      "question": "The formation of an ether from an alkyl halide and a sodium alkoxide (R-X + NaOR' → R-O-R') is a classic example of which reaction type?",
+      "options": {
+        "A": "Electrophilic Addition",
+        "B": "Nucleophilic Substitution",
+        "C": "Elimination (E2)",
+        "D": "Friedel-Crafts Alkylation"
+      },
+      "answer": "B",
+      "explanation": "This reaction, often called the Williamson ether synthesis, is listed under 'Nucleophilic Substitution (Sₙ)' in Section 2.1 (page 4). The alkoxide ion (RO:⁻) acts as the nucleophile, replacing the halide ion (X⁻) on the alkyl halide."
+    },
+    {
+      "id": 64,
+      "question": "A student wants to convert butan-2-one to butane. Which set of reagents is most appropriate for this transformation?",
+      "options": {
+        "A": "LiAlH₄, then H₂O",
+        "B": "H₂, Pt/Pd/Ni",
+        "C": "Zn(Hg), conc. HCl",
+        "D": "NaOH(aq), heat"
+      },
+      "answer": "C",
+      "explanation": "This transformation is the reduction of a ketone to an alkane. Section 3.3 on Reduction (page 7) specifies that the Clemmensen Reduction (using Zn(Hg)/conc. HCl) accomplishes this, converting the C=O group to a CH₂ group."
     }
+
+
+
+
+
+
 
 
 
