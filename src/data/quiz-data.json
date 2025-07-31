@@ -600,9 +600,127 @@
       },
       "answer": "B",
       "explanation": "In aqueous solution, the small, highly charged Al³⁺ ion is hydrated by six water molecules, forming the hexaquaaluminum(III) complex ion, [Al(H₂O)₆]³⁺. This complex ion is acidic because the high charge density on the Al³⁺ polarizes the O-H bonds in the surrounding water ligands, making it easier for a proton (H⁺) to be released. This is mentioned on Page 6 and explains why AlCl₃ solution is acidic on Page 5."
+    },
+    {
+      "id": 51,
+      "question": "Which of the following Period 3 oxides would show no reaction when stirred with a warm, dilute solution of hydrochloric acid?",
+      "options": {
+        "A": "Na₂O",
+        "B": "MgO",
+        "C": "Al₂O₃",
+        "D": "P₄O₁₀"
+      },
+      "answer": "D",
+      "explanation": "Hydrochloric acid is an acid. Basic oxides (Na₂O, MgO) and amphoteric oxides (Al₂O₃) will react with it in a neutralization reaction. However, phosphorus pentoxide (P₄O₁₀) is a strongly acidic oxide. Acids do not react with other acids, so no reaction would occur. (Concept from Page 1)."
+    },
+    {
+      "id": 52,
+      "question": "Nitric acid is stored in brown bottles because it decomposes in the presence of light. What is the brown-colored product of this decomposition that stains the acid?",
+      "options": {
+        "A": "Nitrogen monoxide (NO)",
+        "B": "Nitrogen dioxide (NO₂)",
+        "C": "Dinitrogen monoxide (N₂O)",
+        "D": "Elemental nitrogen (N₂)"
+      },
+      "answer": "B",
+      "explanation": "Page 3 shows the decomposition reaction: 4HNO₃(aq) --(light)--> 4NO₂(g) + O₂(g) + 2H₂O(l). Nitrogen dioxide (NO₂) is a brown gas which, when dissolved in the remaining acid, gives it a yellow-brown tinge."
+    },
+    {
+      "id": 53,
+      "question": "How does the nature of the thermal decomposition of ammonium chloride (NH₄Cl) differ from that of ammonium nitrite (NH₄NO₂)?",
+      "options": {
+        "A": "Both undergo redox; NH₄Cl produces N₂ and NH₄NO₂ produces N₂O.",
+        "B": "NH₄Cl undergoes a reversible acid-base dissociation, while NH₄NO₂ undergoes an irreversible intramolecular redox reaction.",
+        "C": "Both dissociate into ammonia and the corresponding acid.",
+        "D": "NH₄Cl is stable to heat, while NH₄NO₂ decomposes explosively."
+      },
+      "answer": "B",
+      "explanation": "This question contrasts two types of decomposition. On page 7, NH₄Cl(s) ⇌ NH₃(g) + HCl(g) is a simple dissociation into a base and an acid. However, NH₄NO₂(s) → N₂(g) + 2H₂O(g) is a redox reaction where the nitrogen in NH₄⁺ (-3) is oxidized and the nitrogen in NO₂⁻ (+3) is reduced, both to N₂ (0)."
+    },
+    {
+      "id": 54,
+      "question": "Among the oxoacids of chlorine (HClO, HClO₂, HClO₃, HClO₄), which compound is the strongest oxidizing agent and simultaneously the weakest acid?",
+      "options": {
+        "A": "HClO",
+        "B": "HClO₂",
+        "C": "HClO₃",
+        "D": "HClO₄"
+      },
+      "answer": "A",
+      "explanation": "Page 4 presents two opposing trends. Acidic strength increases with the oxidation number of chlorine (HClO < HClO₄). Oxidizing power decreases with the oxidation number of chlorine (HClO > HClO₄). Therefore, hypochlorous acid (HClO), with the lowest oxidation state (+1), is the weakest acid but the strongest oxidizing agent in the series."
+    },
+    {
+      "id": 55,
+      "question": "Besides forming an oxide and halides, aluminum metal can also react directly with another element in the air when heated. What is the product of this reaction?",
+      "options": {
+        "A": "Aluminum carbide (Al₄C₃)",
+        "B": "Aluminum sulfide (Al₂S₃)",
+        "C": "Aluminum nitride (AlN)",
+        "D": "Aluminum phosphide (AlP)"
+      },
+      "answer": "C",
+      "explanation": "While air is ~78% nitrogen, this reaction usually requires heat. Page 6 lists the direct synthesis reactions of aluminum, including the reaction with nitrogen: 2Al(s) + N₂(g) → 2AlN(s), forming aluminum nitride."
+    },
+    {
+      "id": 56,
+      "question": "A solution contains an unknown halide ion. Addition of aqueous silver nitrate produces a pale yellow precipitate. This precipitate is then treated with dilute aqueous ammonia and no change is observed. Finally, concentrated aqueous ammonia is added and the precipitate dissolves. The halide ion is:",
+      "options": {
+        "A": "Fluoride (F⁻)",
+        "B": "Chloride (Cl⁻)",
+        "C": "Bromide (Br⁻)",
+        "D": "Iodide (I⁻)"
+      },
+      "answer": "C",
+      "explanation": "This tests the sequential identification of silver halides from page 5. A pale yellow precipitate is AgBr. It is insoluble in dilute ammonia but dissolves in concentrated ammonia. (AgCl is white and dissolves in dilute NH₃; AgI is yellow and is insoluble in both)."
+    },
+    {
+      "id": 57,
+      "question": "Which of the following reactions involving chlorine is NOT a disproportionation reaction?",
+      "options": {
+        "A": "Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq)",
+        "B": "3Cl₂(g) + 6NaOH(aq) (hot, conc) → 5NaCl(aq) + NaClO₃(aq) + 3H₂O(l)",
+        "C": "2FeCl₂(s) + Cl₂(g) → 2FeCl₃(s)",
+        "D": "Cl₂(g) + 2NaOH(aq) (cold, dilute) → NaCl(aq) + NaOCl(aq) + H₂O(l)"
+      },
+      "answer": "C",
+      "explanation": "A disproportionation reaction is where an element is simultaneously oxidized and reduced. In A, B, and D, chlorine (oxidation state 0) is reduced to -1 (in HCl/NaCl) and oxidized to +1 (in HOCl/NaOCl) or +5 (in NaClO₃). In reaction C, chlorine (0) is only reduced to -1 (in FeCl₃), while iron is oxidized from +2 to +3. This is a simple redox reaction, not disproportionation. (Concepts from Page 6 & 7)."
+    },
+    {
+      "id": 58,
+      "question": "In the Claus process, toxic hydrogen sulfide is converted to elemental sulfur via the reaction: 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). What are the initial and final oxidation states of the sulfur atoms?",
+      "options": {
+        "A": "S starts at -2 and +2, and ends at 0.",
+        "B": "S starts at -2 and +4, and ends at 0.",
+        "C": "S starts at +1 and +4, and ends at +2.",
+        "D": "S starts at -2 and +4, and ends at +6."
+      },
+      "answer": "B",
+      "explanation": "This requires calculating oxidation states. In the reactant H₂S, H is +1, so S must be -2. In the reactant SO₂, O is -2, so S must be +4. In the product, elemental sulfur (S) has an oxidation state of 0. This reaction is a synproportionation, the opposite of disproportionation. (Reaction on Page 8)."
+    },
+    {
+      "id": 59,
+      "question": "Why does a solution of aluminum chloride (AlCl₃) have a significantly lower pH than a solution of sodium chloride (NaCl) of the same concentration?",
+      "options": {
+        "A": "AlCl₃ is a stronger acid than NaCl.",
+        "B": "NaCl is ionic, forming a neutral solution. AlCl₃ has covalent character and the hydrated Al³⁺ ion hydrolyzes water, releasing H⁺ ions.",
+        "C": "Chlorine ions react with water to form HCl, and there are more of them in AlCl₃.",
+        "D": "Sodium is a more reactive metal, so its salt solution is more basic."
+      },
+      "answer": "B",
+      "explanation": "This question connects bonding, hydration, and hydrolysis. NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so it's neutral. AlCl₃ is the salt of a strong acid (HCl) and a weak base (Al(OH)₃). The small, highly charged Al³⁺ ion becomes hydrated to [Al(H₂O)₆]³⁺. This complex ion is acidic as it polarizes the water ligands, causing the release of H⁺ and lowering the pH. This links the bonding trend and hydrolysis reactions from page 5."
+    },
+    {
+      "id": 60,
+      "question": "A student wants to synthesize a sample of magnesium sulfide (MgS). According to the notes, which of the following reactions could be used to produce MgS as one of the solid products?",
+      "options": {
+        "A": "Heating magnesium in sulfurous acid.",
+        "B": "Reacting magnesium oxide with hydrogen sulfide gas.",
+        "C": "Reacting magnesium metal with a limited supply of sulfur dioxide gas.",
+        "D": "Burning magnesium metal in an atmosphere of sulfur dioxide gas."
+      },
+      "answer": "D",
+      "explanation": "This is a detail-oriented question from page 2. The reaction of SO₂ with Mg has two potential outcomes shown. The one that produces magnesium sulfide is: 3Mg(s) + SO₂(g) → 2MgO(s) + MgS(s). This is described as occurring when magnesium is burned in the gas, implying a high-energy reaction. The other options are not listed in the notes."
     }
-  
-
 
 
 
