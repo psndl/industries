@@ -11,7 +11,7 @@ interface QuizQuestion {
   id: number;
   question: string;
   options: Record<string, string>;
-  correctAnswer: string;
+  answer: string;
   explanation: string;
 }
 
@@ -56,7 +56,7 @@ export function Quiz({ questions }: QuizProps) {
     if (!isAnswered) {
       return 'hover:bg-accent/20';
     }
-    const correctAnswerKey = currentQuestion.correctAnswer;
+    const correctAnswerKey = currentQuestion.answer;
     if (optionKey === correctAnswerKey) {
       return 'bg-success text-success-foreground hover:bg-success/90 border-green-500';
     }
@@ -105,10 +105,10 @@ export function Quiz({ questions }: QuizProps) {
           {isAnswered && (
             <div className="mt-6 p-5 rounded-lg bg-secondary/70 border border-border/60 animate-in fade-in-50 duration-500">
               <h3 className="text-lg font-bold mb-2 text-primary">
-                {selectedAnswerKey === currentQuestion.correctAnswer ? "That's Correct!" : "Not Quite..."}
+                {selectedAnswerKey === currentQuestion.answer ? "That's Correct!" : "Not Quite..."}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                <span className="font-bold">Correct Answer: {currentQuestion.options[currentQuestion.correctAnswer]}</span>
+                <span className="font-bold">Correct Answer: {currentQuestion.options[currentQuestion.answer]}</span>
                 <br />
                 {currentQuestion.explanation}
               </p>
