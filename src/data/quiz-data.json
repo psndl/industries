@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": 1,
+    "question": "What is the capital of Japan?",
+    "options": ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
+    "correctAnswer": "Tokyo",
+    "explanation": "Tokyo has been the capital of Japan since 1868. It is the world's most populous metropolis."
+  },
+  {
+    "id": 2,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Jupiter", "Mars", "Saturn", "Venus"],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is often called the 'Red Planet' because of its reddish appearance, which is due to iron oxide (rust) on its surface."
+  },
+  {
+    "id": 3,
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": ["Harper Lee", "J.K. Rowling", "Ernest Hemingway", "F. Scott Fitzgerald"],
+    "correctAnswer": "Harper Lee",
+    "explanation": "The Pulitzer Prize-winning novel 'To Kill a Mockingbird' was written by Harper Lee and published in 1960."
+  },
+  {
+    "id": 4,
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correctAnswer": "Pacific Ocean",
+    "explanation": "The Pacific Ocean is the largest and deepest of the world's five oceans, covering more than 30% of the Earth's surface."
+  },
+  {
+    "id": 5,
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Go", "Gd"],
+    "correctAnswer": "Au",
+    "explanation": "The chemical symbol for gold is Au, which comes from the Latin word 'aurum', meaning gold."
+  }
+]
