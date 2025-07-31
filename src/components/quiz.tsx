@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 interface QuizQuestion {
   id: number;
   question: string;
-  options: string[] | Record<string, string>;
+  options: Record<string, string>;
   correctAnswer: string;
   explanation: string;
 }
@@ -21,7 +21,7 @@ interface QuizProps {
 
 export function Quiz({ questions }: QuizProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [selectedAnswerKey, setSelectedAnswerKey] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
 
   if (!questions || questions.length === 0) {
@@ -38,38 +38,35 @@ export function Quiz({ questions }: QuizProps) {
   const currentQuestion = questions[currentQuestionIndex];
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
 
-  const handleAnswerSelect = (answer: string) => {
+  const handleAnswerSelect = (answerKey: string) => {
     if (isAnswered) return;
-    setSelectedAnswer(answer);
+    setSelectedAnswerKey(answerKey);
     setIsAnswered(true);
   };
 
   const goToQuestion = (index: number) => {
     if (index >= 0 && index < questions.length) {
       setCurrentQuestionIndex(index);
-      setSelectedAnswer(null);
+      setSelectedAnswerKey(null);
       setIsAnswered(false);
     }
   };
 
-  const getButtonClasses = (option: string) => {
+  const getButtonClasses = (optionKey: string) => {
     if (!isAnswered) {
       return 'hover:bg-accent/20';
     }
     const correctAnswerKey = currentQuestion.correctAnswer;
-    const correctAnswerValue = Array.isArray(currentQuestion.options) ? correctAnswerKey : currentQuestion.options[correctAnswerKey as keyof typeof currentQuestion.options];
-    if (option === correctAnswerValue) {
+    if (optionKey === correctAnswerKey) {
       return 'bg-success text-success-foreground hover:bg-success/90 border-green-500';
     }
-    if (option === selectedAnswer) {
+    if (optionKey === selectedAnswerKey) {
       return 'bg-destructive text-destructive-foreground hover:bg-destructive/90 border-red-500';
     }
     return 'opacity-60';
   };
   
-  const questionOptions = Array.isArray(currentQuestion.options)
-    ? currentQuestion.options
-    : Object.values(currentQuestion.options);
+  const questionOptions = Object.entries(currentQuestion.options);
 
   return (
     <div className="w-full max-w-3xl p-4">
@@ -88,29 +85,31 @@ export function Quiz({ questions }: QuizProps) {
             {currentQuestion.question}
           </CardTitle>
           <div className="grid grid-cols-1 gap-4">
-            {questionOptions.map((option) => (
+            {questionOptions.map(([key, value]) => (
               <Button
-                key={option}
+                key={key}
                 variant="outline"
                 className={cn(
                   'h-auto py-3 px-4 text-left justify-start whitespace-normal transition-all duration-200 rounded-lg text-base',
                   isAnswered ? 'cursor-not-allowed' : 'transform hover:scale-[1.02]',
-                  selectedAnswer === option && !isAnswered ? 'ring-2 ring-primary' : '',
-                  getButtonClasses(option)
+                  selectedAnswerKey === key && !isAnswered ? 'ring-2 ring-primary' : '',
+                  getButtonClasses(key)
                 )}
-                onClick={() => handleAnswerSelect(option)}
+                onClick={() => handleAnswerSelect(key)}
                 disabled={isAnswered}
               >
-                {option}
+                <span className="font-bold mr-2">{key}.</span> {value}
               </Button>
             ))}
           </div>
           {isAnswered && (
             <div className="mt-6 p-5 rounded-lg bg-secondary/70 border border-border/60 animate-in fade-in-50 duration-500">
               <h3 className="text-lg font-bold mb-2 text-primary">
-                {selectedAnswer === (Array.isArray(currentQuestion.options) ? currentQuestion.correctAnswer : currentQuestion.options[currentQuestion.correctAnswer as keyof typeof currentQuestion.options]) ? "That's Correct!" : "Not Quite..."}
+                {selectedAnswerKey === currentQuestion.correctAnswer ? "That's Correct!" : "Not Quite..."}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
+                <span className="font-bold">Correct Answer: {currentQuestion.options[currentQuestion.correctAnswer]}</span>
+                <br />
                 {currentQuestion.explanation}
               </p>
             </div>
