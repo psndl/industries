@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 interface QuizQuestion {
   id: number;
   question: string;
-  options: string[];
+  options: string[] | Record<string, string>;
   correctAnswer: string;
   explanation: string;
 }
@@ -23,6 +23,17 @@ export function Quiz({ questions }: QuizProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
+
+  if (!questions || questions.length === 0) {
+    return (
+      <Card className="w-full max-w-3xl p-4 border-border/60 shadow-xl rounded-2xl">
+        <CardHeader>
+          <CardTitle>Quiz Loading...</CardTitle>
+          <CardDescription>Questions are not available at the moment. Please try again later.</CardDescription>
+        </CardHeader>
+      </Card>
+    );
+  }
 
   const currentQuestion = questions[currentQuestionIndex];
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
@@ -45,7 +56,9 @@ export function Quiz({ questions }: QuizProps) {
     if (!isAnswered) {
       return 'hover:bg-accent/20';
     }
-    if (option === currentQuestion.correctAnswer) {
+    const correctAnswerKey = currentQuestion.correctAnswer;
+    const correctAnswerValue = Array.isArray(currentQuestion.options) ? correctAnswerKey : currentQuestion.options[correctAnswerKey as keyof typeof currentQuestion.options];
+    if (option === correctAnswerValue) {
       return 'bg-success text-success-foreground hover:bg-success/90 border-green-500';
     }
     if (option === selectedAnswer) {
@@ -53,6 +66,10 @@ export function Quiz({ questions }: QuizProps) {
     }
     return 'opacity-60';
   };
+  
+  const questionOptions = Array.isArray(currentQuestion.options)
+    ? currentQuestion.options
+    : Object.values(currentQuestion.options);
 
   return (
     <div className="w-full max-w-3xl p-4">
@@ -71,7 +88,7 @@ export function Quiz({ questions }: QuizProps) {
             {currentQuestion.question}
           </CardTitle>
           <div className="grid grid-cols-1 gap-4">
-            {currentQuestion.options.map((option) => (
+            {questionOptions.map((option) => (
               <Button
                 key={option}
                 variant="outline"
@@ -91,7 +108,7 @@ export function Quiz({ questions }: QuizProps) {
           {isAnswered && (
             <div className="mt-6 p-5 rounded-lg bg-secondary/70 border border-border/60 animate-in fade-in-50 duration-500">
               <h3 className="text-lg font-bold mb-2 text-primary">
-                {selectedAnswer === currentQuestion.correctAnswer ? "That's Correct!" : "Not Quite..."}
+                {selectedAnswer === (Array.isArray(currentQuestion.options) ? currentQuestion.correctAnswer : currentQuestion.options[currentQuestion.correctAnswer as keyof typeof currentQuestion.options]) ? "That's Correct!" : "Not Quite..."}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {currentQuestion.explanation}

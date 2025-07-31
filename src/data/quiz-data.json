@@ -1,38 +1,614 @@
+{
+  "quizTitle": "A-Level Chemistry: Periodicity and Inorganic Reactions",
+  "quiz": [
+    {
+      "id": 1,
+      "question": "How does the chemical nature of oxides change across the third period from Na₂O to Cl₂O₇?",
+      "options": {
+        "A": "Strongly acidic to strongly basic",
+        "B": "Strongly basic to strongly acidic",
+        "C": "Consistently neutral across the period",
+        "D": "Amphoteric to acidic to basic"
+      },
+      "answer": "B",
+      "explanation": "According to the table on page 1, the trend for oxides across Period 3 is from strongly basic (Na₂O) through basic (MgO), amphoteric (Al₂O₃), to increasingly acidic (SiO₂, P₄O₁₀, SO₃, Cl₂O₇)."
+    },
+    {
+      "id": 2,
+      "question": "Which oxide in the third period is classified as amphoteric?",
+      "options": {
+        "A": "MgO",
+        "B": "SiO₂",
+        "C": "Al₂O₃",
+        "D": "P₄O₁₀"
+      },
+      "answer": "C",
+      "explanation": "Aluminum oxide (Al₂O₃) is listed as amphoteric, meaning it can react with both acids and bases. This is a key example of an amphoteric oxide in the middle of the period."
+    },
+    {
+      "id": 3,
+      "question": "What is the correct bonding type for silicon dioxide (SiO₂)?",
+      "options": {
+        "A": "Ionic",
+        "B": "Simple Covalent",
+        "C": "Metallic",
+        "D": "Network Covalent"
+      },
+      "answer": "D",
+      "explanation": "The table on page 1 shows that SiO₂ has a Network Covalent structure, which accounts for its high melting point and insolubility in water."
+    },
+    {
+      "id": 4,
+      "question": "What is the main product when sodium oxide (Na₂O) reacts with water?",
+      "options": {
+        "A": "Sodium metal and oxygen gas",
+        "B": "Sodium hydride",
+        "C": "Sodium hydroxide",
+        "D": "Sodium peroxide"
+      },
+      "answer": "C",
+      "explanation": "Basic oxides like Na₂O react with water to form hydroxides. The reaction is: Na₂O(s) + H₂O(l) → 2NaOH(aq)."
+    },
+    {
+      "id": 5,
+      "question": "Which equation correctly represents the reaction of aluminum oxide with a strong base like sodium hydroxide?",
+      "options": {
+        "A": "Al₂O₃ + 6NaOH → 2Al(OH)₃ + 3Na₂O",
+        "B": "Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O",
+        "C": "Al₂O₃ + 2NaOH + 3H₂O → 2NaAl(OH)₄",
+        "D": "Al₂O₃ + NaOH → No reaction"
+      },
+      "answer": "C",
+      "explanation": "As an amphoteric oxide, Al₂O₃ reacts with strong bases. The correct equation shown on page 1 is: Al₂O₃(s) + 2NaOH(aq) + 3H₂O(l) → 2NaAl(OH)₄(aq)."
+    },
+    {
+      "id": 6,
+      "question": "Which statement is true regarding the reaction of silicon dioxide (SiO₂)?",
+      "options": {
+        "A": "It reacts vigorously with water to form silicic acid.",
+        "B": "It is weakly acidic and reacts with strong bases like NaOH.",
+        "C": "It is a basic oxide and reacts with acids.",
+        "D": "It is completely inert and does not react with acids or bases."
+      },
+      "answer": "B",
+      "explanation": "Page 2 states that SiO₂ is weakly acidic, shows no reaction with water, but reacts with strong bases. The reaction is: SiO₂(s) + 2NaOH(aq) → Na₂SiO₃(aq) + H₂O(l)."
+    },
+    {
+      "id": 7,
+      "question": "What acid is produced when phosphorus pentoxide (P₄O₁₀) dissolves in water?",
+      "options": {
+        "A": "Phosphorous acid (H₃PO₃)",
+        "B": "Phosphoric acid (H₃PO₄)",
+        "C": "Hypophosphorous acid (H₃PO₂)",
+        "D": "Peroxyphosphoric acid (H₃PO₅)"
+      },
+      "answer": "B",
+      "explanation": "The reaction of the acidic oxide P₄O₁₀ with water produces phosphoric acid: P₄O₁₀(s) + 6H₂O(l) → 4H₃PO₄(aq)."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT a property of carbon monoxide (CO)?",
+      "options": {
+        "A": "It is a highly poisonous gas.",
+        "B": "It acts as a reducing agent in iron production.",
+        "C": "It has a typical C=O double bond.",
+        "D": "It can act as a ligand due to a lone pair on the carbon atom."
+      },
+      "answer": "C",
+      "explanation": "Page 2 explicitly states that CO has a triple bond character, which makes the bond shorter and stronger than a typical C=O double bond."
+    },
+    {
+      "id": 9,
+      "question": "Sulfur dioxide (SO₂) can act as both an oxidizing and a reducing agent. Which reaction shows SO₂ acting as an oxidizing agent?",
+      "options": {
+        "A": "5SO₂(g) + 2KMnO₄(aq) + 2H₂O(l) → K₂SO₄(aq) + 2MnSO₄(aq) + 2H₂SO₄(aq)",
+        "B": "SO₂(g) + 2H₂S(aq) → 3S(s) + 2H₂O(l)",
+        "C": "2Mg(s) + SO₂(g) → 2MgO(s) + S(s)",
+        "D": "SO₂(g) + H₂O(l) → H₂SO₃(aq)"
+      },
+      "answer": "C",
+      "explanation": "In the reaction with magnesium (2Mg + SO₂ → 2MgO + S), sulfur's oxidation state decreases from +4 in SO₂ to 0 in S. A decrease in oxidation state means SO₂ has been reduced and is therefore acting as the oxidizing agent."
+    },
+    {
+      "id": 10,
+      "question": "The trend in the nature of third-period hydroxides from NaOH to HClO₄ is:",
+      "options": {
+        "A": "Similar to the trend of the corresponding oxides (basic to acidic).",
+        "B": "Opposite to the trend of the corresponding oxides (acidic to basic).",
+        "C": "All are strongly acidic.",
+        "D": "All are neutral."
+      },
+      "answer": "A",
+      "explanation": "Page 3 states that the properties of third-period hydroxides show a similar trend to their corresponding oxides, transitioning from strongly basic (NaOH) to very strongly acidic (HClO₄)."
+    },
+    {
+      "id": 11,
+      "question": "What happens when nitrous acid (HNO₂) undergoes disproportionation?",
+      "options": {
+        "A": "It forms N₂ and H₂O.",
+        "B": "It forms HNO₃ and NO.",
+        "C": "It forms N₂O and H₂O.",
+        "D": "It decomposes into H₂, N₂, and O₂."
+      },
+      "answer": "B",
+      "explanation": "The disproportionation reaction for nitrous acid is given as: 3HNO₂(aq) → HNO₃(aq) + 2NO(g) + H₂O(l). Here, nitrogen is both oxidized (from +3 to +5) and reduced (from +3 to +2)."
+    },
+    {
+      "id": 12,
+      "question": "What are the products when concentrated nitric acid reacts with a less reactive metal like copper?",
+      "options": {
+        "A": "Cu(NO₃)₂, NO, H₂O",
+        "B": "Cu(NO₃)₂, NO₂, H₂O",
+        "C": "Cu(NO₃)₂, H₂",
+        "D": "No reaction"
+      },
+      "answer": "B",
+      "explanation": "The reaction of copper with concentrated nitric acid is: Cu(s) + 4HNO₃(l) → Cu(NO₃)₂(aq) + 2NO₂(g) + 2H₂O(l). Dilute nitric acid would produce NO gas instead of NO₂."
+    },
+    {
+      "id": 13,
+      "question": "What is the role of concentrated sulfuric acid in its reaction with glucose (C₆H₁₂O₆)?",
+      "options": {
+        "A": "Oxidizing agent",
+        "B": "Reducing agent",
+        "C": "Dehydrating agent",
+        "D": "Catalyst"
+      },
+      "answer": "C",
+      "explanation": "Concentrated H₂SO₄ is a powerful dehydrating agent. It removes water elements from glucose, leaving behind carbon. The reaction is: C₆H₁₂O₆(s) → 6C(s) + 6H₂O(g)."
+    },
+    {
+      "id": 14,
+      "question": "How does the acidic strength of the oxoacids of chlorine change?",
+      "options": {
+        "A": "Increases as the oxidation number of chlorine increases (HClO < HClO₄).",
+        "B": "Decreases as the oxidation number of chlorine increases (HClO > HClO₄).",
+        "C": "They all have the same acidic strength.",
+        "D": "The trend is unpredictable."
+      },
+      "answer": "A",
+      "explanation": "Page 4 states that the acidic strength increases with the oxidation number of chlorine: HClO (+1) < HClO₂ (+3) < HClO₃ (+5) < HClO₄ (+7)."
+    },
+    {
+      "id": 15,
+      "question": "Why does hydrogen fluoride (HF) have an unusually high boiling point compared to other hydrogen halides?",
+      "options": {
+        "A": "It has the strongest covalent bond.",
+        "B": "It has the largest molecular mass.",
+        "C": "It experiences extensive hydrogen bonding.",
+        "D": "It is the strongest acid in the group."
+      },
+      "answer": "C",
+      "explanation": "HF's boiling point (20°C) is significantly higher than HCl, HBr, and HI due to the strong intermolecular hydrogen bonds formed between HF molecules."
+    },
+    {
+      "id": 16,
+      "question": "A student adds aqueous ammonia to three test tubes containing precipitates of AgCl, AgBr, and AgI. Which observation is correct?",
+      "options": {
+        "A": "Only AgCl dissolves in dilute ammonia.",
+        "B": "All three precipitates dissolve in dilute ammonia.",
+        "C": "AgCl and AgBr dissolve in dilute ammonia, but AgI does not.",
+        "D": "AgI dissolves in concentrated ammonia, but AgCl does not."
+      },
+      "answer": "A",
+      "explanation": "The solubility test with ammonia is a classic way to distinguish silver halides. AgCl (white) dissolves in dilute aqueous ammonia. AgBr (pale yellow) dissolves only in concentrated aqueous ammonia. AgI (yellow) is insoluble in both."
+    },
+    {
+      "id": 17,
+      "question": "What are the products of the complete hydrolysis of silicon tetrachloride (SiCl₄)?",
+      "options": {
+        "A": "SiO₂ and HCl",
+        "B": "Si(OH)₄ and Cl₂",
+        "C": "H₂SiO₃ and Cl₂",
+        "D": "Si and HClO₄"
+      },
+      "answer": "A",
+      "explanation": "The hydrolysis of SiCl₄ is vigorous. The equation on page 5 is SiCl₄(l) + 2H₂O(l) → SiO₂(s) + 4HCl(aq). Note: H₂SiO₃ is often written but quickly dehydrates to SiO₂."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following covalent halides is known to be inert and does not hydrolyze in water?",
+      "options": {
+        "A": "PCl₅",
+        "B": "SiCl₄",
+        "C": "NCl₃",
+        "D": "CCl₄"
+      },
+      "answer": "D",
+      "explanation": "Page 6 notes that most covalent halides react vigorously with water, but CCl₄ is an exception. It is inert to hydrolysis, primarily because carbon lacks available d-orbitals to facilitate the initial attack by a water molecule."
+    },
+    {
+      "id": 19,
+      "question": "Why is metallic aluminum generally non-reactive in air?",
+      "options": {
+        "A": "It is a noble metal like gold.",
+        "B": "It forms a protective, non-reactive layer of Al₂O₃ on its surface.",
+        "C": "It only reacts with non-metals at very high temperatures.",
+        "D": "It has a fully filled outer electron shell."
+      },
+      "answer": "B",
+      "explanation": "Aluminum is a reactive metal, but it readily forms a very thin, tough, and transparent layer of aluminum oxide (Al₂O₃) that protects the metal underneath from further reaction."
+    },
+    {
+      "id": 20,
+      "question": "What are the products when chlorine gas is bubbled through a hot, concentrated solution of sodium hydroxide?",
+      "options": {
+        "A": "NaCl, NaOCl, and H₂O",
+        "B": "NaCl, NaClO₃, and H₂O",
+        "C": "NaClO₃, Cl₂O, and H₂O",
+        "D": "No reaction occurs."
+      },
+      "answer": "B",
+      "explanation": "This is a disproportionation reaction. With hot, concentrated NaOH (above 80°C), chlorine forms sodium chloride and sodium chlorate(V): 3Cl₂(g) + 6NaOH(aq) → 5NaCl(aq) + NaClO₃(aq) + 3H₂O(l)."
+    },
+    {
+      "id": 21,
+      "question": "What are the products of the reaction between excess ammonia and chlorine gas?",
+      "options": {
+        "A": "NCl₃ and HCl",
+        "B": "N₂ and HCl",
+        "C": "NH₄Cl and N₂",
+        "D": "N₂H₄ and HCl"
+      },
+      "answer": "B",
+      "explanation": "When ammonia is in excess, it is oxidized to nitrogen gas. The equation is 2NH₃(g) + 3Cl₂(g) → N₂(g) + 6HCl(g). The HCl will then react with more excess ammonia to form NH₄Cl."
+    },
+    {
+      "id": 22,
+      "question": "The thermal decomposition of ammonium nitrate (NH₄NO₃) produces which gases?",
+      "options": {
+        "A": "N₂ and H₂O",
+        "B": "NH₃ and HNO₃",
+        "C": "N₂O and H₂O",
+        "D": "NO₂ and H₂O"
+      },
+      "answer": "C",
+      "explanation": "The decomposition of ammonium nitrate yields dinitrogen monoxide (laughing gas) and water: NH₄NO₃(s) → N₂O(g) + 2H₂O(g)."
+    },
+    {
+      "id": 23,
+      "question": "What is the product when hydrogen sulfide (H₂S) gas is passed through a solution of sodium hydroxide with limited H₂S?",
+      "options": {
+        "A": "NaHS and H₂O",
+        "B": "Na₂S and H₂O",
+        "C": "S and H₂",
+        "D": "Na₂SO₄ and H₂O"
+      },
+      "answer": "B",
+      "explanation": "With limited H₂S (meaning NaOH is in excess), both acidic protons of H₂S react to form sodium sulfide: 2NaOH(aq) + H₂S(g) → Na₂S(s) + 2H₂O(l). With excess H₂S, sodium hydrogen sulfide (NaHS) would be formed."
+    },
+    {
+      "id": 24,
+      "question": "In the reaction 2H₂S(aq) + SO₂(g) → 3S(s) + 2H₂O(l), what is happening?",
+      "options": {
+        "A": "SO₂ is oxidized and H₂S is reduced.",
+        "B": "A displacement reaction.",
+        "C": "A redox reaction where H₂S is oxidized and SO₂ is reduced.",
+        "D": "A simple acid-base neutralization."
+      },
+      "answer": "C",
+      "explanation": "This is a redox reaction. The oxidation state of sulfur in H₂S goes from -2 to 0 (oxidation). The oxidation state of sulfur in SO₂ goes from +4 to 0 (reduction). This reaction is used in the Claus process to recover elemental sulfur."
+    },
+    {
+      "id": 25,
+      "question": "What is the oxidation number of chlorine in dichlorine heptoxide (Cl₂O₇)?",
+      "options": {
+        "A": "+1",
+        "B": "+3",
+        "C": "+5",
+        "D": "+7"
+      },
+      "answer": "D",
+      "explanation": "In the table on page 1, Cl₂O₇ is listed with an oxidation number of +7 for chlorine. This can be calculated as oxygen is -2, so 2(Cl) + 7(-2) = 0, which gives 2(Cl) = 14, and Cl = +7."
+    },
+    {
+      "id": 26,
+      "question": "What is the nature of an aqueous solution of magnesium chloride (MgCl₂)?",
+      "options": {
+        "A": "Neutral",
+        "B": "Strongly Acidic",
+        "C": "Very Weakly Acidic",
+        "D": "Basic"
+      },
+      "answer": "C",
+      "explanation": "According to the table on page 5, an aqueous solution of MgCl₂ is 'Very Weakly Acidic'. This is due to the hydrolysis of the hydrated Mg²⁺ ion, [Mg(H₂O)₆]²⁺, which releases a small amount of H⁺ ions."
+    },
+    {
+      "id": 27,
+      "question": "What are the products of the partial hydrolysis of phosphorus pentachloride (PCl₅) with a limited amount of water?",
+      "options": {
+        "A": "H₃PO₄ and HCl",
+        "B": "P₂O₅ and HCl",
+        "C": "POCl₃ and HCl",
+        "D": "H₃PO₃ and HCl"
+      },
+      "answer": "C",
+      "explanation": "Page 6 explicitly shows the reaction for partial hydrolysis: PCl₅(l) + H₂O(l) → POCl₃(aq) + 2HCl(aq). POCl₃ is phosphorus(V) oxychloride. Complete hydrolysis requires excess water."
+    },
+    {
+      "id": 28,
+      "question": "In its reaction with acidified potassium dichromate(VI) (K₂Cr₂O₇), what role does sulfur dioxide (SO₂) play?",
+      "options": {
+        "A": "An oxidizing agent",
+        "B": "A reducing agent",
+        "C": "A dehydrating agent",
+        "D": "A base"
+      },
+      "answer": "B",
+      "explanation": "The reaction on page 2 is: 3SO₂(g) + K₂Cr₂O₇(aq) + H₂SO₄(aq) → K₂SO₄(aq) + Cr₂(SO₄)₃(aq) + H₂O(l). The oxidation state of sulfur increases from +4 in SO₂ to +6 in the sulfate ions, meaning SO₂ is oxidized and thus acts as the reducing agent."
+    },
+    {
+      "id": 29,
+      "question": "How does the oxidizing power of the oxoacids of chlorine change as the oxidation number of chlorine increases?",
+      "options": {
+        "A": "It increases (HClO < HClO₄)",
+        "B": "It decreases (HClO > HClO₄)",
+        "C": "It remains the same for all oxoacids",
+        "D": "It is the same as the trend for acidic strength"
+      },
+      "answer": "B",
+      "explanation": "Page 4 states that the oxidizing power decreases as the oxidation number of chlorine increases. The trend is: HClO > HClO₂ > HClO₃ > HClO₄. This is the opposite of the trend for acidic strength."
+    },
+    {
+      "id": 30,
+      "question": "Which set of products is formed when concentrated nitric acid reacts with solid carbon?",
+      "options": {
+        "A": "CO, NO, H₂O",
+        "B": "CO₂, NO₂, H₂O",
+        "C": "H₂CO₃, NO, H₂O",
+        "D": "C, N₂O, H₂O"
+      },
+      "answer": "B",
+      "explanation": "Page 3 shows that concentrated nitric acid is a powerful oxidizing agent that can oxidize non-metals. The reaction is: C(s) + conc. 4HNO₃(l) → CO₂(g) + 4NO₂(g) + 2H₂O(l)."
+    },
+    {
+      "id": 31,
+      "question": "The hypochlorite ion (ClO⁻) disproportionates at high temperatures. What are the products of this reaction?",
+      "options": {
+        "A": "Cl⁻ and ClO₂⁻",
+        "B": "Cl⁻ and ClO₃⁻",
+        "C": "Cl⁻ and ClO₄⁻",
+        "D": "Cl₂ and O₂"
+      },
+      "answer": "B",
+      "explanation": "Page 7 describes the disproportionation of the hypochlorite ion at high temperatures: 3ClO⁻ → ClO₃⁻ + 2Cl⁻. The chlorine, initially at a +1 oxidation state, is oxidized to +5 (in ClO₃⁻) and reduced to -1 (in Cl⁻)."
+    },
+    {
+      "id": 32,
+      "question": "Which reaction correctly shows aluminum reacting as an amphoteric metal with a base?",
+      "options": {
+        "A": "2Al(s) + 3X₂(g) → 2AlX₃(s)",
+        "B": "2Al(s) + N₂(g) → 2AlN(s)",
+        "C": "2Al(s) + 2OH⁻(aq) + 6H₂O(l) → 2[Al(OH)₄]⁻(aq) + 3H₂(g)",
+        "D": "4Al(s) + 3O₂(g) → 2Al₂O₃(s)"
+      },
+      "answer": "C",
+      "explanation": "Amphoteric substances react with both acids and bases. Page 6 shows the reaction of aluminum metal with a base (like NaOH solution) to produce the tetrahydroxoaluminate(III) ion and hydrogen gas."
+    },
+    {
+      "id": 33,
+      "question": "What are the products when ammonia gas is passed over heated solid copper(II) oxide?",
+      "options": {
+        "A": "Copper(I) oxide, nitrogen, and water",
+        "B": "Copper metal, nitrogen gas, and water",
+        "C": "Copper(II) nitride and water",
+        "D": "Copper(II) nitrate, nitrogen, and water"
+      },
+      "answer": "B",
+      "explanation": "On page 7, ammonia is shown acting as a reducing agent. It reduces copper(II) oxide to copper metal while being oxidized itself to nitrogen gas: 3CuO(s) + 2NH₃(g) → N₂(g) + 3Cu(s) + 3H₂O(g)."
+    },
+    {
+      "id": 34,
+      "question": "The thermal decomposition of ammonium dichromate ((NH₄)₂Cr₂O₇) produces a green solid and two gases. What are these products?",
+      "options": {
+        "A": "CrO₃, N₂O, and H₂O",
+        "B": "Cr₂O₃, N₂, and H₂O",
+        "C": "Cr, NO₂, and H₂O",
+        "D": "Cr(OH)₃, NH₃, and O₂"
+      },
+      "answer": "B",
+      "explanation": "This is a famous intramolecular redox reaction. Page 7 gives the equation: (NH₄)₂Cr₂O₇(s) → N₂(g) + Cr₂O₃(s) + 4H₂O(g). The green solid is chromium(III) oxide."
+    },
+    {
+      "id": 35,
+      "question": "The thiosulfate ion (S₂O₃²⁻) is used as a reducing agent in titrations with iodine (I₂). What is the main sulfur-containing product of this reaction?",
+      "options": {
+        "A": "Sulfate ion (SO₄²⁻)",
+        "B": "Sulfite ion (SO₃²⁻)",
+        "C": "Tetrathionate ion (S₄O₆²⁻)",
+        "D": "Elemental sulfur (S)"
+      },
+      "answer": "C",
+      "explanation": "Page 4 provides the key equation for this common redox titration: 2S₂O₃²⁻(aq) + I₂(aq) → S₄O₆²⁻(aq) + 2I⁻(aq). The product is the tetrathionate ion."
+    },
+    {
+      "id": 36,
+      "question": "Which reaction demonstrates concentrated sulfuric acid acting as an oxidizing agent with a non-metal?",
+      "options": {
+        "A": "H₂SO₄(aq) + Mg(s) → MgSO₄(aq) + H₂(g)",
+        "B": "C(s) + 2H₂SO₄(l) → CO₂(g) + 2SO₂(g) + 2H₂O(l)",
+        "C": "H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)",
+        "D": "C₆H₁₂O₆(s) + H₂SO₄(conc) → 6C(s) + 6H₂O(g)"
+      },
+      "answer": "B",
+      "explanation": "In the reaction on page 4, carbon is oxidized (from 0 to +4 in CO₂) and sulfur in H₂SO₄ is reduced (from +6 to +4 in SO₂). This confirms H₂SO₄ is acting as an oxidizing agent. Option A is dilute acid, C is neutralization, and D shows its dehydrating property."
+    },
+    {
+      "id": 37,
+      "question": "What is formed when excess carbon dioxide is bubbled through an aqueous solution of sodium carbonate?",
+      "options": {
+        "A": "Sodium oxide and carbon monoxide",
+        "B": "Sodium hydrogencarbonate",
+        "C": "Sodium oxalate",
+        "D": "No further reaction occurs"
+      },
+      "answer": "B",
+      "explanation": "Page 2 shows that CO₂ reacts with bases. After forming sodium carbonate (Na₂CO₃), passing more CO₂ through the solution produces sodium hydrogencarbonate (also known as sodium bicarbonate): Na₂CO₃(aq) + CO₂(g) + H₂O(l) → 2NaHCO₃(aq)."
+    },
+    {
+      "id": 38,
+      "question": "Observing the hydrolysis reactions of AsCl₃, SbCl₃, and BiCl₃ on page 6, what trend is evident down the group?",
+      "options": {
+        "A": "All three form the simple metal hydroxide, M(OH)₃.",
+        "B": "The hydrolysis becomes less vigorous down the group.",
+        "C": "The product changes from a soluble oxoacid (H₃AsO₃) to insoluble oxychlorides (SbOCl, BiOCl).",
+        "D": "All three form the simple metal oxide, M₂O₃."
+      },
+      "answer": "C",
+      "explanation": "Page 6 shows that AsCl₃ hydrolyzes completely to form arsenous acid (H₃AsO₃). Further down Group 15, SbCl₃ and BiCl₃ undergo partial hydrolysis to form the white precipitates of antimony oxychloride (SbOCl) and bismuth oxychloride (BiOCl). This reflects the increasing metallic character of the elements."
+    },
+    {
+      "id": 39,
+      "question": "The complete hydrolysis of phosphorus(V) chloride (PCl₅) with excess water produces phosphoric acid (H₃PO₄) and what other substance?",
+      "options": {
+        "A": "Chlorine gas (Cl₂)",
+        "B": "Hypochlorous acid (HClO)",
+        "C": "Hydrogen chloride (HCl)",
+        "D": "Phosphorus trichloride (PCl₃)"
+      },
+      "answer": "C",
+      "explanation": "Page 5 provides the overall equation for the complete hydrolysis reaction: PCl₅(g) + 4H₂O(l) → H₃PO₄(aq) + 5HCl(aq). The other product is hydrogen chloride."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following reactions shows ammonia acting as an acid?",
+      "options": {
+        "A": "NH₃(g) + HCl(g) → NH₄Cl(s)",
+        "B": "2NH₃(g) + 3CuO(s) → N₂(g) + 3Cu(s) + 3H₂O(g)",
+        "C": "2Na(s) + 2NH₃(l) → 2NaNH₂(l) + H₂(g)",
+        "D": "NH₃(g) + H₂O(l) ⇌ NH₄OH(aq)"
+      },
+      "answer": "C",
+      "explanation": "While typically a base, ammonia can act as a very weak acid. In its reaction with a highly reactive metal like sodium (under anhydrous liquid ammonia conditions), it donates a proton to form the amide ion (NH₂⁻) and hydrogen gas. This is listed under 'As an oxidizing agent/acid (dry conditions)' on page 7."
+    },
+    {
+      "id": 41,
+      "question": "A student is given three unlabeled white powders known to be MgO, Al₂O₃, and P₄O₁₀. They add each to a separate beaker of deionized water and test the pH. Which set of results would correctly identify the powders?",
+      "options": {
+        "A": "MgO: neutral pH; Al₂O₃: acidic pH; P₄O₁₀: basic pH",
+        "B": "MgO: basic pH; Al₂O₃: neutral pH (insoluble); P₄O₁₀: strongly acidic pH",
+        "C": "MgO: acidic pH; Al₂O₃: basic pH; P₄O₁₀: neutral pH",
+        "D": "All three would produce a neutral pH as they are oxides, not acids or bases."
+      },
+      "answer": "B",
+      "explanation": "This question tests the reaction of Period 3 oxides with water. MgO is a basic oxide and forms Mg(OH)₂, a sparingly soluble base, raising the pH. Al₂O₃ is amphoteric and effectively insoluble in water, so it won't change the pH significantly. P₄O₁₀ is a strongly acidic oxide that reacts vigorously with water to form phosphoric acid (H₃PO₄), causing a large drop in pH. (Concepts from Page 1 & 2)."
+    },
+    {
+      "id": 42,
+      "question": "A colorless gas 'X' is produced. When 'X' is passed over heated magnesium ribbon, it produces a white solid and a yellow solid. When 'X' is bubbled through acidified potassium permanganate solution, the purple solution turns colorless. What is gas 'X'?",
+      "options": {
+        "A": "Carbon Monoxide (CO)",
+        "B": "Carbon Dioxide (CO₂)",
+        "C": "Sulfur Dioxide (SO₂)",
+        "D": "Hydrogen Sulfide (H₂S)"
+      },
+      "answer": "C",
+      "explanation": "This is a two-part deduction. First, the reaction with magnesium (2Mg + SO₂ → 2MgO + S) shows SO₂ acting as an oxidizing agent, producing white magnesium oxide and yellow elemental sulfur. Second, the reaction with KMnO₄ (5SO₂ + 2KMnO₄ + 2H₂O → K₂SO₄ + 2MnSO₄ + 2H₂SO₄) shows SO₂ acting as a reducing agent. SO₂ is unique in the notes for showing both these properties clearly. (Concepts from Page 2)."
+    },
+    {
+      "id": 43,
+      "question": "Both concentrated nitric acid and hot, concentrated sulfuric acid can oxidize solid sulfur. Which statement best contrasts the two reactions?",
+      "options": {
+        "A": "Only nitric acid can oxidize sulfur; sulfuric acid is just a dehydrating agent.",
+        "B": "Both reactions produce SO₂, but nitric acid also produces H₂O.",
+        "C": "Nitric acid produces nitrogen dioxide (NO₂) as its reduction product, while sulfuric acid produces sulfur dioxide (SO₂) as its reduction product.",
+        "D": "Nitric acid produces N₂ gas, while sulfuric acid produces H₂S gas."
+      },
+      "answer": "C",
+      "explanation": "This question requires comparing two different strong oxidizing acids. From page 3: S(s) + 6HNO₃(l) → H₂SO₄(l) + 6NO₂(g) + 2H₂O(l). From page 4: S(s) + 2H₂SO₄(l) → 3SO₂(g) + 2H₂O(l). In both cases, sulfur is oxidized to a higher oxidation state (+4 or +6). The key difference is the reduction product of the acid itself: HNO₃ is reduced to NO₂, while H₂SO₄ is reduced to SO₂."
+    },
+    {
+      "id": 44,
+      "question": "The chloride of a Period 3 element, X, is a fuming liquid at room temperature. When added to water, it hydrolyzes completely to form a white solid precipitate and a solution with a pH of 1. What is element X?",
+      "options": {
+        "A": "Sodium (Na)",
+        "B": "Magnesium (Mg)",
+        "C": "Aluminum (Al)",
+        "D": "Silicon (Si)"
+      },
+      "answer": "D",
+      "explanation": "Let's analyze the clues. 'Fuming liquid' suggests a volatile covalent chloride. 'Hydrolyzes completely' points away from ionic NaCl/MgCl₂. 'White solid precipitate' is the key. The hydrolysis of SiCl₄ (SiCl₄ + 2H₂O → SiO₂ + 4HCl) produces solid silicon dioxide (SiO₂) and strong acid (HCl), which explains the pH of 1. AlCl₃ hydrolysis is complex and gives a clear acidic solution, not a distinct white precipitate in this manner. (Concepts from Page 5)."
+    },
+    {
+      "id": 45,
+      "question": "Why is HF considered a weak acid in aqueous solution, while HCl, HBr, and HI are strong acids?",
+      "options": {
+        "A": "The extensive hydrogen bonding in HF prevents it from dissolving in water.",
+        "B": "Fluorine is less electronegative than Cl, Br, and I, making the H-F bond less polar.",
+        "C": "The H-F bond dissociation energy is exceptionally high, making it difficult for the molecule to ionize.",
+        "D": "HF is a much larger molecule than HCl, HBr, and HI."
+      },
+      "answer": "C",
+      "explanation": "This is a classic question that distinguishes between two properties. Hydrogen bonding (Option A) explains HF's high boiling point, not its acid strength. The primary reason for its weakness as an acid is the very strong covalent bond between H and F, which has a high bond dissociation energy. More energy is required to break this bond to release H⁺ compared to the other hydrogen halides. (Concept from Page 4)."
+    },
+    {
+      "id": 46,
+      "question": "An oxide of a Period 3 element 'Y' is insoluble in water but dissolves readily in both hydrochloric acid and aqueous sodium hydroxide. Which of the following statements about the chloride of element Y is most likely true?",
+      "options": {
+        "A": "It is an ionic solid that forms a neutral solution in water.",
+        "B": "It is a covalent solid that hydrolyzes in water to produce a strongly acidic solution.",
+        "C": "It is an ionic solid that forms a basic solution in water.",
+        "D": "It is a gas that does not react with water."
+      },
+      "answer": "B",
+      "explanation": "First, identify element Y. An oxide that reacts with both acid and base is amphoteric. In Period 3, this is Al₂O₃, so Y is Aluminum. Now, consider the chloride of Y, which is AlCl₃. According to the table on page 5, AlCl₃ has covalent character and its aqueous solution is acidic due to hydrolysis: [Al(H₂O)₆]³⁺(aq) ⇌ [Al(H₂O)₅OH]²⁺(aq) + H⁺(aq). It exists as a solid, Al₂Cl₆ dimer, but the description of its solution behavior is what's being tested. (Links concepts from Page 1 and 5)."
+    },
+    {
+      "id": 47,
+      "question": "A chemist wants to produce sodium chlorate(V) (NaClO₃) via a disproportionation reaction. Which set of conditions should be used?",
+      "options": {
+        "A": "Bubble chlorine gas through cold, dilute aqueous sodium hydroxide.",
+        "B": "Bubble chlorine gas through hot, concentrated aqueous sodium hydroxide.",
+        "C": "Expose a solution of sodium chloride to intense light.",
+        "D": "React chlorine gas with water at room temperature."
+      },
+      "answer": "B",
+      "explanation": "The products of the disproportionation of chlorine depend on the conditions. Page 7 shows that cold, dilute NaOH produces NaCl and NaOCl (sodium hypochlorite, or chlorate(I)). To get the higher oxidation state chlorate(V) (NaClO₃), hot (above 80°C), concentrated NaOH must be used: 3Cl₂ + 6NaOH → 5NaCl + NaClO₃ + 3H₂O."
+    },
+    {
+      "id": 48,
+      "question": "A student wants to synthesize nitrogen trichloride (NCl₃), a highly explosive liquid. Based on the reactions of ammonia, which reactant stoichiometry should be used to maximize the yield of NCl₃?",
+      "options": {
+        "A": "React excess ammonia with a limited amount of chlorine.",
+        "B": "React a limited amount of ammonia with excess chlorine.",
+        "C": "React ammonia and chlorine in a 1:1 molar ratio.",
+        "D": "React sodium amide (NaNH₂) with chlorine gas."
+      },
+      "answer": "B",
+      "explanation": "The outcome of the reaction between ammonia and chlorine depends entirely on which reactant is in excess. Page 7 shows two possibilities. With excess ammonia, the product is N₂ gas. To produce the hazardous NCl₃, ammonia must be the limiting reagent and reacted with excess chlorine: NH₃(g) + 3Cl₂(g) → NCl₃(l) + 3HCl(g)."
+    },
+    {
+      "id": 49,
+      "question": "A student adds a few drops of dilute hydrochloric acid to a solution of sodium thiosulfate (Na₂S₂O₃). What observation would be expected?",
+      "options": {
+        "A": "The solution remains clear and a gas with a 'rotten eggs' odor is evolved.",
+        "B": "A white precipitate forms and the solution turns purple.",
+        "C": "The solution fizzes, producing hydrogen gas.",
+        "D": "The solution turns cloudy/a fine yellow precipitate forms, and a gas with a sharp, choking smell is evolved."
+      },
+      "answer": "D",
+      "explanation": "Sodium thiosulfate solution contains the S₂O₃²⁻ ion. In acidic conditions, thiosulfuric acid (H₂S₂O₃) is formed, which is unstable and immediately decomposes. Page 4 gives the decomposition: H₂S₂O₃(aq) → S(s) + SO₂(g) + H₂O(l). The solid sulfur (S) is a fine yellow precipitate that makes the solution cloudy, and the gas evolved is sulfur dioxide (SO₂), which has a sharp, choking smell."
+    },
+    {
+      "id": 50,
+      "question": "What is the correct representation and property of the aluminum ion as it exists in aqueous solution?",
+      "options": {
+        "A": "Al³⁺(aq), which is a simple ion and makes the solution neutral.",
+        "B": "[Al(H₂O)₆]³⁺(aq), which acts as a Brønsted-Lowry acid, making the solution acidic.",
+        "C": "[Al(OH)₄]⁻(aq), which is formed in neutral water and makes the solution basic.",
+        "D": "Al₂O₃(aq), which is a dissolved form of the amphoteric oxide."
+      },
+      "answer": "B",
+      "explanation": "In aqueous solution, the small, highly charged Al³⁺ ion is hydrated by six water molecules, forming the hexaquaaluminum(III) complex ion, [Al(H₂O)₆]³⁺. This complex ion is acidic because the high charge density on the Al³⁺ polarizes the O-H bonds in the surrounding water ligands, making it easier for a proton (H⁺) to be released. This is mentioned on Page 6 and explains why AlCl₃ solution is acidic on Page 5."
+    }
+  
 
-[
-  {
-    "id": 1,
-    "question": "What is the capital of Japan?",
-    "options": ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
-    "correctAnswer": "Tokyo",
-    "explanation": "Tokyo has been the capital of Japan since 1868. It is the world's most populous metropolis."
-  },
-  {
-    "id": 2,
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Jupiter", "Mars", "Saturn", "Venus"],
-    "correctAnswer": "Mars",
-    "explanation": "Mars is often called the 'Red Planet' because of its reddish appearance, which is due to iron oxide (rust) on its surface."
-  },
-  {
-    "id": 3,
-    "question": "Who wrote 'To Kill a Mockingbird'?",
-    "options": ["Harper Lee", "J.K. Rowling", "Ernest Hemingway", "F. Scott Fitzgerald"],
-    "correctAnswer": "Harper Lee",
-    "explanation": "The Pulitzer Prize-winning novel 'To Kill a Mockingbird' was written by Harper Lee and published in 1960."
-  },
-  {
-    "id": 4,
-    "question": "What is the largest ocean on Earth?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    "correctAnswer": "Pacific Ocean",
-    "explanation": "The Pacific Ocean is the largest and deepest of the world's five oceans, covering more than 30% of the Earth's surface."
-  },
-  {
-    "id": 5,
-    "question": "What is the chemical symbol for gold?",
-    "options": ["Au", "Ag", "Go", "Gd"],
-    "correctAnswer": "Au",
-    "explanation": "The chemical symbol for gold is Au, which comes from the Latin word 'aurum', meaning gold."
-  }
-]
+
+
+
+
+
+
+
+  ]
+}
