@@ -1,785 +1,727 @@
 {
-  "quizTitle": "Organic Chemistry: Functional Groups and Reactions",
+  "quizTitle": "A-Level Chemistry: Industrial Processes and Environmental Pollution",
   "quiz": [
     {
       "id": 1,
-      "question": "What is the characteristic reaction of alkenes, and what type of bonds are formed and broken?",
+      "question": "In the Dow process for magnesium extraction, what is the primary source of magnesium ions?",
       "options": {
-        "A": "Electrophilic Substitution; one π-bond is broken, one σ-bond is formed.",
-        "B": "Nucleophilic Addition; one σ-bond is broken, two π-bonds are formed.",
-        "C": "Electrophilic Addition; one π-bond is broken, two new σ-bonds are formed.",
-        "D": "Free-Radical Substitution; two σ-bonds are broken, two new σ-bonds are formed."
+        "A": "Limestone",
+        "B": "Dolomite",
+        "C": "Seawater or bittern",
+        "D": "Hydrochloric acid"
       },
       "answer": "C",
-      "explanation": "As stated in section 1.1, the characteristic reaction for alkenes is Electrophilic Addition, where the electron-rich π-bond is broken to form two new σ-bonds."
+      "explanation": "Seawater or bittern (the brine left after salt extraction) are the primary sources of Mg²⁺ ions in the Dow process."
     },
     {
       "id": 2,
-      "question": "According to Markovnikov's rule, what is the major product of the reaction between propene (CH₃CH=CH₂) and HBr?",
+      "question": "What is the purpose of heating limestone or dolomite in the first step of the Dow process?",
       "options": {
-        "A": "1-bromopropane, via a primary carbocation.",
-        "B": "2-bromopropane, via a secondary carbocation.",
-        "C": "1-bromopropane, via a secondary carbocation.",
-        "D": "2-bromopropane, via a primary carbocation."
+        "A": "To produce magnesium metal directly",
+        "B": "To generate carbon dioxide for another reaction",
+        "C": "To produce calcium oxide (lime) as a source of hydroxide ions",
+        "D": "To purify the limestone"
       },
-      "answer": "B",
-      "explanation": "Markovnikov's rule (1.1.1) states H⁺ adds to the carbon with more hydrogens (C1), forming a more stable secondary (2°) carbocation at C2. The Br⁻ then attacks this carbocation, forming 2-bromopropane (CH₃CH(Br)CH₃)."
+      "answer": "C",
+      "explanation": "Heating limestone or dolomite produces calcium oxide (lime), which reacts with water to form calcium hydroxide, providing hydroxide ions to precipitate magnesium hydroxide."
     },
     {
       "id": 3,
-      "question": "Under what specific conditions does the addition of HBr to propene yield 1-bromopropane, and what is the mechanism?",
+      "question": "Why is carbon dioxide removed in the production of Calcium Oxide (Lime) from Limestone?",
       "options": {
-        "A": "In the presence of a Lewis acid, via an ionic mechanism.",
-        "B": "In the presence of peroxides (RO-OR), via a free-radical addition mechanism.",
-        "C": "With high heat and pressure, via an electrophilic addition mechanism.",
-        "D": "In a non-polar solvent, via a carbocation rearrangement."
+        "A": "Carbon dioxide is a toxic waste and needed to be disposed.",
+        "B": "Carbon dioxide prevents the precipitation of magnesium hydroxide.",
+        "C": "The reaction is reversible, and removing CO₂ drives the reaction forward.",
+        "D": "Carbon dioxide reacts with lime to form a dangerous compound."
       },
-      "answer": "B",
-      "explanation": "Section 1.1, 'Anti-Markovnikov Addition of HBr (Peroxide Effect)', states this occurs only with HBr in the presence of peroxides. The mechanism is explicitly mentioned as a free-radical addition, not an ionic one."
+      "answer": "C",
+      "explanation": "The decomposition of limestone is a reversible reaction. Removing CO₂ shifts the equilibrium to the right, favoring the formation of CaO."
     },
     {
       "id": 4,
-      "question": "The addition of Br₂ to ethene (H₂C=CH₂) proceeds via which type of intermediate?",
+      "question": "Which reaction occurs in the electrolytic cell at the anode during the extraction of magnesium from molten magnesium chloride?",
       "options": {
-        "A": "A secondary carbocation",
-        "B": "A vinylic anion",
-        "C": "A cyclic bromonium ion",
-        "D": "A free radical"
+        "A": "Mg²⁺(l) + 2e⁻ → Mg(l)",
+        "B": "2Cl⁻(l) → Cl₂(g) + 2e⁻",
+        "C": "Mg(OH)₂(s) + 2HCl(aq) → MgCl₂(aq) + 2H₂O(l)",
+        "D": "CaO(s) + H₂O(l) → Ca(OH)₂(s)"
       },
-      "answer": "C",
-      "explanation": "The mechanism for the addition of halogens to an alkene (Section 1.1) involves the formation of a cyclic bromonium ion intermediate, which is then attacked by a bromide ion."
+      "answer": "B",
+      "explanation": "At the anode (positive electrode), chloride ions (Cl⁻) are oxidized to chlorine gas (Cl₂). This process releases electrons."
     },
     {
       "id": 5,
-      "question": "What is the final product when propene (CH₃CH=CH₂) is treated with cold, concentrated H₂SO₄, followed by heating with water?",
+      "question": "What is a significant environmental disadvantage of the Dow process for magnesium extraction?",
       "options": {
-        "A": "Propan-1-ol",
-        "B": "Propan-2-ol",
-        "C": "Propane-1,2-diol",
-        "D": "Propanone"
+        "A": "The production of large amounts of hydrochloric acid",
+        "B": "The release of carbon dioxide during the thermal decomposition of limestone/dolomite",
+        "C": "The use of highly toxic chlorine gas",
+        "D": "The disposal of magnesium hydroxide precipitate"
       },
       "answer": "B",
-      "explanation": "This is a two-step hydration of an alkene (Section 1.1). Step 1 is the addition of H₂SO₄ according to Markovnikov's rule to form CH₃CH(OSO₃H)CH₃. Step 2 is hydrolysis, where the -OSO₃H group is replaced by -OH, yielding Propan-2-ol (CH₃CH(OH)CH₃)."
+      "explanation": "The thermal decomposition of limestone/dolomite releases CO₂, a greenhouse gas, which contributes to climate change. Recycling of Cl₂ gas to produce HCl is increasing the process' efficiency."
     },
     {
       "id": 6,
-      "question": "What is observed during Baeyer's Test for unsaturation when an alkene like propene is reacted with cold, dilute, alkaline KMnO₄?",
+      "question": "In the Chlor-Alkali process using a membrane cell, what is the primary function of the membrane?",
       "options": {
-        "A": "The purple solution turns green, and a gas is evolved.",
-        "B": "A silver mirror is formed on the test tube.",
-        "C": "The purple color of KMnO₄ disappears, and a brown precipitate of MnO₂ forms.",
-        "D": "The solution remains purple, indicating a positive test."
+        "A": "To allow the passage of chloride ions from the anode to the cathode",
+        "B": "To prevent the mixing of chlorine gas and hydrogen gas",
+        "C": "To permit the selective passage of cations (like Na⁺) between compartments",
+        "D": "To catalyze the electrolysis of brine"
       },
       "answer": "C",
-      "explanation": "Baeyer's Test (Section 1.1) is a test for unsaturation. The purple MnO₄⁻ ion is reduced to brown solid MnO₂, and the alkene is oxidized to a diol. The disappearance of the purple color and formation of the brown precipitate indicates a positive test."
+      "explanation": "The membrane is selectively permeable to cations, such as Na⁺, which migrate from the anode to the cathode compartment, while blocking the passage of anions and gases."
     },
     {
       "id": 7,
-      "question": "What is the final product when propyne (CH₃C≡CH) is hydrated using HgSO₄ and dilute H₂SO₄ as catalysts?",
+      "question": "What impurities in the brine solution used in the Chlor-Alkali process need to be removed, and why?",
       "options": {
-        "A": "Propanal",
-        "B": "Propan-2-ol",
-        "C": "Propanone (Acetone)",
-        "D": "Propene"
+        "A": "NaOH and Cl₂ as they can damage the membrane.",
+        "B": "Ca²⁺, Mg²⁺, and SO₄²⁻ as they can damage the membrane.",
+        "C": "H₂ and O₂ as they reduce the yield of NaOH.",
+        "D": "NaCl as it increases the energy consumption of the process."
       },
-      "answer": "C",
-      "explanation": "Hydration of an alkyne (Section 1.2) follows Markovnikov's rule. The -OH group adds to the more substituted carbon, forming an unstable enol [CH₃C(OH)=CH₂]. This enol rapidly tautomerizes to the stable keto form, which is propanone (CH₃C(=O)CH₃)."
+      "answer": "B",
+      "explanation": "Ca²⁺, Mg²⁺, and SO₄²⁻ ions need to be removed because they can precipitate and foul the membrane, reducing its efficiency and lifespan."
     },
     {
       "id": 8,
-      "question": "Which catalyst is used to stop the hydrogenation of an alkyne at the alkene stage?",
+      "question": "Which of the following best describes the reaction occurring at the cathode in a membrane cell during the Chlor-Alkali process?",
       "options": {
-        "A": "Finely powdered Pt, Pd, or Ni",
-        "B": "Anhydrous AlCl₃",
-        "C": "Raney Ni at high pressure",
-        "D": "Lindlar's Catalyst (Pd on BaSO₄, deactivated with quinoline)"
+        "A": "Oxidation of chloride ions to chlorine gas",
+        "B": "Reduction of sodium ions to sodium metal",
+        "C": "Electrolysis of water to produce hydrogen gas and hydroxide ions",
+        "D": "Formation of sodium chloride precipitate"
       },
-      "answer": "D",
-      "explanation": "Section 1.2, 'Partial Reduction to Alkene', specifies that a poisoned catalyst, Lindlar's Catalyst, is used to stop the catalytic hydrogenation reaction at the alkene stage."
+      "answer": "C",
+      "explanation": "At the cathode, water is reduced, producing hydrogen gas (H₂) and hydroxide ions (OH⁻), which combine with the sodium ions (Na⁺) that have migrated across the membrane to form NaOH."
     },
     {
       "id": 9,
-      "question": "Why is the hydrogen atom on a terminal alkyne (R-C≡C-H) weakly acidic?",
+      "question": "What is the overall reaction for the Chlor-Alkali process?",
       "options": {
-        "A": "Because the C-H bond is non-polar.",
-        "B": "Because the resulting carbanion is sp³ hybridized and unstable.",
-        "C": "Because the carbon is sp hybridized (50% s-character), making it more electronegative and able to stabilize the negative charge.",
-        "D": "Because it readily forms a stable carbocation upon losing a proton."
+        "A": "NaCl(aq) + H₂O(l) → NaOH(aq) + Cl₂(g) + H₂(g)",
+        "B": "2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g)",
+        "C": "NaCl(s) → Na(s) + ½Cl₂(g)",
+        "D": "2NaOH(aq) + Cl₂(g) → NaClO(aq) + NaCl(aq) + H₂O(l)"
       },
-      "answer": "C",
-      "explanation": "The acidity of terminal alkynes (Section 1.2) is due to the high s-character (50%) of the sp-hybridized carbon. This makes the carbon atom more electronegative, which helps to stabilize the negative charge on the resulting acetylide anion."
+      "answer": "B",
+      "explanation": "The overall reaction for the Chlor-Alkali process is 2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g), which produces sodium hydroxide, chlorine gas, and hydrogen gas from brine electrolysis."
     },
     {
       "id": 10,
-      "question": "What is the electrophile in the nitration of benzene?",
+      "question": "In soap production (saponification), what type of compound is hydrolyzed to produce soap?",
       "options": {
-        "A": "The NO₃⁻ ion",
-        "B": "The NO₂⁺ (Nitronium) ion",
-        "C": "A polarized HNO₃ molecule",
-        "D": "The SO₃H⁺ ion"
+        "A": "Alcohols",
+        "B": "Triglycerides (fats or oils)",
+        "C": "Amino acids",
+        "D": "Sugars"
       },
       "answer": "B",
-      "explanation": "For the nitration of benzene (Section 1.3.2), concentrated nitric acid and concentrated sulfuric acid react to form the powerful electrophile, the nitronium ion (NO₂⁺)."
+      "explanation": "Triglycerides, which are the main components of fats and oils, are hydrolyzed in the saponification process to produce glycerol and soap (sodium salts of fatty acids)."
     },
     {
       "id": 11,
-      "question": "Which of these statements about the structure of benzene is INCORRECT?",
+      "question": "What is the purpose of adding concentrated brine (NaCl solution) in the 'salting out' step of soap production?",
       "options": {
-        "A": "It is a planar ring of six sp² hybridized carbon atoms.",
-        "B": "It has a delocalized π-electron cloud above and below the ring.",
-        "C": "All C-C bond lengths are identical.",
-        "D": "It readily undergoes addition reactions to break the delocalized system."
+        "A": "To dissolve any unreacted triglycerides",
+        "B": "To increase the solubility of glycerol",
+        "C": "To precipitate the soap by the common ion effect",
+        "D": "To neutralize excess sodium hydroxide"
       },
-      "answer": "D",
-      "explanation": "Benzene's exceptional stability, due to its delocalized aromatic system, causes it to undergo substitution (EAS) instead of addition, as this preserves the stable aromatic ring (Section 1.3.2)."
+      "answer": "C",
+      "explanation": "Adding concentrated brine increases the concentration of Na⁺ ions, reducing the solubility of the soap due to the common ion effect, causing it to precipitate out of the solution."
     },
     {
       "id": 12,
-      "question": "What is the role of Anhydrous AlCl₃ in the Friedel-Crafts alkylation of benzene?",
+      "question": "Why does soap have reduced effectiveness in hard water?",
       "options": {
-        "A": "It acts as a solvent for the reaction.",
-        "B": "It acts as a Brønsted-Lowry base.",
-        "C": "It acts as a Lewis acid catalyst to help generate the carbocation electrophile.",
-        "D": "It acts as an oxidizing agent to activate the benzene ring."
+        "A": "The high pH of hard water deactivates the soap molecules.",
+        "B": "Soap reacts with Ca²⁺ and Mg²⁺ ions to form an insoluble scum.",
+        "C": "The high mineral content of hard water interferes with the emulsification of grease.",
+        "D": "Soap forms stronger hydrogen bonds with water molecules in hard water, reducing its ability to interact with grease."
       },
-      "answer": "C",
-      "explanation": "In Friedel-Crafts reactions (Alkylation and Acylation, Section 1.3.2), anhydrous AlCl₃ is a Lewis acid catalyst. It accepts a halide from the alkyl/acyl halide to generate a potent electrophile (a carbocation or acylium ion)."
+      "answer": "B",
+      "explanation": "In hard water, soap reacts with calcium (Ca²⁺) and magnesium (Mg²⁺) ions to form an insoluble precipitate (scum), reducing the soap's cleaning effectiveness."
     },
     {
       "id": 13,
-      "question": "Which statement correctly describes the directing effect of substituents on a benzene ring?",
+      "question": "What are the primary raw materials used in the Solvay process for the production of sodium carbonate?",
       "options": {
-        "A": "The -NO₂ group is an activator and ortho, para-directing.",
-        "B": "The -OH group is a deactivator and meta-directing.",
-        "C": "Halogens (-Cl, -Br) are deactivating but are ortho, para-directing.",
-        "D": "The -CH₃ (alkyl) group is a deactivator and meta-directing."
+        "A": "Sodium chloride, water, and carbon dioxide",
+        "B": "Sodium hydroxide, chlorine, and hydrogen",
+        "C": "Brine, ammonia, and limestone",
+        "D": "Sodium sulfate, hydrochloric acid, and natural gas"
       },
       "answer": "C",
-      "explanation": "Section 1.3.3 explains the directing effects. Halogens are a key exception: they are electron-withdrawing (deactivating) due to induction, but their lone pairs allow them to be ortho, para-directing via resonance."
+      "explanation": "The Solvay process uses brine (NaCl solution), ammonia (NH₃), and limestone (CaCO₃) as its primary raw materials."
     },
     {
       "id": 14,
-      "question": "Which set of conditions would favor the elimination (E) reaction over the substitution (Sₙ) reaction for an alkyl halide like 1-bromopropane?",
+      "question": "In the Solvay process, what is the role of ammonia?",
       "options": {
-        "A": "Aqueous NaOH, cold",
-        "B": "KCN in ethanol/water",
-        "C": "Alcoholic/Ethanolic KOH, heat",
-        "D": "Ammonia in a sealed tube"
+        "A": "To react with carbon dioxide to form sodium bicarbonate directly",
+        "B": "To catalyze the decomposition of limestone",
+        "C": "To react with sodium chloride to form sodium carbonate",
+        "D": "To increase the solubility of carbon dioxide in brine"
       },
-      "answer": "C",
-      "explanation": "As stated in Section 2.1 under 'Elimination (E)', using a strong base like KOH in an alcoholic (ethanolic) solvent strongly favors elimination to form an alkene."
+      "answer": "D",
+      "explanation": "Ammonia is used to create a basic solution, which enhances the absorption of carbon dioxide in the brine, facilitating the precipitation of sodium bicarbonate."
     },
     {
       "id": 15,
-      "question": "Why are aryl halides, like chlorobenzene, much less reactive towards nucleophilic substitution than alkyl halides?",
+      "question": "What happens to the precipitated sodium bicarbonate (NaHCO₃) in the Solvay process?",
       "options": {
-        "A": "The phenyl cation is very stable.",
-        "B": "The C-X bond is non-polar.",
-        "C": "The C-X bond has partial double bond character due to resonance with the ring.",
-        "D": "The benzene ring sterically hinders the nucleophile."
+        "A": "It is directly sold as a final product.",
+        "B": "It is reacted with ammonia to form ammonium chloride.",
+        "C": "It is heated (calcined) to produce sodium carbonate (Na₂CO₃).",
+        "D": "It is electrolyzed to produce sodium metal and carbon dioxide."
       },
       "answer": "C",
-      "explanation": "Section 2.2 provides the reason for the low reactivity of aryl halides: resonance of the halogen's lone pairs with the benzene ring gives the C-X bond partial double bond character, making it stronger and harder to break."
+      "explanation": "The precipitated sodium bicarbonate is heated (calcined) to produce sodium carbonate (Na₂CO₃), water, and carbon dioxide. The carbon dioxide is then recycled back into the process."
     },
-    {
+      {
       "id": 16,
-      "question": "Which of the following alcohols would react fastest with the Lucas Reagent (Conc. HCl + anhy. ZnCl₂)?",
+      "question": "Which of the following describes the role of the high pressure used in the Haber-Bosch process for ammonia synthesis?",
       "options": {
-        "A": "Ethanol (a primary alcohol)",
-        "B": "Propan-2-ol (a secondary alcohol)",
-        "C": "2-methylpropan-2-ol (a tertiary alcohol)",
-        "D": "All would react at the same rate."
+        "A": "Increases the rate of the reaction by overcoming the activation energy",
+        "B": "Shifts the equilibrium to favor the products (ammonia) due to fewer gas molecules on the product side",
+        "C": "Helps remove unreacted reactants from the reaction vessel",
+        "D": "Prevents the catalyst from being poisoned"
       },
-      "answer": "C",
-      "explanation": "The Lucas Test (Section 3.1) distinguishes between 1°, 2°, and 3° alcohols. The reaction proceeds via an Sₙ1 mechanism, forming a carbocation. Tertiary alcohols form the most stable (3°) carbocation and thus react fastest, showing immediate turbidity."
+      "answer": "B",
+      "explanation": "High pressure favors the forward reaction (formation of ammonia) because there are fewer moles of gas on the product side (2 moles of NH₃) compared to the reactant side (1 mole of N₂ + 3 moles of H₂). This is in accordance with Le Chatelier's principle."
     },
     {
       "id": 17,
-      "question": "What is the product of the oxidation of a primary alcohol like ethanol with a strong oxidizing agent like acidified KMnO₄?",
+      "question": "Why is a compromise temperature (450-500°C) used in the Haber-Bosch process?",
       "options": {
-        "A": "Ethanal (an aldehyde)",
-        "B": "Ethene (an alkene)",
-        "C": "Ethanoic acid (a carboxylic acid)",
-        "D": "Ethane (an alkane)"
+        "A": "To maximize the equilibrium yield of ammonia and minimize the reaction rate",
+        "B": "To minimize the equilibrium yield of ammonia and maximize the reaction rate",
+        "C": "To balance the rate of reaction (kinetics) and the equilibrium yield (thermodynamics)",
+        "D": "To prevent the catalyst from melting at high temperatures"
       },
       "answer": "C",
-      "explanation": "Section 3.1 on Oxidation of alcohols states that primary alcohols are oxidized to aldehydes (with a mild oxidant like PCC) and then further oxidized to carboxylic acids with strong oxidants like KMnO₄ or K₂Cr₂O₇."
+      "explanation": "The Haber-Bosch reaction is exothermic, so lower temperatures favor higher equilibrium yields. However, the reaction rate is slow at low temperatures. A compromise temperature is used to achieve a reasonable rate of reaction and yield."
     },
     {
       "id": 18,
-      "question": "Why is phenol significantly more acidic than an alcohol like ethanol?",
+      "question": "What is the purpose of liquefying ammonia in the Haber-Bosch process flow?",
       "options": {
-        "A": "The O-H bond in phenol is weaker.",
-        "B": "The resulting phenoxide ion is stabilized by resonance, delocalizing the negative charge into the benzene ring.",
-        "C": "Ethanol can form stronger hydrogen bonds.",
-        "D": "The benzene ring is electron-donating, destabilizing the O-H bond."
+        "A": "To separate the ammonia from unreacted nitrogen and hydrogen",
+        "B": "To increase the rate of the reverse reaction",
+        "C": "To condense the nitrogen and hydrogen for recycling",
+        "D": "To remove impurities from the ammonia"
       },
-      "answer": "B",
-      "explanation": "The acidity of phenols (Section 3.2) is explained by the stability of its conjugate base. The phenoxide ion (Ar-O⁻) is resonance-stabilized because the negative charge on the oxygen can be delocalized into the aromatic ring."
+      "answer": "A",
+      "explanation": "Cooling the gas mixture causes ammonia to liquefy, allowing it to be easily separated from the unreacted nitrogen and hydrogen gases, which remain gaseous at the liquefaction temperature of ammonia. The unreacted gasses can be recycled."
     },
     {
       "id": 19,
-      "question": "Which of the following reagents can be used to distinguish between propanal (an aldehyde) and propanone (a ketone)?",
+      "question": "What are the main stages in the Ostwald process for the manufacture of nitric acid?",
       "options": {
-        "A": "2,4-Dinitrophenylhydrazine (Brady's Reagent)",
-        "B": "Tollens' Reagent ([Ag(NH₃)₂]⁺)",
-        "C": "LiAlH₄ in dry ether",
-        "D": "Grignard reagent (RMgX)"
+        "A": "Catalytic oxidation of nitrogen, absorption in water, and distillation",
+        "B": "Catalytic oxidation of ammonia, oxidation of nitric oxide, and absorption in water",
+        "C": "Reduction of nitrogen dioxide, neutralization with acid, and evaporation",
+        "D": "Thermal decomposition of ammonium nitrate, condensation, and filtration"
       },
       "answer": "B",
-      "explanation": "While Brady's reagent reacts with both, Tollens' reagent is a mild oxidizing agent that is reduced by aldehydes to form a silver mirror, but it does not react with ketones. This makes it a key distinguishing test (Section 3.3)."
+      "explanation": "The Ostwald process involves three main stages: catalytic oxidation of ammonia to nitric oxide, oxidation of nitric oxide to nitrogen dioxide, and absorption of nitrogen dioxide in water to form nitric acid."
     },
-    {
+     {
       "id": 20,
-      "question": "The Aldol Condensation reaction requires a carbonyl compound to have at least one:",
+      "question": "What are the key steps in the Contact process for sulfuric acid production?",
       "options": {
-        "A": "β-hydrogen",
-        "B": "π-bond",
-        "C": "α-hydrogen",
-        "D": "carbonyl group attached to a benzene ring"
+        "A": "Burning sulfur, oxidation of sulfur dioxide, absorption in water",
+        "B": "Burning sulfur, oxidation of sulfur trioxide, dilution with water",
+        "C": "Burning sulfur, catalytic oxidation of sulfur dioxide, absorption in concentrated sulfuric acid",
+        "D": "Burning sulfide ores, absorption in oleum, dilution with water"
       },
       "answer": "C",
-      "explanation": "As described in Section 3.3, 'Reactions of α-Hydrogens (Aldol Condensation)', aldehydes and ketones must possess at least one α-hydrogen to undergo this base-catalyzed self-condensation."
+      "explanation": "The Contact process involves burning sulfur to form sulfur dioxide, catalytically oxidizing sulfur dioxide to sulfur trioxide, and absorbing the sulfur trioxide in concentrated sulfuric acid to form oleum, which is then diluted to the desired concentration."
     },
-    {
+        {
       "id": 21,
-      "question": "Which of the following compounds is the most acidic?",
+      "question": "In the Contact process, why is sulfur trioxide (SO₃) absorbed in concentrated sulfuric acid rather than directly in water?",
       "options": {
-        "A": "Ethanol",
-        "B": "Phenol",
-        "C": "Water",
-        "D": "Ethanoic Acid"
+        "A": "The reaction with water is too slow",
+        "B": "The reaction with water produces toxic byproducts",
+        "C": "The direct reaction with water is highly exothermic, producing a corrosive mist",
+        "D": "Sulfur trioxide is insoluble in water"
       },
-      "answer": "D",
-      "explanation": "Section 3.4 gives the acidity trend: Carboxylic Acids > Phenols > Water > Alcohols. Carboxylic acids are most acidic because the carboxylate anion is highly stabilized by resonance over two equivalent oxygen atoms."
+      "answer": "C",
+      "explanation": "Reacting SO₃ directly with water is highly exothermic and creates a corrosive mist of sulfuric acid, which is difficult to handle. Absorption in concentrated sulfuric acid avoids this issue."
     },
     {
       "id": 22,
-      "question": "Which reagent can reduce a carboxylic acid (R-COOH) to a primary alcohol (R-CH₂OH)?",
+      "question": "What is the purpose of the 'chlorination' step in the Chloride process for titanium dioxide (TiO₂) production?",
       "options": {
-        "A": "NaBH₄",
-        "B": "H₂ / Pd",
-        "C": "LiAlH₄",
-        "D": "Zn(Hg) / conc. HCl"
+        "A": "To convert titanium dioxide in the ore to volatile titanium tetrachloride (TiCl₄)",
+        "B": "To remove impurities from the rutile ore",
+        "C": "To oxidize titanium dioxide to a higher oxidation state",
+        "D": "To generate chlorine gas as a byproduct"
       },
-      "answer": "C",
-      "explanation": "Section 3.4 on 'Reduction' states that carboxylic acids are reduced only by strong reducing agents like LiAlH₄. NaBH₄ is not strong enough to reduce carboxylic acids."
+      "answer": "A",
+      "explanation": "Chlorination reacts rutile ore with chlorine gas and carbon to produce volatile titanium tetrachloride (TiCl₄), which can be purified by distillation."
     },
     {
       "id": 23,
-      "question": "Arrange the following carboxylic acid derivatives in order of decreasing reactivity towards nucleophilic acyl substitution: Amide, Ester, Acid Chloride.",
+      "question": "Which reaction occurs in the 'oxidation' step of the Chloride process for TiO₂ production?",
       "options": {
-        "A": "Acid Chloride > Ester > Amide",
-        "B": "Amide > Ester > Acid Chloride",
-        "C": "Ester > Acid Chloride > Amide",
-        "D": "Acid Chloride > Amide > Ester"
+        "A": "TiCl₄(g) + 2Cl₂(g) → TiO₂(s) + 4Cl(g)",
+        "B": "TiO₂(s) + 2C(s) + 2Cl₂(g) → TiCl₄(g) + 2CO(g)",
+        "C": "TiCl₄(g) + O₂(g) → TiO₂(s) + 2Cl₂(g)",
+        "D": "Ti(s) + O₂(g) → TiO₂(s)"
       },
-      "answer": "A",
-      "explanation": "Section 3.5 explicitly states the general reactivity order for nucleophilic acyl substitution is: Acid Chloride > Ester > Amide. This is based on the stability and leaving group ability of the Z group."
+      "answer": "C",
+      "explanation": "The purified titanium tetrachloride (TiCl₄) is reacted with oxygen at high temperatures to regenerate TiO₂ and chlorine gas, which can be recycled."
     },
     {
       "id": 24,
-      "question": "What is the reason for the low basicity of aniline (aromatic amine) compared to an aliphatic amine like ethylamine?",
+      "question": "In a blast furnace for iron extraction, what is the role of coke?",
       "options": {
-        "A": "The NH₂ group in aniline is protonated more easily.",
-        "B": "The lone pair on the nitrogen atom in aniline is delocalized into the benzene ring by resonance.",
-        "C": "Alkyl groups in aliphatic amines are electron-withdrawing.",
-        "D": "Aniline is a smaller molecule and experiences less steric hindrance."
-      },
-      "answer": "B",
-      "explanation": "Section 4.1 on 'Basicity' explains that aniline is a weak base because the lone pair of electrons on the nitrogen is delocalized into the benzene ring, making it less available for protonation."
-    },
-    {
-      "id": 25,
-      "question": "What is the key difference in the reaction of a primary aliphatic amine versus a primary aromatic amine with nitrous acid (NaNO₂/HCl) at 0-5 °C?",
-      "options": {
-        "A": "The aliphatic amine forms a stable diazonium salt, while the aromatic amine decomposes to an alcohol.",
-        "B": "Both form stable diazonium salts.",
-        "C": "The aliphatic amine forms an unstable diazonium salt that decomposes to an alcohol, while the aromatic amine forms a relatively stable aryl diazonium salt.",
-        "D": "Both immediately decompose to form N₂ gas and an alcohol."
+        "A": "To react with iron ore directly to produce iron metal",
+        "B": "To lower the melting point of the slag",
+        "C": "To act as a fuel and a reducing agent",
+        "D": "To provide the raw material for steel production"
       },
       "answer": "C",
-      "explanation": "This is a critical distinguishing reaction described in Section 4.1. Primary aliphatic amines form unstable diazonium salts that decompose. Primary aromatic amines (like aniline) form aryl diazonium salts that are stable at low temperatures (0-5 °C), making them synthetically useful."
+      "explanation": "Coke serves as both a fuel to generate heat and a reducing agent to convert iron oxide to iron."
+    },
+        {
+      "id": 25,
+      "question": "What is the role of limestone (CaCO₃) in the extraction of iron in a blast furnace?",
+      "options": {
+        "A": "To react with iron oxide and form slag",
+        "B": "To reduce iron ore",
+        "C": "To decompose into calcium oxide (lime) which removes sandy impurities forming molten slag.",
+        "D": "To provide the carbon monoxide necessary for reduction"
+      },
+      "answer": "C",
+      "explanation": "Limestone decomposes to calcium oxide, which acts as a flux, reacting with silica and other impurities to form molten slag that can be separated from the iron."
     },
     {
       "id": 26,
-      "question": "A Sandmeyer reaction involves the replacement of the -N₂⁺ group of an aryl diazonium salt. Which reagent would be used to replace the -N₂⁺ group with -CN?",
+      "question": "What are the stages of reduction of iron ore in a blast furnace (from top to bottom)?",
       "options": {
-        "A": "H₃PO₂",
-        "B": "H₂O, heat",
-        "C": "CuCN",
-        "D": "KI"
+        "A": "Fe₂O₃ → Fe₃O₄ → FeO → Fe",
+        "B": "FeO → Fe₃O₄ → Fe₂O₃ → Fe",
+        "C": "Fe → FeO → Fe₃O₄ → Fe₂O₃",
+        "D": "Fe₃O₄ → Fe₂O₃ → Fe → FeO"
       },
-      "answer": "C",
-      "explanation": "Section 4.2 lists the Sandmeyer-type reactions. To introduce a cyano (-CN) group, the aryl diazonium salt is treated with CuCN."
+      "answer": "A",
+      "explanation": "As the iron ore descends through the furnace, it is reduced in stages: 3Fe₂O₃ → 2Fe₃O₄ → 3FeO → Fe. The reduction occurs in stages as the ore descends through the furnace into hotter zones."
     },
-    {
+        {
       "id": 27,
-      "question": "Azo coupling reactions involve an aryl diazonium ion acting as a weak electrophile. What kind of benzene ring is required for the coupling reaction to occur?",
+      "question": "What is the main product of the process of alcoholic fermentation?",
       "options": {
-        "A": "A deactivated ring, such as nitrobenzene.",
-        "B": "An un-substituted benzene ring.",
-        "C": "An activated, electron-rich aromatic ring, like phenol or aniline.",
-        "D": "A ring substituted with a halogen, like chlorobenzene."
+        "A": "Methane",
+        "B": "Ethanol",
+        "C": "Ethanoic acid",
+        "D": "Methanoic acid"
       },
-      "answer": "C",
-      "explanation": "As stated in Section 4.2, 'Coupling Reactions', the diazonium ion is a weak electrophile and therefore requires an activated, electron-rich ring (like phenol or aniline) to attack."
+      "answer": "B",
+      "explanation": "Alcoholic fermentation is the production of ethanol from sugars by the action of yeast."
     },
     {
       "id": 28,
-      "question": "What is the primary mechanism for the Anti-Markovnikov addition of HBr to propene in the presence of peroxide?",
+      "question": "What type of reaction is used to produce biodiesel from vegetable oils or animal fats?",
       "options": {
-        "A": "Electrophilic Addition via a 1° carbocation",
-        "B": "Free-Radical Addition",
-        "C": "Nucleophilic Substitution (Sₙ2)",
-        "D": "Electrophilic Aromatic Substitution"
+        "A": "Esterification",
+        "B": "Saponification",
+        "C": "Transesterification",
+        "D": "Hydrogenation"
       },
-      "answer": "B",
-      "explanation": "Section 1.1 explicitly states that the Anti-Markovnikov addition of HBr (Peroxide Effect) proceeds via a free-radical addition mechanism, not an ionic one involving carbocations."
+      "answer": "C",
+      "explanation": "Transesterification is the reaction of triglycerides (fats and oils) with an alcohol (typically methanol) in the presence of a catalyst to produce biodiesel (fatty acid methyl esters) and glycerol."
     },
     {
       "id": 29,
-      "question": "When propyne (CH₃C≡CH) reacts with one equivalent of HBr, what is the major product formed in the first step?",
+      "question": "What is the primary principle behind the extraction of essential oils by steam distillation?",
       "options": {
-        "A": "1-bromopropene",
-        "B": "3-bromopropyne",
-        "C": "2-bromopropene",
-        "D": "1,2-dibromopropane"
+        "A": "Essential oils are soluble in hot water and can be separated by cooling.",
+        "B": "Essential oils have high boiling points and distill off with steam.",
+        "C": "Essential oils vaporize along with steam at a temperature below 100°C.",
+        "D": "Steam acts as a catalyst to break down the essential oils into smaller molecules."
       },
       "answer": "C",
-      "explanation": "According to Section 1.2, the addition of hydrogen halides to alkynes follows Markovnikov's rule. The H⁺ adds to the carbon with more hydrogens (the terminal C), and the Br⁻ adds to the more substituted carbon (the middle C), forming 2-bromopropene (H₂C=C(Br)CH₃)."
+      "explanation": "Steam distillation utilizes the principle that essential oils vaporize along with steam at a temperature below the boiling point of water due to Dalton's Law of Partial Pressures, allowing for easier separation."
     },
     {
       "id": 30,
-      "question": "Which statement best describes the general mechanism of Electrophilic Aromatic Substitution (EAS)?",
+      "question": "In the Dow process, what is the chemical formula for dolomite, and why is it significant in this process?",
       "options": {
-        "A": "A single, concerted step where a proton is replaced by an electrophile.",
-        "B": "A fast initial attack by the electrophile, followed by a slow loss of a proton.",
-        "C": "A slow attack by the electrophile to form a resonance-stabilized arenium ion, followed by a fast removal of a proton to restore aromaticity.",
-        "D": "A nucleophilic attack on the benzene ring, leading to a temporary loss of aromaticity."
+        "A": "CaCO₃, provides a source of hydroxide ions",
+        "B": "MgCO₃, main source of Mg²⁺ ions",
+        "C": "CaCO₃·MgCO₃, provides both CaO and MgO upon heating",
+        "D": "MgCl₂, precursor to molten MgCl₂ for electrolysis"
       },
       "answer": "C",
-      "explanation": "Section 1.3.2 describes the two-step general mechanism for EAS: Step 1 is the slow, rate-determining attack of the electrophile to form the arenium ion, and Step 2 is the fast removal of a proton to regenerate the stable aromatic ring."
+      "explanation": "Dolomite is CaCO₃·MgCO₃. When heated, it produces both calcium oxide (CaO) and magnesium oxide (MgO), both of which can be converted to hydroxides, increasing the efficiency of Mg(OH)₂ precipitation."
     },
     {
       "id": 31,
-      "question": "What is the electrophile generated during the Friedel-Crafts acylation of benzene using ethanoyl chloride (CH₃COCl) and AlCl₃?",
+      "question": "What is the 'slaking of lime' in the context of the Dow process, and why is it important?",
       "options": {
-        "A": "CH₃⁺",
-        "B": "Cl⁺",
-        "C": "AlCl₄⁻",
-        "D": "CH₃CO⁺ (Acylium ion)"
+        "A": "Heating lime to drive off water, it is NOT important",
+        "B": "Reacting CaO with hydrochloric acid, crucial for MgCl₂ formation",
+        "C": "Reacting CaO with water to form Ca(OH)₂, providing hydroxide ions",
+        "D": "Filtering lime to remove impurities, ensuring pure Mg(OH)₂ precipitate"
       },
-      "answer": "D",
-      "explanation": "As per Section 1.3.2 (and the details on page 4), in Friedel-Crafts Acylation, the Lewis acid (AlCl₃) removes the halide from the acyl chloride to form a resonance-stabilized acylium ion (RCO⁺), which acts as the electrophile."
+      "answer": "C",
+      "explanation": "Slaking of lime is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(s). This step produces calcium hydroxide, which dissociates in water to provide hydroxide ions (OH⁻) needed to precipitate Mg(OH)₂."
     },
     {
       "id": 32,
-      "question": "What is the product when toluene (methylbenzene) is heated with a strong oxidizing agent like H⁺/KMnO₄?",
+      "question": "Why is Mg(OH)₂ precipitated in the Dow process, and what property of Mg(OH)₂ is key to this step?",
       "options": {
-        "A": "No reaction, as the benzene ring is resistant to oxidation.",
-        "B": "Phenol",
-        "C": "Benzoic acid",
-        "D": "Benzaldehyde"
+        "A": "To directly extract Mg metal, low solubility makes it precipitate.",
+        "B": "To convert Mg²⁺ to a soluble form, high solubility is key.",
+        "C": "To concentrate Mg²⁺ ions, its low solubility product (Ksp) causes precipitation.",
+        "D": "To react with HCl for MgCl₂ formation, reactivity is important."
       },
       "answer": "C",
-      "explanation": "Section 'Other Reactions of Benzene' on page 4 states that while the ring is stable, alkyl side chains are oxidized to a carboxylic acid group (-COOH), provided the benzylic carbon has at least one H. Toluene is oxidized to benzoic acid."
+      "explanation": "Mg(OH)₂ precipitates because its solubility product (Ksp) is much lower than that of Ca(OH)₂. This low solubility allows for selective precipitation and concentration of Mg²⁺ ions from seawater."
     },
     {
       "id": 33,
-      "question": "Which of the following substituents is a deactivator and directs incoming electrophiles to the meta position?",
+      "question": "What are the optimal temperature conditions for the electrolysis of molten MgCl₂ in the Dow process, and why are they important?",
       "options": {
-        "A": "-NH₂ (Amino)",
-        "B": "-OH (Hydroxyl)",
-        "C": "-CH₃ (Alkyl)",
-        "D": "-NO₂ (Nitro)"
+        "A": "25°C, ensures efficient conductivity",
+        "B": "700-800°C, keeps MgCl₂ molten for electrolysis",
+        "C": "1000°C, maximizes ion mobility",
+        "D": "0°C, prevents Mg from oxidizing"
       },
-      "answer": "D",
-      "explanation": "According to Section 1.3.3, the -NO₂ group is a strong electron-withdrawing group, which deactivates the ring towards EAS and directs incoming electrophiles to the meta position."
+      "answer": "B",
+      "explanation": "The electrolysis of MgCl₂ is carried out at 700-800 °C to ensure the magnesium chloride remains in a molten state, allowing for ion mobility and electrolysis to occur."
     },
     {
       "id": 34,
-      "question": "Which product is formed when 1-chlorobutane is treated with sodium ethoxide (NaOCH₂CH₃)?",
+      "question": "Why is the recycling of chlorine gas produced during the electrolysis of molten MgCl₂ crucial for the overall efficiency of the Dow process?",
       "options": {
-        "A": "Butan-1-ol",
-        "B": "Butanenitrile",
-        "C": "Butylamine",
-        "D": "Ethyl butyl ether"
+        "A": "Chlorine gas can be used as a fuel.",
+        "B": "To make HCl",
+        "C": "Chlorine gas is essential for calcium oxide production.",
+        "D": "Chlorine gas is used to precipitate Ca(OH)₂."
       },
-      "answer": "D",
-      "explanation": "This is a nucleophilic substitution (Williamson ether synthesis). According to the table in Section 2.1, the reaction of an alkyl halide (R-X) with an alkoxide (NaOR') produces an ether (R-O-R'). Here, 1-chlorobutane and sodium ethoxide yield ethyl butyl ether."
+      "answer": "B",
+      "explanation": "The chlorine gas produced at the anode is recycled to manufacture hydrochloric acid (HCl), which is used to react with Mg(OH)₂ to form MgCl₂, thus closing the loop and improving the overall process efficiency."
     },
     {
       "id": 35,
-      "question": "The Sₙ2 mechanism is characterized by which of the following?",
+      "question": "What is 'brine' in the context of the Chlor-Alkali process, and why must it be purified?",
       "options": {
-        "A": "A two-step process with a carbocation intermediate, favored by 3° halides.",
-        "B": "A one-step, concerted process involving backside attack, favored by 1° halides.",
-        "C": "A free-radical chain reaction.",
-        "D": "A rearrangement of the carbon skeleton before substitution."
+        "A": "Molten NaCl, must be kept pure to prevent explosions",
+        "B": "Solid NaCl, needs purification for efficient electrolysis",
+        "C": "Concentrated NaCl solution, impurities like Ca²⁺, Mg²⁺, SO₄²⁻ damage the membrane",
+        "D": "Dilute NaCl solution, needs purification to increase conductivity"
       },
-      "answer": "B",
-      "explanation": "Section 2.1 on 'Mechanisms' clearly defines the Sₙ2 reaction as a one-step (concerted) mechanism involving a backside attack by the nucleophile, which is favored by primary (1°) halides due to less steric hindrance."
+      "answer": "C",
+      "explanation": "Brine is a concentrated NaCl solution. It must be purified to remove impurities such as Ca²⁺, Mg²⁺, and SO₄²⁻ ions, as these can precipitate and damage the ion-exchange membrane used in the process."
     },
     {
       "id": 36,
-      "question": "Why is it essential to use dry ether when preparing a Grignard reagent?",
+      "question": "In the Chlor-Alkali process, how is the purification of brine typically achieved, and what types of compounds are used?",
       "options": {
-        "A": "Water acts as a catalyst and makes the reaction too fast.",
-        "B": "The Grignard reagent is a strong base and will be destroyed by reacting with even weakly acidic protons from water.",
-        "C": "Water is non-polar and will not dissolve the magnesium.",
-        "D": "Dry ether is an oxidizing agent required for the reaction to start."
+        "A": "Filtration only, to remove particulate matter",
+        "B": "Precipitation using hydroxide, carbonate, and sulfate ions to remove calcium, magnesium, and barium.",
+        "C": "Distillation to separate water from NaCl",
+        "D": "Electrolysis to remove charged impurities"
       },
       "answer": "B",
-      "explanation": "The 'Key Property' of Grignard reagents (Section 2.1, page 5) highlights that they are very strong bases. They will react with any source of protons, including water, alcohols, etc. This reaction protonates the carbanion, destroying the Grignard reagent."
+      "explanation": "Brine purification involves the precipitation of impurities using chemical treatments. Hydroxide ions (OH⁻) precipitate Mg²⁺, carbonate ions (CO₃²⁻) precipitate Ca²⁺, and sulfate ions (SO₄²⁻) precipitate Ba²⁺. These precipitates are then filtered out."
     },
     {
       "id": 37,
-      "question": "Which of the following reactions will NOT proceed as written?",
+      "question": "Why is oxidation of chloride ions favored over the oxidation of water at the anode in a membrane cell during the Chlor-Alkali process?",
       "options": {
-        "A": "Phenol + NaOH → Sodium phenoxide + H₂O",
-        "B": "Ethanol + Na → Sodium ethoxide + ½ H₂",
-        "C": "Phenol + NaHCO₃ → Sodium phenoxide + H₂O + CO₂",
-        "D": "Ethanoic acid + NaHCO₃ → Sodium ethanoate + H₂O + CO₂"
+        "A": "The anode is made of a material that only reacts with chloride",
+        "B": "High Cl⁻ concentration and overpotential favor Cl⁻ oxidation",
+        "C": "Water is more difficult to oxidize at any concentration.",
+        "D": "Oxidation of water would produce explosive gas mixtures."
       },
-      "answer": "C",
-      "explanation": "According to Section 3.2, phenols are more acidic than alcohols but weaker than carboxylic acids. They are acidic enough to react with strong bases like NaOH but are NOT acidic enough to react with weak bases like sodium bicarbonate (NaHCO₃) to liberate CO₂ gas."
+      "answer": "B",
+      "explanation": "Due to the high concentration of chloride ions in the brine and the overpotential for water oxidation, the oxidation of chloride ions to chlorine gas is favored at the anode."
     },
     {
       "id": 38,
-      "question": "What is the product when propan-2-ol is dehydrated using concentrated H₂SO₄ and heat?",
+      "question": "What is the role of Na⁺ ions in the Chlor-Alkali membrane cell, and how do they contribute to the formation of sodium hydroxide?",
       "options": {
-        "A": "Propane",
-        "B": "Propyne",
-        "C": "Propanal",
-        "D": "Propene"
+        "A": "To react with chlorine gas, forming NaCl",
+        "B": "To catalyze water electrolysis",
+        "C": "To migrate through the membrane balancing OH⁻ charge",
+        "D": "To react with H₂ forming NaH"
       },
-      "answer": "D",
-      "explanation": "The dehydration of an alcohol is an elimination reaction (Section 3.1) that removes a molecule of water to form an alkene. Dehydration of propan-2-ol removes the -OH group and a hydrogen from an adjacent carbon to form propene."
+      "answer": "C",
+      "explanation": "Na⁺ ions migrate from the anode compartment through the ion-selective membrane into the cathode compartment. They balance the negative charge of the hydroxide ions (OH⁻) produced by water electrolysis, resulting in the formation of a pure NaOH solution."
     },
     {
       "id": 39,
-      "question": "The bromination of phenol with aqueous bromine (Br₂(aq)) differs from the bromination of benzene because:",
+      "question": "What is Total Fatty Matter (TFM) in soap, and why is it an important quality parameter?",
       "options": {
-        "A": "Phenol requires a Lewis acid catalyst like FeBr₃.",
-        "B": "Phenol is deactivated and brominates very slowly.",
-        "C": "The -OH group is so strongly activating that no catalyst is needed, and it forms 2,4,6-tribromophenol.",
-        "D": "Phenol only undergoes meta-bromination."
+        "A": "The amount of water in soap, indicating freshness",
+        "B": "The percentage of fatty matter (soap) by mass, determines cleaning effectiveness",
+        "C": "Total fat used, related to soap price",
+        "D": "Total fatty acid used, indicating the source quality"
       },
-      "answer": "C",
-      "explanation": "As described in Section 3.2, the -OH group of phenol is a powerful activating group. The reaction with aqueous bromine is rapid, does not require a catalyst, and results in substitution at all available ortho and para positions, yielding 2,4,6-tribromophenol as a white precipitate."
+      "answer": "B",
+      "explanation": "Total Fatty Matter (TFM) is the percentage by mass of fatty matter (soap) in a soap cake. A higher TFM generally indicates better cleaning effectiveness because it represents a higher concentration of the active cleaning agents."
     },
     {
       "id": 40,
-      "question": "The reaction of a ketone, like propanone, with a Grignard reagent, like methylmagnesium bromide (CH₃MgBr), followed by acid hydrolysis, yields a:",
+      "question": "In the saponification process, what are the typical reaction conditions, such as temperature, and why is heating necessary?",
       "options": {
-        "A": "Primary alcohol",
-        "B": "Secondary alcohol",
-        "C": "Tertiary alcohol",
-        "D": "Carboxylic acid"
+        "A": "Room temperature, no heat needed",
+        "B": "Around 70°C, speeds up triglyceride hydrolysis",
+        "C": "150°C, ensures complete reaction",
+        "D": "0°C, prevents decomposition"
       },
-      "answer": "C",
-      "explanation": "Section 3.3 on the addition of Grignard reagents states that ketones react to form tertiary alcohols. Propanone reacting with CH₃MgBr will form 2-methylpropan-2-ol (a tertiary alcohol) after hydrolysis."
+      "answer": "B",
+      "explanation": "Saponification is typically carried out at around 70°C. Heating the mixture increases the rate of hydrolysis of the triglycerides, speeding up the saponification process."
     },
     {
       "id": 41,
-      "question": "Which test gives a positive result (a brick-red precipitate of Cu₂O) with an aldehyde but not with a ketone?",
+      "question": "What is the equilibrium expression for soap precipitation in 'salting out,' and how does it influence the precipitation process?",
       "options": {
-        "A": "Brady's Test (2,4-DNP)",
-        "B": "Lucas Test",
-        "C": "Fehling's Test",
-        "D": "Iodoform Test"
+        "A": "RCOONa(s) = RCOO⁻(aq) + Na⁺(aq), shifting equilibrium left",
+        "B": "RCOONa(aq) = RCOO⁻(aq) + Na⁺(aq), high Na pushes right",
+        "C": "RCOONa(s) = RCOO⁻(aq) + Na⁺(aq), shifts right to dissolve soap",
+        "D": "RCOONa(aq) + H₂O(l) = RCOOH(aq) + NaOH(aq), not about precipitation"
       },
-      "answer": "C",
-      "explanation": "Fehling's Test (Section 3.3) uses a blue Cu²⁺ complex which is reduced by aldehydes upon heating to form a brick-red precipitate of copper(I) oxide (Cu₂O). Ketones are resistant to this mild oxidation and give no reaction."
+      "answer": "A",
+      "explanation": "The equilibrium expression is RCOONa(s) ⇌ RCOO⁻(aq) + Na⁺(aq). Adding a high concentration of Na⁺ ions from brine shifts the equilibrium to the left, decreasing the solubility of RCOONa (soap) and causing it to precipitate."
     },
     {
       "id": 42,
-      "question": "What reagent is used in the Clemmensen Reduction to convert a carbonyl group (C=O) into a methylene group (CH₂)?",
+      "question": "In the Solvay process, which compounds react in the carbonation tower, and what is the primary product of this step?",
       "options": {
-        "A": "LiAlH₄",
-        "B": "H₂ / Lindlar's catalyst",
-        "C": "Zn(Hg) / conc. HCl",
-        "D": "NaBH₄"
+        "A": "NaCl + H₂O, forming NaOH",
+        "B": "CO₂ + NH₄OH, forming NH₄HCO₃",
+        "C": "NaCl + NH₄HCO₃, precipitating NaHCO₃",
+        "D": "CaO+ NH₄Cl, recovering NH₃"
       },
       "answer": "C",
-      "explanation": "Section 3.3 on 'Reduction' describes the Clemmensen Reduction, which specifically uses zinc amalgam (Zn(Hg)) and concentrated hydrochloric acid to reduce an aldehyde or ketone completely to an alkane (CH₂ group)."
+      "explanation": "In the carbonation tower, sodium chloride (NaCl) reacts with ammonium bicarbonate (NH₄HCO₃) to precipitate sodium bicarbonate (NaHCO₃). This is the primary step for separating sodium in a solid form."
     },
     {
       "id": 43,
-      "question": "What are the two products formed when an ester, like ethyl ethanoate, is reduced with LiAlH₄?",
+      "question": "What is the balanced chemical equation for the calcination of sodium bicarbonate in the Solvay process?",
       "options": {
-        "A": "A single primary alcohol.",
-        "B": "A carboxylic acid and an alcohol.",
-        "C": "Two different alcohols.",
-        "D": "An ether and water."
+        "A": "NaHCO₃(s) → NaOH(s) + CO₂(g)",
+        "B": "2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g)",
+        "C": "NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g)",
+        "D": "2NaHCO₃(s) + heat → Na₂O(s) + 2CO₂(g) + H₂(g)"
       },
-      "answer": "C",
-      "explanation": "The reduction of esters with LiAlH₄ (Section 3.5) cleaves the ester bond and reduces both parts. The acyl portion (R-CO-) is reduced to a primary alcohol (R-CH₂OH), and the alkoxide portion (-OR') is liberated as its corresponding alcohol (R'-OH). So, two alcohol products are formed."
+      "answer": "B",
+      "explanation": "The balanced equation for the calcination of sodium bicarbonate is 2NaHCO₃(s) --(∆)--> Na₂CO₃(s) + H₂O(g) + CO₂(g). Heating sodium bicarbonate decomposes it into sodium carbonate, water, and carbon dioxide."
     },
     {
       "id": 44,
-      "question": "The basic hydrolysis of an ester with NaOH is called saponification and is an irreversible process. Why is it irreversible?",
+      "question": "In the ammonia recovery step of the Solvay process, what reactants are used to regenerate ammonia, and what is the by-product of this step?",
       "options": {
-        "A": "A large amount of heat is released.",
-        "B": "The final carboxylate anion is resonance-stabilized and too unreactive to reform the ester.",
-        "C": "The alcohol produced is volatile and escapes.",
-        "D": "The reaction requires a catalyst that is consumed."
+        "A": "NH₄Cl + H₂O, making NH₃ and HCl",
+        "B": "NH₄Cl + NaOH, NH₃ recovered, NaCl as byproduct",
+        "C": "NH₄Cl + CaO, NH₃ recovered, CaCl₂ as byproduct",
+        "D": "NH₄NO₃ → NH₃ + HNO₃, recovering both acids"
       },
-      "answer": "B",
-      "explanation": "As described in Section 3.5, basic hydrolysis (saponification) is irreversible because the final step involves the deprotonation of the carboxylic acid by the strong base (OH⁻) to form a very stable, unreactive carboxylate anion (R-COO⁻). This anion will not react with the alcohol to reform the ester."
+      "answer": "C",
+      "explanation": "The ammonia recovery step involves reacting ammonium chloride (NH₄Cl) with calcium oxide (CaO), which regenerates ammonia (NH₃) and produces calcium chloride (CaCl₂) as a by-product."
     },
     {
       "id": 45,
-      "question": "Which of the following nitrogen-containing compounds is the least basic?",
+      "question": "What are the common sources of nitrogen and hydrogen used in the Haber-Bosch process for ammonia synthesis?",
       "options": {
-        "A": "Ammonia (NH₃)",
-        "B": "Ethylamine (CH₃CH₂NH₂)",
-        "C": "Aniline (C₆H₅NH₂)",
-        "D": "Ethanamide (CH₃CONH₂)"
+        "A": "Nitrogen from air, hydrogen from water electrolysis",
+        "B": "Nitrogen from liquefied air, hydrogen from natural gas",
+        "C": "Nitrogen from decomposition of NH₄NO₃, H₂ from hydrocarbons pyrolysis",
+        "D": "Nitrogen and hydrogen from electrolysis of water"
       },
-      "answer": "D",
-      "explanation": "The basicity trend (Section 4.1) is Aliphatic Amine > Ammonia > Aromatic Amine. However, the note also mentions that amides are much less basic than amines because the nitrogen lone pair is delocalized onto the adjacent, highly electronegative carbonyl oxygen, making it significantly less available for protonation."
+      "answer": "B",
+      "explanation": "Nitrogen is obtained from the fractional distillation of liquid air, while hydrogen is primarily produced from the steam reforming of natural gas (methane) or other hydrocarbons."
     },
     {
       "id": 46,
-      "question": "What is the product of the reaction between propanal and ethylamine (CH₃CH₂NH₂)?",
+      "question": "What catalyst is used in the Haber-Bosch process, and what are the roles of promoters often added to the catalyst?",
       "options": {
-        "A": "An amide",
-        "B": "A secondary amine",
-        "C": "An imine (Schiff Base)",
-        "D": "A diazonium salt"
+        "A": "Vanadium oxide, promoters speed kinetics",
+        "B": "Iron, promoters increase activity and stability",
+        "C": "Platinum, supports high temp operation",
+        "D": "Nickel, enhances surface area"
       },
-      "answer": "C",
-      "explanation": "Section 4.1 lists 'Reaction with Aldehydes/Ketones' as a key reaction for amines acting as nucleophiles. This reaction forms an imine, also known as a Schiff base, which contains a C=N double bond."
+      "answer": "B",
+      "explanation": "An iron (Fe) catalyst is used in the Haber-Bosch process. Promoters, such as K₂O (potassium oxide) and Al₂O₃ (aluminum oxide), are added to the iron catalyst to increase its activity and stability."
     },
     {
       "id": 47,
-      "question": "Which reagent is used to carry out deamination, the process of replacing an -NH₂ group on a benzene ring with an -H atom, via a diazonium salt intermediate?",
+      "question": "How is the unreacted nitrogen and hydrogen gas recycled in the Haber-Bosch process flow, and why is this recycling step important?",
       "options": {
-        "A": "H₂O, heat",
-        "B": "KI",
-        "C": "H₃PO₂ (hypophosphorous acid)",
-        "D": "CuCl"
+        "A": "Directly burned for process heat, saves energy",
+        "B": "Reformed back to methane, to feed H₂ production",
+        "C": "Recycled to increase the yield, reducing waste",
+        "D": "Used to pressurize reaction vessels, controlling rates"
       },
       "answer": "C",
-      "explanation": "Section 4.2 lists the key replacement reactions for aryl diazonium salts. The reaction with H₃PO₂ is specifically used for deamination, which removes the diazonium group and replaces it with a hydrogen atom."
+      "explanation": "The unreacted nitrogen and hydrogen are recycled back into the reaction chamber. This recycling step is crucial for maximizing the overall yield of ammonia and reducing waste, which enhances the efficiency and sustainability of the process."
     },
     {
       "id": 48,
-      "question": "Benzenediazonium chloride is coupled with β-Naphthol in NaOH. What is the primary purpose of the NaOH in this reaction?",
+      "question": "In the catalytic oxidation of ammonia in the Ostwald process, what is the balanced chemical equation for the reaction?",
       "options": {
-        "A": "To catalyze the formation of the diazonium ion.",
-        "B": "To act as the electrophile.",
-        "C": "To deprotonate the weakly acidic β-Naphthol, forming a highly activated naphthoxide ion for coupling.",
-        "D": "To neutralize the chloride ion."
+        "A": "2NH₃(g) + 3O₂(g) → 2N₂(g) + 6H₂O(g)",
+        "B": "4NH₃(g) + 3O₂(g) → 2N₂(g) + 6H₂O(g)",
+        "C": "4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g)",
+        "D": "2NH₃(g) + O₂(g) → N₂O(g) + 3H₂O(g)"
       },
       "answer": "C",
-      "explanation": "Azo coupling reactions (Section 4.2) require a highly activated ring to be attacked by the weak diazonium electrophile. β-Naphthol is a phenol-like compound. The basic conditions (NaOH) deprotonate its -OH group to form a much more strongly activating -O⁻ group, which facilitates the electrophilic attack and leads to the formation of the red azo dye (as mentioned on page 10)."
+      "explanation": "The balanced chemical equation for the catalytic oxidation of ammonia is 4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g). This reaction is carried out over a platinum-rhodium (Pt/Rh) catalyst at high temperatures."
     },
     {
       "id": 49,
-      "question": "What is the reason Markovnikov's rule is followed in the addition of HX to an asymmetric alkene?",
+      "question": "What catalyst is used in the catalytic oxidation of ammonia in the Ostwald process, and at what temperature range does this reaction typically occur?",
       "options": {
-        "A": "The reaction favors the formation of the most sterically hindered product.",
-        "B": "It proceeds through the most stable carbocation intermediate.",
-        "C": "The hydrogen halide is a non-polar molecule.",
-        "D": "The reaction is driven by a free-radical mechanism."
+        "A": "Vanadium oxide, 200-300°C",
+        "B": "Platinum-rhodium (Pt/Rh), 800-850°C",
+        "C": "Iron, 400-500°C",
+        "D": "Nickel, 600-700°C"
       },
       "answer": "B",
-      "explanation": "Section 1.1.1 explicitly states that the addition of H⁺ leads to the formation of a more stable carbocation intermediate (Tertiary > Secondary > Primary), which dictates the regioselectivity of the reaction."
+      "explanation": "The catalytic oxidation of ammonia in the Ostwald process uses a platinum-rhodium (Pt/Rh) catalyst and typically occurs in a temperature range of 800-850°C."
     },
     {
       "id": 50,
-      "question": "What is the organic product formed when propene undergoes oxidation with cold, dilute, alkaline KMnO₄ (Baeyer's Test)?",
+      "question": "What is the role of dry air in the sulfur dioxide production stage of the Contact process, and what happens if moisture is present?",
       "options": {
-        "A": "Propanoic acid",
-        "B": "Propanone",
-        "C": "Propane-1,2-diol",
-        "D": "Propan-1-ol"
+        "A": "Dries the sulfur, improving SO₂ yield.",
+        "B": "Provides O₂ for combustion and dilutes SO₂.",
+        "C": "Dry prevents SO₃ mist. Moisture forms sulfuric mist.",
+        "D": "Prevents explosive mixtures. Moisture not an issue."
       },
       "answer": "C",
-      "explanation": "According to the Baeyer's Test section on page 2, the oxidation of an alkene with cold, dilute KMnO₄ results in a diol (glycol). For propene, this would be propane-1,2-diol (CH₃CH(OH)CH₂(OH))."
+      "explanation": "Dry air is used in the production of sulfur dioxide to prevent the formation of a corrosive mist of sulfuric acid. If moisture is present, it can react with SO₃ to form H₂SO₄ mist, which is difficult to handle."
     },
     {
       "id": 51,
-      "question": "What reagent is used to specifically test for the presence of a terminal alkyne, forming a white precipitate?",
+      "question": "What temperature and pressure conditions are typically employed in the 'Contact' step (SO₂ to SO₃ conversion) of the Contact process, and why are these conditions optimal?",
       "options": {
-        "A": "Br₂(aq)",
-        "B": "Ag⁺(NH₃/AgNO₃) (Tollens' reagent in this context)",
-        "C": "KMnO₄(aq, cold)",
-        "D": "Conc. H₂SO₄"
+        "A": "200°C low pressure, kinetic controls yield.",
+        "B": "450°C 1 atm, optimal rate and yield equilibrium",
+        "C": "800°C high pressure, max yield kinetic factors",
+        "D": "Room Temperature and atm. Pressure"
       },
       "answer": "B",
-      "explanation": "Section 1.2 on the acidity of terminal alkynes (page 3) lists the reaction with ammoniacal silver nitrate (R-C≡CH + Ag⁺(NH₃/AgNO₃)) to form a white precipitate of a silver acetylide (R-C≡C-Ag(s))."
+      "explanation": "The Contact step is carried out at around 450°C and 1 atm pressure. This compromise temperature provides a reasonable reaction rate and a favorable equilibrium yield for SO₃ formation. Higher pressures favor the product as there are fewer gas molecules after the reaction, but are generally not used due to cost."
     },
     {
       "id": 52,
-      "question": "The exceptional stability of benzene is quantified by its resonance energy. What is the approximate value of this energy?",
+      "question": "What is oleum, and what makes it crucial for efficient sulfuric acid production in the Contact process?",
       "options": {
-        "A": "52 kJ/mol",
-        "B": "152 kJ/mol",
-        "C": "252 kJ/mol",
-        "D": "352 kJ/mol"
+        "A": "Dilute H₂SO₄ improves absorption",
+        "B": "Mixture of H₂SO₄ by-products prevents the SO₃ loss",
+        "C": "SO₃ absorbed in H₂SO₄ higher efficiency.",
+        "D": "H₂SO₄ with SO₂, storage material "
       },
-      "answer": "B",
-      "explanation": "Section 1.3.1 on the structure and stability of benzene mentions that its delocalization gives it a resonance energy of approximately 152 kJ/mol."
+      "answer": "C",
+      "explanation": "Oleum (H₂S₂O₇) is formed by absorbing sulfur trioxide (SO₃) in concentrated sulfuric acid (H₂SO₄). Absorbing SO₃ in H₂SO₄ rather than water is crucial because the direct reaction of SO₃ with water is highly exothermic, creating a corrosive mist."
     },
     {
       "id": 53,
-      "question": "Hydrogenation of benzene to form cyclohexane requires more vigorous conditions than the hydrogenation of an alkene. Why?",
+      "question": "What are the purposes of coke and chlorine gas in the chlorination of rutile ore to titanium tetrachloride (TiCl₄)?",
       "options": {
-        "A": "Benzene is a gas at room temperature.",
-        "B": "The C-H bonds in benzene are stronger.",
-        "C": "The reaction is endothermic for benzene but exothermic for alkenes.",
-        "D": "Significant energy is required to overcome the aromatic stabilization of the benzene ring."
+        "A": "Coke reacts with chlorine. Chlorine produces TiCl₄",
+        "B": "Chlorine acts reducing. Coke facilitates Cl₂ diffusion",
+        "C": "Coke as reducing agent. Chlorine reacts TiO₂ to TiCl₄.",
+        "D": "Coke for heat. Chlorine carrier volatile complex."
       },
-      "answer": "D",
-      "explanation": "Section 'Other Reactions of Benzene' on page 4 notes that hydrogenation requires more vigorous conditions (e.g., Raney Ni, 150°C, high pressure) due to benzene's aromatic stability, which must be overcome."
+      "answer": "C",
+      "explanation": "Coke (carbon) acts as a reducing agent, removing oxygen from titanium dioxide (TiO₂). Chlorine reacts with the titanium and carbon at high temperatures to form titanium tetrachloride (TiCl₄) and carbon oxides."
     },
     {
       "id": 54,
-      "question": "A key property of a Grignard reagent (R-Mg-X) is the reversal of the carbon atom's polarity. How is the C-Mg bond polarized?",
+      "question": "What are the conditions for TiCl₄ oxidation reaction with O₂ and the chlorine recycle? Why?",
       "options": {
-        "A": "Cδ⁺—Mgδ⁻",
-        "B": "Cδ⁻—Mgδ⁺",
-        "C": "It is a non-polar covalent bond.",
-        "D": "It is a pure ionic bond with C⁻ and Mg²⁺ ions."
+        "A": "High temp for rate Cl₂ recycling improves economy.",
+        "B": "Low temp shifts equilibrium. Cl₂ is byproduct",
+        "C": "High pressure prevents oxidation. Cl₂ recycled via oxidation.",
+        "D": "Low pressure makes reaction easier"
       },
-      "answer": "B",
-      "explanation": "Section 2.1 on the formation of Grignard reagents (page 5) explicitly states that the carbon atom's polarity is reversed to Cδ⁻—Mgδ⁺, making the carbon atom strongly nucleophilic and basic."
+      "answer": "A",
+      "explanation": "High temperature is used for the TiCl₄ oxidation reaction to increase the reaction rate. Chlorine recycling improves the economy of the process by reusing the chlorine gas that is produced during the oxidation step."
     },
     {
       "id": 55,
-      "question": "Which of these alcohols is resistant to oxidation under mild conditions?",
+      "question": "Describe the multi-step reduction of iron ore within the blast furnace, detailing the chemical transformations.",
       "options": {
-        "A": "Butan-1-ol",
-        "B": "Butan-2-ol",
-        "C": "2-Methylpropan-1-ol",
-        "D": "2-Methylpropan-2-ol"
+        "A": "Multi zone reaction. Fe₂O₃-> Fe₃O₄ ->FeO -> Fe step redox",
+        "B": "Single reduction. CO converts Fe₂O₃ to Fe metal",
+        "C": "Molten metal oxidation then electrochemical reduction",
+        "D": "Carbide mediated reaction from CO, then cementation"
       },
-      "answer": "D",
-      "explanation": "2-Methylpropan-2-ol is a tertiary (3°) alcohol. According to the 'Oxidation' section for alcohols (page 6), tertiary alcohols are resistant to oxidation because the carbon atom bearing the -OH group has no hydrogen atoms attached to it."
+      "answer": "A",
+      "explanation": "The reduction of iron ore in a blast furnace is a multi-step process that occurs in different temperature zones. The primary chemical transformations are: 3Fe₂O₃(s) + CO(g) → 2Fe₃O₄(s) + CO₂(g), Fe₃O₄(s) + CO(g) → 3FeO(s) + CO₂(g), and FeO(s) + CO(g) → Fe(l) + CO₂(g)."
     },
     {
       "id": 56,
-      "question": "What reagent is specifically used for the mild oxidation of a primary alcohol to an aldehyde, stopping the reaction from proceeding to a carboxylic acid?",
+      "question": "What is the fate of limestone (CaCO3) added in blast furnace? Give relevant reactions.",
       "options": {
-        "A": "Hot, concentrated KMnO₄",
-        "B": "Acidified K₂Cr₂O₇",
-        "C": "PCC (Pyridinium chlorochromate)",
-        "D": "Ozone (O₃)"
+        "A": "Flux. SiO₂ impurities + CaO slag. Reactions: CaO form/slag.",
+        "B": "Direct reduction agent replaces Coke efficiently",
+        "C": "CO₂ source prevents carbon monoxide production",
+        "D": "Slag production, prevents acid gases"
       },
-      "answer": "C",
-      "explanation": "Section 3.1 on the oxidation of primary alcohols (page 6) specifies that PCC is the reagent used to selectively oxidize a primary alcohol to an aldehyde."
+      "answer": "A",
+      "explanation": "Limestone acts as a flux. The reactions are: CaCO₃(s) → CaO(s) + CO₂(g) and CaO(s) + SiO₂(s) → CaSiO₃(l) (slag)."
     },
     {
       "id": 57,
-      "question": "What is the initial product of a base-catalyzed Aldol Condensation between two molecules of ethanal, before any heating or dehydration occurs?",
+      "question": "What two products are produced separately during the iron extraction process in a blast furnace, and which properties determine their separation?",
       "options": {
-        "A": "But-2-enal",
-        "B": "3-Hydroxybutanal (an 'aldol')",
-        "C": "Butanoic acid",
-        "D": "Butan-1-ol"
+        "A": "Fe and SiO₂, electrical properties separation",
+        "B": "Fe and steel composition segregation",
+        "C": "Molten iron heavy, molten slag on top density differences.",
+        "D": "Pig iron collected solid, slag tapped."
       },
-      "answer": "B",
-      "explanation": "Section 3.3 on Aldol Condensation states that the initial product is a β-hydroxy aldehyde/ketone, which is called an 'aldol'. For ethanal, this would be 3-hydroxybutanal."
+      "answer": "C",
+      "explanation": "Molten iron is denser and sinks to the bottom of the furnace, while molten slag (mainly calcium silicate) is less dense and floats on top. This density difference allows for their separate tapping."
     },
     {
       "id": 58,
-      "question": "What is the product when an ester, like ethyl propanoate, reacts with two equivalents of a Grignard reagent (e.g., CH₃MgBr) followed by hydrolysis?",
+      "question": "What enzyme helps to hydrolyze sugar in the first step for industrial ethanol production?",
       "options": {
-        "A": "A secondary alcohol and a primary alcohol",
-        "B": "A ketone",
-        "C": "A tertiary alcohol and a primary alcohol",
-        "D": "A carboxylic acid"
+        "A": "Amylase",
+        "B": "Zymase",
+        "C": "Invertase (Sucrase)",
+        "D": "Catalase"
       },
       "answer": "C",
-      "explanation": "The reaction of an ester with a Grignard reagent is described in Section 3.5 (page 8). The Grignard reagent adds twice. The first equivalent displaces the alkoxide (-OR') to form a ketone intermediate, which then immediately reacts with a second equivalent to form a tertiary alcohol after hydrolysis. The original alkoxide part becomes a primary alcohol (ethanol in this case)."
+      "explanation": "Sucrase or Invertase catalyze sugar hydrolysis, so yeast can use fermentation. Hydrolysis of Sucrose: C12H22O11(aq) + H2O(l) --(sucrase)--> C6H12O6(aq)(glucose) + C6H12O6 (aq) (fructose)."
     },
     {
       "id": 59,
-      "question": "What is the final organic product when an amide, such as propanamide (CH₃CH₂CONH₂), is reduced with LiAlH₄?",
+      "question": "What is the role of catalyst in transesterification during biodiesel production from tryglyceride, methanol?",
       "options": {
-        "A": "Propanoic acid",
-        "B": "Propan-1-ol",
-        "C": "Propylamine (CH₃CH₂CH₂NH₂)",
-        "D": "Propene"
+        "A": "NaOH, produce biodiesel glycerol easily in base.",
+        "B": "Pt catalyst adds H₂ oils to saturated esters. ",
+        "C": "Acid catalyst esterifys free acids into biodiesel directly",
+        "D": "Polymer catalyst makes ester linkages."
       },
-      "answer": "C",
-      "explanation": "Section 3.5 on amides (page 8) states that reduction with LiAlH₄ converts the carbonyl group of the amide into a methylene group (CH₂), yielding an amine. Propanamide is reduced to propylamine."
+      "answer": "A",
+      "explanation": "A strong base catalyst, typically sodium hydroxide (NaOH) or potassium hydroxide (KOH) is used in transesterification to produce biodiesel from tryglyceride and methanol."
     },
     {
       "id": 60,
-      "question": "Which statement accurately describes the reaction of a primary aliphatic amine (R-NH₂) with nitrous acid (NaNO₂/HCl)?",
+      "question": "What is Dalton's Law and how is it applied in the extraction of essential oils by steam distillation?",
       "options": {
-        "A": "It forms a stable diazonium salt at 0-5 °C.",
-        "B": "It forms an imine (Schiff base).",
-        "C": "It forms an unstable diazonium salt which decomposes to an alcohol and nitrogen gas.",
-        "D": "It does not react under these conditions."
+        "A": "Partial Pressure makes boiling water. Essential oils have high BP.",
+        "B": "Dalton,s molecular velocity helps steam distillation move compounds",
+        "C": "Pressure sum oils boil with steam low-temp avoids harm oils",
+        "D": "Vapor pressure addition steam extraction pressure efficient"
       },
       "answer": "C",
-      "explanation": "Section 4.1 on the reaction with nitrous acid (page 9) explicitly states that primary aliphatic amines form an unstable diazonium salt that decomposes to an alcohol and N₂ gas. This is in contrast to primary aromatic amines."
-    },
-    {
-      "id": 61,
-      "question": "What is the color of the azo dye, p-hydroxyazobenzene, formed by coupling benzenediazonium chloride with phenol in NaOH?",
-      "options": {
-        "A": "Red",
-        "B": "Yellow",
-        "C": "Blue",
-        "D": "Orange"
-      },
-      "answer": "D",
-      "explanation": "Section 4.2 on coupling reactions (page 9) gives the specific example of benzenediazonium chloride + phenol yielding p-hydroxyazobenzene, which is described as an orange dye."
-    },
-    {
-      "id": 62,
-      "question": "When formaldehyde (HCHO) is treated with a Grignard reagent (R'MgX) followed by hydrolysis, what class of alcohol is produced?",
-      "options": {
-        "A": "Primary Alcohol",
-        "B": "Secondary Alcohol",
-        "C": "Tertiary Alcohol",
-        "D": "A diol"
-      },
-      "answer": "A",
-      "explanation": "Section 3.3 on the Addition of Grignard Reagents (page 7) specifies the outcomes: Formaldehyde yields primary alcohols, other aldehydes yield secondary alcohols, and ketones yield tertiary alcohols."
-    },
-    {
-      "id": 63,
-      "question": "The formation of an ether from an alkyl halide and a sodium alkoxide (R-X + NaOR' → R-O-R') is a classic example of which reaction type?",
-      "options": {
-        "A": "Electrophilic Addition",
-        "B": "Nucleophilic Substitution",
-        "C": "Elimination (E2)",
-        "D": "Friedel-Crafts Alkylation"
-      },
-      "answer": "B",
-      "explanation": "This reaction, often called the Williamson ether synthesis, is listed under 'Nucleophilic Substitution (Sₙ)' in Section 2.1 (page 4). The alkoxide ion (RO:⁻) acts as the nucleophile, replacing the halide ion (X⁻) on the alkyl halide."
-    },
-    {
-      "id": 64,
-      "question": "A student wants to convert butan-2-one to butane. Which set of reagents is most appropriate for this transformation?",
-      "options": {
-        "A": "LiAlH₄, then H₂O",
-        "B": "H₂, Pt/Pd/Ni",
-        "C": "Zn(Hg), conc. HCl",
-        "D": "NaOH(aq), heat"
-      },
-      "answer": "C",
-      "explanation": "This transformation is the reduction of a ketone to an alkane. Section 3.3 on Reduction (page 7) specifies that the Clemmensen Reduction (using Zn(Hg)/conc. HCl) accomplishes this, converting the C=O group to a CH₂ group."
+      "explanation": "Dalton's Law of Partial Pressures states that the total pressure of a mixture of gases is the sum of the partial pressures of each individual gas. In steam distillation, the mixture of water vapor and oil vapor boils at a temperature below 100°C because the combined partial pressures reach atmospheric pressure at a lower temperature than either substance would boil alone, preventing degradation of essential oils from high temperatures."
     }
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
   ]
