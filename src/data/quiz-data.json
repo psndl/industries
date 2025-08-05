@@ -1,728 +1,761 @@
 {
-  "quizTitle": "A-Level Chemistry: Industrial Processes and Environmental Pollution",
+  "quizTitle": "Unit 14: Industrial Chemistry and Environmental Pollution",
   "quiz": [
     {
       "id": 1,
-      "question": "In the Dow process for magnesium extraction, what is the primary source of magnesium ions?",
+      "question": "In the Dow process for magnesium extraction, what is the primary source of magnesium ions (Mg²⁺)?",
       "options": {
-        "A": "Limestone",
-        "B": "Dolomite",
+        "A": "Limestone (CaCO₃)",
+        "B": "Dolomite (CaCO₃·MgCO₃)",
         "C": "Seawater or bittern",
-        "D": "Hydrochloric acid"
+        "D": "Hydrochloric acid (HCl)"
       },
       "answer": "C",
-      "explanation": "Seawater or bittern (the brine left after salt extraction) are the primary sources of Mg²⁺ ions in the Dow process."
+      "explanation": "The Dow process extracts magnesium primarily from seawater or bittern, which are rich sources of dissolved magnesium ions."
     },
     {
       "id": 2,
-      "question": "What is the purpose of heating limestone or dolomite in the first step of the Dow process?",
+      "question": "What is the role of limestone or dolomite in the Dow process?",
       "options": {
-        "A": "To produce magnesium metal directly",
-        "B": "To generate carbon dioxide for another reaction",
-        "C": "To produce calcium oxide (lime) as a source of hydroxide ions",
-        "D": "To purify the limestone"
+        "A": "To act as a catalyst for the electrolysis",
+        "B": "To directly provide Mg metal",
+        "C": "To serve as a source of hydroxide ions for precipitation",
+        "D": "To lower the melting point of magnesium chloride"
       },
       "answer": "C",
-      "explanation": "Heating limestone or dolomite produces calcium oxide (lime), which reacts with water to form calcium hydroxide, providing hydroxide ions to precipitate magnesium hydroxide."
+      "explanation": "Limestone or dolomite is heated to produce calcium oxide (lime), which then reacts with water to form calcium hydroxide. This provides the hydroxide ions (OH⁻) needed to precipitate Mg²⁺ ions from seawater."
     },
     {
       "id": 3,
-      "question": "Why is carbon dioxide removed in the production of Calcium Oxide (Lime) from Limestone?",
+      "question": "Step 1 of the Dow process involves the thermal decomposition of limestone. What is the correct chemical equation for this reaction?",
       "options": {
-        "A": "Carbon dioxide is a toxic waste and needed to be disposed.",
-        "B": "Carbon dioxide prevents the precipitation of magnesium hydroxide.",
-        "C": "The reaction is reversible, and removing CO₂ drives the reaction forward.",
-        "D": "Carbon dioxide reacts with lime to form a dangerous compound."
+        "A": "CaCO₃(s) → CaO(s) + CO₂(g)",
+        "B": "CaO(s) + H₂O(l) → Ca(OH)₂(s)",
+        "C": "CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)",
+        "D": "Ca(OH)₂(s) → CaO(s) + H₂O(g)"
       },
-      "answer": "C",
-      "explanation": "The decomposition of limestone is a reversible reaction. Removing CO₂ shifts the equilibrium to the right, favoring the formation of CaO."
+      "answer": "A",
+      "explanation": "Limestone (calcium carbonate) is heated in a kiln to produce calcium oxide (lime) and carbon dioxide. This is a thermal decomposition reaction."
     },
     {
       "id": 4,
-      "question": "Which reaction occurs in the electrolytic cell at the anode during the extraction of magnesium from molten magnesium chloride?",
+      "question": "Why must carbon dioxide be efficiently removed during the production of lime from limestone?",
       "options": {
-        "A": "Mg²⁺(l) + 2e⁻ → Mg(l)",
-        "B": "2Cl⁻(l) → Cl₂(g) + 2e⁻",
-        "C": "Mg(OH)₂(s) + 2HCl(aq) → MgCl₂(aq) + 2H₂O(l)",
-        "D": "CaO(s) + H₂O(l) → Ca(OH)₂(s)"
+        "A": "CO₂ is a valuable by-product",
+        "B": "The reaction is reversible, and removing CO₂ drives the equilibrium forward",
+        "C": "CO₂ is highly toxic and must be contained",
+        "D": "CO₂ reacts with the calcium oxide produced"
       },
       "answer": "B",
-      "explanation": "At the anode (positive electrode), chloride ions (Cl⁻) are oxidized to chlorine gas (Cl₂). This process releases electrons."
+      "explanation": "The thermal decomposition of CaCO₃ is a reversible reaction. According to Le Chatelier's principle, removing a product (CO₂) will shift the equilibrium to the right, favoring the formation of more products (CaO)."
     },
     {
       "id": 5,
-      "question": "What is a significant environmental disadvantage of the Dow process for magnesium extraction?",
+      "question": "What is the precipitate formed when calcium hydroxide is added to seawater in the Dow process?",
       "options": {
-        "A": "The production of large amounts of hydrochloric acid",
-        "B": "The release of carbon dioxide during the thermal decomposition of limestone/dolomite",
-        "C": "The use of highly toxic chlorine gas",
-        "D": "The disposal of magnesium hydroxide precipitate"
+        "A": "Calcium chloride (CaCl₂)",
+        "B": "Magnesium oxide (MgO)",
+        "C": "Calcium carbonate (CaCO₃)",
+        "D": "Magnesium hydroxide (Mg(OH)₂)"
       },
-      "answer": "B",
-      "explanation": "The thermal decomposition of limestone/dolomite releases CO₂, a greenhouse gas, which contributes to climate change. Recycling of Cl₂ gas to produce HCl is increasing the process' efficiency."
+      "answer": "D",
+      "explanation": "Calcium hydroxide provides hydroxide ions (OH⁻) which react with the magnesium ions (Mg²⁺) in seawater to form a solid precipitate of magnesium hydroxide, Mg(OH)₂(s)."
     },
     {
       "id": 6,
-      "question": "In the Chlor-Alkali process using a membrane cell, what is the primary function of the membrane?",
+      "question": "Why does magnesium hydroxide precipitate out of solution while most of the calcium hydroxide remains dissolved?",
       "options": {
-        "A": "To allow the passage of chloride ions from the anode to the cathode",
-        "B": "To prevent the mixing of chlorine gas and hydrogen gas",
-        "C": "To permit the selective passage of cations (like Na⁺) between compartments",
-        "D": "To catalyze the electrolysis of brine"
+        "A": "Mg(OH)₂ is much denser than Ca(OH)₂",
+        "B": "The Ksp of Mg(OH)₂ is much lower than that of Ca(OH)₂",
+        "C": "Seawater is acidic, favoring Mg(OH)₂ precipitation",
+        "D": "Mg²⁺ ions are larger than Ca²⁺ ions"
       },
-      "answer": "C",
-      "explanation": "The membrane is selectively permeable to cations, such as Na⁺, which migrate from the anode to the cathode compartment, while blocking the passage of anions and gases."
+      "answer": "B",
+      "explanation": "The solubility product constant (Ksp) for Mg(OH)₂ is significantly lower than for Ca(OH)₂, meaning Mg(OH)₂ is much less soluble and will precipitate first when hydroxide ions are added."
     },
     {
       "id": 7,
-      "question": "What impurities in the brine solution used in the Chlor-Alkali process need to be removed, and why?",
+      "question": "In Step 3 of the Dow process, how is the precipitated magnesium hydroxide converted into magnesium chloride?",
       "options": {
-        "A": "NaOH and Cl₂ as they can damage the membrane.",
-        "B": "Ca²⁺, Mg²⁺, and SO₄²⁻ as they can damage the membrane.",
-        "C": "H₂ and O₂ as they reduce the yield of NaOH.",
-        "D": "NaCl as it increases the energy consumption of the process."
+        "A": "By reacting it with chlorine gas",
+        "B": "By reacting it with hydrochloric acid",
+        "C": "By heating it with sodium chloride",
+        "D": "By dissolving it in seawater"
       },
       "answer": "B",
-      "explanation": "Ca²⁺, Mg²⁺, and SO₄²⁻ ions need to be removed because they can precipitate and foul the membrane, reducing its efficiency and lifespan."
+      "explanation": "The filtered magnesium hydroxide precipitate is neutralized with hydrochloric acid (HCl) to form an aqueous solution of magnesium chloride (MgCl₂) and water."
     },
     {
       "id": 8,
-      "question": "Which of the following best describes the reaction occurring at the cathode in a membrane cell during the Chlor-Alkali process?",
+      "question": "What are the conditions for the electrolysis of magnesium chloride in the Dow process?",
       "options": {
-        "A": "Oxidation of chloride ions to chlorine gas",
-        "B": "Reduction of sodium ions to sodium metal",
-        "C": "Electrolysis of water to produce hydrogen gas and hydroxide ions",
-        "D": "Formation of sodium chloride precipitate"
+        "A": "Aqueous solution at room temperature",
+        "B": "Molten state at 25 °C",
+        "C": "Molten state at 700-800 °C",
+        "D": "Aqueous solution at 100 °C"
       },
       "answer": "C",
-      "explanation": "At the cathode, water is reduced, producing hydrogen gas (H₂) and hydroxide ions (OH⁻), which combine with the sodium ions (Na⁺) that have migrated across the membrane to form NaOH."
+      "explanation": "The electrolysis must be carried out on anhydrous, molten magnesium chloride at a high temperature (700-800 °C) to ensure the ions are mobile and to prevent water from interfering with the reaction."
     },
     {
       "id": 9,
-      "question": "What is the overall reaction for the Chlor-Alkali process?",
+      "question": "During the electrolysis of molten MgCl₂, what is the reaction at the graphite anode?",
       "options": {
-        "A": "NaCl(aq) + H₂O(l) → NaOH(aq) + Cl₂(g) + H₂(g)",
-        "B": "2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g)",
-        "C": "NaCl(s) → Na(s) + ½Cl₂(g)",
-        "D": "2NaOH(aq) + Cl₂(g) → NaClO(aq) + NaCl(aq) + H₂O(l)"
+        "A": "Mg²⁺(l) + 2e⁻ → Mg(l)",
+        "B": "2Cl⁻(l) → Cl₂(g) + 2e⁻",
+        "C": "2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻",
+        "D": "C(s) + 2O²⁻(l) → CO₂(g) + 4e⁻"
       },
       "answer": "B",
-      "explanation": "The overall reaction for the Chlor-Alkali process is 2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g), which produces sodium hydroxide, chlorine gas, and hydrogen gas from brine electrolysis."
+      "explanation": "At the anode (positive electrode), oxidation occurs. The negative chloride ions (Cl⁻) are oxidized to form chlorine gas (Cl₂)."
     },
     {
       "id": 10,
-      "question": "In soap production (saponification), what type of compound is hydrolyzed to produce soap?",
+      "question": "What is the product at the steel cathode during the electrolysis step of the Dow process?",
       "options": {
-        "A": "Alcohols",
-        "B": "Triglycerides (fats or oils)",
-        "C": "Amino acids",
-        "D": "Sugars"
+        "A": "Chlorine gas",
+        "B": "Molten magnesium",
+        "C": "Solid iron chloride",
+        "D": "Hydrogen gas"
       },
       "answer": "B",
-      "explanation": "Triglycerides, which are the main components of fats and oils, are hydrolyzed in the saponification process to produce glycerol and soap (sodium salts of fatty acids)."
+      "explanation": "At the cathode (negative electrode), reduction occurs. The positive magnesium ions (Mg²⁺) are reduced to form molten magnesium metal (Mg)."
     },
     {
       "id": 11,
-      "question": "What is the purpose of adding concentrated brine (NaCl solution) in the 'salting out' step of soap production?",
+      "question": "How is the molten magnesium product collected from the electrolysis cell?",
       "options": {
-        "A": "To dissolve any unreacted triglycerides",
-        "B": "To increase the solubility of glycerol",
-        "C": "To precipitate the soap by the common ion effect",
-        "D": "To neutralize excess sodium hydroxide"
+        "A": "It sinks to the bottom and is drained off.",
+        "B": "It is denser than molten MgCl₂ and forms a separate layer.",
+        "C": "It is less dense than molten MgCl₂ and floats on top for easy collection.",
+        "D": "It vaporizes and is condensed separately."
       },
       "answer": "C",
-      "explanation": "Adding concentrated brine increases the concentration of Na⁺ ions, reducing the solubility of the soap due to the common ion effect, causing it to precipitate out of the solution."
+      "explanation": "Molten magnesium (density ≈ 1.58 g/cm³) is less dense than molten magnesium chloride (density ≈ 1.68 g/cm³), so it floats on the surface, allowing for straightforward collection."
     },
     {
       "id": 12,
-      "question": "Why does soap have reduced effectiveness in hard water?",
+      "question": "How does the Dow process increase its efficiency through recycling?",
       "options": {
-        "A": "The high pH of hard water deactivates the soap molecules.",
-        "B": "Soap reacts with Ca²⁺ and Mg²⁺ ions to form an insoluble scum.",
-        "C": "The high mineral content of hard water interferes with the emulsification of grease.",
-        "D": "Soap forms stronger hydrogen bonds with water molecules in hard water, reducing its ability to interact with grease."
+        "A": "The CO₂ from the kiln is used to heat the electrolysis cell.",
+        "B": "The chlorine gas produced at the anode is used to make HCl for Step 3.",
+        "C": "The unreacted Ca(OH)₂ is recycled back to the kiln.",
+        "D": "The steel cathode is melted down and reused."
       },
       "answer": "B",
-      "explanation": "In hard water, soap reacts with calcium (Ca²⁺) and magnesium (Mg²⁺) ions to form an insoluble precipitate (scum), reducing the soap's cleaning effectiveness."
+      "explanation": "The chlorine gas produced during electrolysis is a valuable co-product that is recycled to produce hydrochloric acid, which is then used in Step 3 to dissolve the magnesium hydroxide. This reduces waste and lowers costs."
     },
     {
       "id": 13,
-      "question": "What are the primary raw materials used in the Solvay process for the production of sodium carbonate?",
+      "question": "What is the main environmental disadvantage associated with the Dow process?",
       "options": {
-        "A": "Sodium chloride, water, and carbon dioxide",
-        "B": "Sodium hydroxide, chlorine, and hydrogen",
-        "C": "Brine, ammonia, and limestone",
-        "D": "Sodium sulfate, hydrochloric acid, and natural gas"
+        "A": "The release of toxic chlorine gas",
+        "B": "The consumption of large amounts of water",
+        "C": "The release of CO₂ during the thermal decomposition of limestone",
+        "D": "The production of acidic wastewater"
       },
       "answer": "C",
-      "explanation": "The Solvay process uses brine (NaCl solution), ammonia (NH₃), and limestone (CaCO₃) as its primary raw materials."
+      "explanation": "The main environmental drawback is the release of carbon dioxide, a greenhouse gas, during Step 1, where limestone or dolomite is heated to produce lime."
     },
     {
       "id": 14,
-      "question": "In the Solvay process, what is the role of ammonia?",
+      "question": "The modern Chlor-Alkali process produces sodium hydroxide, chlorine, and hydrogen via the electrolysis of what raw material?",
       "options": {
-        "A": "To react with carbon dioxide to form sodium bicarbonate directly",
-        "B": "To catalyze the decomposition of limestone",
-        "C": "To react with sodium chloride to form sodium carbonate",
-        "D": "To increase the solubility of carbon dioxide in brine"
+        "A": "Molten sodium chloride",
+        "B": "Dilute sodium hydroxide solution",
+        "C": "Concentrated aqueous sodium chloride (brine)",
+        "D": "Solid sodium chloride"
       },
-      "answer": "D",
-      "explanation": "Ammonia is used to create a basic solution, which enhances the absorption of carbon dioxide in the brine, facilitating the precipitation of sodium bicarbonate."
+      "answer": "C",
+      "explanation": "The Chlor-Alkali process co-produces NaOH, Cl₂, and H₂ by the electrolysis of a concentrated aqueous solution of sodium chloride, known as brine."
     },
     {
       "id": 15,
-      "question": "What happens to the precipitated sodium bicarbonate (NaHCO₃) in the Solvay process?",
+      "question": "Why must the brine used in a membrane cell for the Chlor-Alkali process be purified?",
       "options": {
-        "A": "It is directly sold as a final product.",
-        "B": "It is reacted with ammonia to form ammonium chloride.",
-        "C": "It is heated (calcined) to produce sodium carbonate (Na₂CO₃).",
-        "D": "It is electrolyzed to produce sodium metal and carbon dioxide."
+        "A": "To increase its electrical conductivity",
+        "B": "To prevent the formation of explosive by-products",
+        "C": "Because ions like Ca²⁺ and Mg²⁺ can damage the membrane",
+        "D": "To increase the concentration of NaCl"
       },
       "answer": "C",
-      "explanation": "The precipitated sodium bicarbonate is heated (calcined) to produce sodium carbonate (Na₂CO₃), water, and carbon dioxide. The carbon dioxide is then recycled back into the process."
+      "explanation": "Impurities such as Ca²⁺ and Mg²⁺ ions can precipitate as hydroxides in the alkaline conditions near the membrane, clogging and damaging it, which reduces the efficiency of the cell."
     },
-      {
+    {
       "id": 16,
-      "question": "Which of the following describes the role of the high pressure used in the Haber-Bosch process for ammonia synthesis?",
+      "question": "In the membrane cell, what reaction occurs in the anode compartment?",
       "options": {
-        "A": "Increases the rate of the reaction by overcoming the activation energy",
-        "B": "Shifts the equilibrium to favor the products (ammonia) due to fewer gas molecules on the product side",
-        "C": "Helps remove unreacted reactants from the reaction vessel",
-        "D": "Prevents the catalyst from being poisoned"
+        "A": "Na⁺(aq) + e⁻ → Na(s)",
+        "B": "2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq)",
+        "C": "2Cl⁻(aq) → Cl₂(g) + 2e⁻",
+        "D": "2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻"
       },
-      "answer": "B",
-      "explanation": "High pressure favors the forward reaction (formation of ammonia) because there are fewer moles of gas on the product side (2 moles of NH₃) compared to the reactant side (1 mole of N₂ + 3 moles of H₂). This is in accordance with Le Chatelier's principle."
+      "answer": "C",
+      "explanation": "In the anode compartment, chloride ions from the concentrated brine are oxidized to form chlorine gas. This reaction is favored over the oxidation of water due to the high concentration of Cl⁻ ions."
     },
     {
       "id": 17,
-      "question": "Why is a compromise temperature (450-500°C) used in the Haber-Bosch process?",
+      "question": "In the cathode compartment of the membrane cell, what substance is electrolyzed?",
       "options": {
-        "A": "To maximize the equilibrium yield of ammonia and minimize the reaction rate",
-        "B": "To minimize the equilibrium yield of ammonia and maximize the reaction rate",
-        "C": "To balance the rate of reaction (kinetics) and the equilibrium yield (thermodynamics)",
-        "D": "To prevent the catalyst from melting at high temperatures"
+        "A": "Concentrated brine",
+        "B": "Pure water",
+        "C": "Molten sodium",
+        "D": "Chlorine gas"
       },
-      "answer": "C",
-      "explanation": "The Haber-Bosch reaction is exothermic, so lower temperatures favor higher equilibrium yields. However, the reaction rate is slow at low temperatures. A compromise temperature is used to achieve a reasonable rate of reaction and yield."
+      "answer": "B",
+      "explanation": "Pure water is fed into the cathode compartment. The reduction of water occurs because it is more easily reduced (has a more positive electrode potential) than sodium ions."
     },
     {
       "id": 18,
-      "question": "What is the purpose of liquefying ammonia in the Haber-Bosch process flow?",
+      "question": "What is the reaction at the nickel cathode in the Chlor-Alkali process?",
       "options": {
-        "A": "To separate the ammonia from unreacted nitrogen and hydrogen",
-        "B": "To increase the rate of the reverse reaction",
-        "C": "To condense the nitrogen and hydrogen for recycling",
-        "D": "To remove impurities from the ammonia"
+        "A": "2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq)",
+        "B": "Na⁺(aq) + e⁻ → Na(s)",
+        "C": "Cl₂(g) + 2e⁻ → 2Cl⁻(aq)",
+        "D": "2H⁺(aq) + 2e⁻ → H₂(g)"
       },
       "answer": "A",
-      "explanation": "Cooling the gas mixture causes ammonia to liquefy, allowing it to be easily separated from the unreacted nitrogen and hydrogen gases, which remain gaseous at the liquefaction temperature of ammonia. The unreacted gasses can be recycled."
+      "explanation": "At the cathode, water molecules are reduced, producing hydrogen gas and hydroxide ions. The hydroxide ions then combine with Na⁺ ions that cross the membrane to form NaOH."
     },
     {
       "id": 19,
-      "question": "What are the main stages in the Ostwald process for the manufacture of nitric acid?",
+      "question": "What is the specific role of the membrane in the membrane cell process?",
       "options": {
-        "A": "Catalytic oxidation of nitrogen, absorption in water, and distillation",
-        "B": "Catalytic oxidation of ammonia, oxidation of nitric oxide, and absorption in water",
-        "C": "Reduction of nitrogen dioxide, neutralization with acid, and evaporation",
-        "D": "Thermal decomposition of ammonium nitrate, condensation, and filtration"
+        "A": "It allows chloride ions to pass through to the cathode.",
+        "B": "It is permeable only to cations like Na⁺, allowing them to move to the cathode compartment.",
+        "C": "It prevents water from entering the anode compartment.",
+        "D": "It acts as the cathode itself."
       },
       "answer": "B",
-      "explanation": "The Ostwald process involves three main stages: catalytic oxidation of ammonia to nitric oxide, oxidation of nitric oxide to nitrogen dioxide, and absorption of nitrogen dioxide in water to form nitric acid."
+      "explanation": "The special membrane is a cation-exchange membrane. It allows positive ions (cations), specifically Na⁺, to migrate from the anode compartment to the cathode compartment while blocking negative ions (anions) like Cl⁻ and OH⁻."
     },
-     {
+    {
       "id": 20,
-      "question": "What are the key steps in the Contact process for sulfuric acid production?",
+      "question": "Which of the following is a primary use of the chlorine (Cl₂) produced by the Chlor-Alkali process?",
       "options": {
-        "A": "Burning sulfur, oxidation of sulfur dioxide, absorption in water",
-        "B": "Burning sulfur, oxidation of sulfur trioxide, dilution with water",
-        "C": "Burning sulfur, catalytic oxidation of sulfur dioxide, absorption in concentrated sulfuric acid",
-        "D": "Burning sulfide ores, absorption in oleum, dilution with water"
+        "A": "Production of fertilizers",
+        "B": "Manufacture of PVC and water purification",
+        "C": "Hydrogenation of oils to make margarine",
+        "D": "Production of soap"
       },
-      "answer": "C",
-      "explanation": "The Contact process involves burning sulfur to form sulfur dioxide, catalytically oxidizing sulfur dioxide to sulfur trioxide, and absorbing the sulfur trioxide in concentrated sulfuric acid to form oleum, which is then diluted to the desired concentration."
+      "answer": "B",
+      "explanation": "Chlorine is a key reactant in the production of polyvinyl chloride (PVC) plastic and is widely used as a disinfectant for water purification."
     },
-        {
+    {
       "id": 21,
-      "question": "In the Contact process, why is sulfur trioxide (SO₃) absorbed in concentrated sulfuric acid rather than directly in water?",
+      "question": "The process of making soap by the alkaline hydrolysis of fats or oils is called:",
       "options": {
-        "A": "The reaction with water is too slow",
-        "B": "The reaction with water produces toxic byproducts",
-        "C": "The direct reaction with water is highly exothermic, producing a corrosive mist",
-        "D": "Sulfur trioxide is insoluble in water"
+        "A": "Esterification",
+        "B": "Transesterification",
+        "C": "Saponification",
+        "D": "Neutralization"
       },
       "answer": "C",
-      "explanation": "Reacting SO₃ directly with water is highly exothermic and creates a corrosive mist of sulfuric acid, which is difficult to handle. Absorption in concentrated sulfuric acid avoids this issue."
+      "explanation": "Saponification is the specific name for the reaction where a fat or oil (a triglyceride ester) is hydrolyzed with a strong alkali (like NaOH) to produce glycerol and the salt of a fatty acid (soap)."
     },
     {
       "id": 22,
-      "question": "What is the purpose of the 'chlorination' step in the Chloride process for titanium dioxide (TiO₂) production?",
+      "question": "What are the two products of the saponification of a triglyceride with sodium hydroxide?",
       "options": {
-        "A": "To convert titanium dioxide in the ore to volatile titanium tetrachloride (TiCl₄)",
-        "B": "To remove impurities from the rutile ore",
-        "C": "To oxidize titanium dioxide to a higher oxidation state",
-        "D": "To generate chlorine gas as a byproduct"
+        "A": "Biodiesel and water",
+        "B": "Glycerol and soap",
+        "C": "Fatty acid and sodium chloride",
+        "D": "Ethanol and carbon dioxide"
       },
-      "answer": "A",
-      "explanation": "Chlorination reacts rutile ore with chlorine gas and carbon to produce volatile titanium tetrachloride (TiCl₄), which can be purified by distillation."
+      "answer": "B",
+      "explanation": "The hydrolysis of the triglyceride breaks it down into its two components: the glycerol backbone and the three fatty acid chains. The fatty acids are deprotonated by the NaOH to form sodium salts, which are soap."
     },
     {
       "id": 23,
-      "question": "Which reaction occurs in the 'oxidation' step of the Chloride process for TiO₂ production?",
+      "question": "In soap manufacturing, what is the purpose of the 'salting out' step?",
       "options": {
-        "A": "TiCl₄(g) + 2Cl₂(g) → TiO₂(s) + 4Cl(g)",
-        "B": "TiO₂(s) + 2C(s) + 2Cl₂(g) → TiCl₄(g) + 2CO(g)",
-        "C": "TiCl₄(g) + O₂(g) → TiO₂(s) + 2Cl₂(g)",
-        "D": "Ti(s) + O₂(g) → TiO₂(s)"
+        "A": "To purify the glycerol",
+        "B": "To neutralize excess alkali",
+        "C": "To increase the solubility of the soap",
+        "D": "To precipitate the soap from the aqueous solution"
       },
-      "answer": "C",
-      "explanation": "The purified titanium tetrachloride (TiCl₄) is reacted with oxygen at high temperatures to regenerate TiO₂ and chlorine gas, which can be recycled."
+      "answer": "D",
+      "explanation": "Adding a concentrated solution of sodium chloride (brine) reduces the solubility of the soap due to the common ion effect. This causes the soap to precipitate as a solid, allowing it to be separated from the glycerol and excess reactants in the aqueous layer."
     },
     {
       "id": 24,
-      "question": "In a blast furnace for iron extraction, what is the role of coke?",
+      "question": "Why is soap less effective in 'hard water'?",
       "options": {
-        "A": "To react with iron ore directly to produce iron metal",
-        "B": "To lower the melting point of the slag",
-        "C": "To act as a fuel and a reducing agent",
-        "D": "To provide the raw material for steel production"
+        "A": "Hard water is too acidic and neutralizes the soap.",
+        "B": "Soap reacts with Ca²⁺ and Mg²⁺ ions to form an insoluble precipitate (scum).",
+        "C": "The high salt concentration in hard water prevents soap from dissolving.",
+        "D": "Hard water hydrolyzes the soap back into fat and oil."
       },
-      "answer": "C",
-      "explanation": "Coke serves as both a fuel to generate heat and a reducing agent to convert iron oxide to iron."
+      "answer": "B",
+      "explanation": "Hard water contains dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions. Soap anions react with these ions to form insoluble calcium and magnesium salts, which we see as scum. This removes soap from the solution, reducing its cleaning ability."
     },
-        {
+    {
       "id": 25,
-      "question": "What is the role of limestone (CaCO₃) in the extraction of iron in a blast furnace?",
+      "question": "What does TFM (Total Fatty Matter) on a soap cake indicate?",
       "options": {
-        "A": "To react with iron oxide and form slag",
-        "B": "To reduce iron ore",
-        "C": "To decompose into calcium oxide (lime) which removes sandy impurities forming molten slag.",
-        "D": "To provide the carbon monoxide necessary for reduction"
+        "A": "The total amount of fat used to make the soap",
+        "B": "The temperature at which the soap was manufactured",
+        "C": "The percentage by mass of actual soap in the cake",
+        "D": "The total amount of moisturizer in the soap"
       },
       "answer": "C",
-      "explanation": "Limestone decomposes to calcium oxide, which acts as a flux, reacting with silica and other impurities to form molten slag that can be separated from the iron."
+      "explanation": "TFM is a quality metric that represents the percentage by mass of the pure soap (sodium or potassium salts of fatty acids) present in a soap bar, excluding water, fillers, and other additives."
     },
     {
       "id": 26,
-      "question": "What are the stages of reduction of iron ore in a blast furnace (from top to bottom)?",
+      "question": "Which of these is NOT a primary raw material for the Solvay process?",
       "options": {
-        "A": "Fe₂O₃ → Fe₃O₄ → FeO → Fe",
-        "B": "FeO → Fe₃O₄ → Fe₂O₃ → Fe",
-        "C": "Fe → FeO → Fe₃O₄ → Fe₂O₃",
-        "D": "Fe₃O₄ → Fe₂O₃ → Fe → FeO"
+        "A": "Brine (NaCl solution)",
+        "B": "Ammonia (NH₃)",
+        "C": "Limestone (CaCO₃)",
+        "D": "Sulfuric Acid (H₂SO₄)"
       },
-      "answer": "A",
-      "explanation": "As the iron ore descends through the furnace, it is reduced in stages: 3Fe₂O₃ → 2Fe₃O₄ → 3FeO → Fe. The reduction occurs in stages as the ore descends through the furnace into hotter zones."
+      "answer": "D",
+      "explanation": "The Solvay process produces sodium carbonate using three main raw materials: brine (source of sodium), limestone (source of CO₂ and CaO), and ammonia (which is recycled)."
     },
-        {
+    {
       "id": 27,
-      "question": "What is the main product of the process of alcoholic fermentation?",
+      "question": "In the Solvay process, why does sodium bicarbonate (NaHCO₃) precipitate from the ammoniated brine?",
       "options": {
-        "A": "Methane",
-        "B": "Ethanol",
-        "C": "Ethanoic acid",
-        "D": "Methanoic acid"
+        "A": "It is the only product of the reaction.",
+        "B": "It is the least soluble salt under the reaction conditions.",
+        "C": "The solution is heated to evaporate the water.",
+        "D": "A strong acid is added to force precipitation."
       },
       "answer": "B",
-      "explanation": "Alcoholic fermentation is the production of ethanol from sugars by the action of yeast."
+      "explanation": "In the cold, concentrated ammoniated brine, sodium bicarbonate has the lowest solubility of all the ions present (Na⁺, Cl⁻, NH₄⁺, HCO₃⁻), causing it to precipitate out as a solid."
     },
     {
       "id": 28,
-      "question": "What type of reaction is used to produce biodiesel from vegetable oils or animal fats?",
+      "question": "What is the role of ammonia in the Solvay process?",
       "options": {
-        "A": "Esterification",
-        "B": "Saponification",
-        "C": "Transesterification",
-        "D": "Hydrogenation"
+        "A": "It is the main product.",
+        "B": "It acts as a source of hydroxide ions to precipitate impurities.",
+        "C": "It is used as a catalyst and is regenerated and recycled.",
+        "D": "It is used to neutralize the final product."
       },
       "answer": "C",
-      "explanation": "Transesterification is the reaction of triglycerides (fats and oils) with an alcohol (typically methanol) in the presence of a catalyst to produce biodiesel (fatty acid methyl esters) and glycerol."
+      "explanation": "Ammonia makes the brine basic, which allows it to absorb the acidic CO₂ gas. The ammonia is then recovered from the ammonium chloride by-product and reused, meaning it functions like a catalyst in the overall process."
     },
     {
       "id": 29,
-      "question": "What is the primary principle behind the extraction of essential oils by steam distillation?",
+      "question": "How is sodium carbonate (Na₂CO₃) produced from the filtered sodium bicarbonate in the Solvay process?",
       "options": {
-        "A": "Essential oils are soluble in hot water and can be separated by cooling.",
-        "B": "Essential oils have high boiling points and distill off with steam.",
-        "C": "Essential oils vaporize along with steam at a temperature below 100°C.",
-        "D": "Steam acts as a catalyst to break down the essential oils into smaller molecules."
+        "A": "By reacting it with NaOH",
+        "B": "By electrolysis",
+        "C": "By heating it (calcination)",
+        "D": "By dissolving it in water"
       },
       "answer": "C",
-      "explanation": "Steam distillation utilizes the principle that essential oils vaporize along with steam at a temperature below the boiling point of water due to Dalton's Law of Partial Pressures, allowing for easier separation."
+      "explanation": "The precipitated sodium bicarbonate is heated in a process called calcination. This thermal decomposition yields sodium carbonate, water, and carbon dioxide (which is recycled)."
     },
     {
       "id": 30,
-      "question": "In the Dow process, what is the chemical formula for dolomite, and why is it significant in this process?",
+      "question": "What is the overall process equation for the Solvay process?",
       "options": {
-        "A": "CaCO₃, provides a source of hydroxide ions",
-        "B": "MgCO₃, main source of Mg²⁺ ions",
-        "C": "CaCO₃·MgCO₃, provides both CaO and MgO upon heating",
-        "D": "MgCl₂, precursor to molten MgCl₂ for electrolysis"
+        "A": "2NaCl + 2H₂O → 2NaOH + H₂ + Cl₂",
+        "B": "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂",
+        "C": "2NaCl + CaCO₃ → Na₂CO₃ + CaCl₂",
+        "D": "CaO + 2NH₄Cl → 2NH₃ + CaCl₂ + H₂O"
       },
       "answer": "C",
-      "explanation": "Dolomite is CaCO₃·MgCO₃. When heated, it produces both calcium oxide (CaO) and magnesium oxide (MgO), both of which can be converted to hydroxides, increasing the efficiency of Mg(OH)₂ precipitation."
+      "explanation": "The overall equation summarizes the main inputs (sodium chloride and calcium carbonate) and the main outputs (sodium carbonate and calcium chloride), with ammonia acting as a recycled catalyst."
     },
     {
       "id": 31,
-      "question": "What is the 'slaking of lime' in the context of the Dow process, and why is it important?",
+      "question": "Which of the following is a major use for sodium carbonate (soda ash)?",
       "options": {
-        "A": "Heating lime to drive off water, it is NOT important",
-        "B": "Reacting CaO with hydrochloric acid, crucial for MgCl₂ formation",
-        "C": "Reacting CaO with water to form Ca(OH)₂, providing hydroxide ions",
-        "D": "Filtering lime to remove impurities, ensuring pure Mg(OH)₂ precipitate"
+        "A": "Production of explosives",
+        "B": "As a primary fuel source",
+        "C": "Manufacturing of glass and detergents",
+        "D": "Purification of aluminum ore"
       },
       "answer": "C",
-      "explanation": "Slaking of lime is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(s). This step produces calcium hydroxide, which dissociates in water to provide hydroxide ions (OH⁻) needed to precipitate Mg(OH)₂."
+      "explanation": "Sodium carbonate is a key industrial chemical used extensively in the manufacturing of glass, as well as in soaps, detergents, and for water softening."
     },
     {
       "id": 32,
-      "question": "Why is Mg(OH)₂ precipitated in the Dow process, and what property of Mg(OH)₂ is key to this step?",
+      "question": "What are the two main raw materials for the Haber-Bosch process?",
       "options": {
-        "A": "To directly extract Mg metal, low solubility makes it precipitate.",
-        "B": "To convert Mg²⁺ to a soluble form, high solubility is key.",
-        "C": "To concentrate Mg²⁺ ions, its low solubility product (Ksp) causes precipitation.",
-        "D": "To react with HCl for MgCl₂ formation, reactivity is important."
+        "A": "Ammonia and water",
+        "B": "Nitrogen and hydrogen",
+        "C": "Methane and air",
+        "D": "Nitric acid and hydrogen"
       },
-      "answer": "C",
-      "explanation": "Mg(OH)₂ precipitates because its solubility product (Ksp) is much lower than that of Ca(OH)₂. This low solubility allows for selective precipitation and concentration of Mg²⁺ ions from seawater."
+      "answer": "B",
+      "explanation": "The Haber-Bosch process synthesizes ammonia (NH₃) by reacting nitrogen gas (N₂) and hydrogen gas (H₂) under specific conditions."
     },
     {
       "id": 33,
-      "question": "What are the optimal temperature conditions for the electrolysis of molten MgCl₂ in the Dow process, and why are they important?",
+      "question": "The synthesis of ammonia in the Haber-Bosch process (N₂(g) + 3H₂(g) ⇌ 2NH₃(g)) is an exothermic reaction. According to Le Chatelier's principle, what temperature condition would favor the highest yield of ammonia?",
       "options": {
-        "A": "25°C, ensures efficient conductivity",
-        "B": "700-800°C, keeps MgCl₂ molten for electrolysis",
-        "C": "1000°C, maximizes ion mobility",
-        "D": "0°C, prevents Mg from oxidizing"
+        "A": "High temperature",
+        "B": "Low temperature",
+        "C": "Temperature has no effect on yield",
+        "D": "A constantly fluctuating temperature"
       },
       "answer": "B",
-      "explanation": "The electrolysis of MgCl₂ is carried out at 700-800 °C to ensure the magnesium chloride remains in a molten state, allowing for ion mobility and electrolysis to occur."
+      "explanation": "For an exothermic reaction, the forward reaction releases heat. Lowering the temperature will shift the equilibrium to the right to counteract the change (by producing more heat), thus increasing the yield of the product (ammonia)."
     },
     {
       "id": 34,
-      "question": "Why is the recycling of chlorine gas produced during the electrolysis of molten MgCl₂ crucial for the overall efficiency of the Dow process?",
+      "question": "Why is a compromise temperature of 450-500 °C used in the Haber-Bosch process despite a lower temperature favoring a higher yield?",
       "options": {
-        "A": "Chlorine gas can be used as a fuel.",
-        "B": "To make HCl",
-        "C": "Chlorine gas is essential for calcium oxide production.",
-        "D": "Chlorine gas is used to precipitate Ca(OH)₂."
+        "A": "To prevent the catalyst from freezing",
+        "B": "To ensure a fast enough reaction rate",
+        "C": "Because the reaction is endothermic at low temperatures",
+        "D": "To match the pressure conditions"
       },
       "answer": "B",
-      "explanation": "The chlorine gas produced at the anode is recycled to manufacture hydrochloric acid (HCl), which is used to react with Mg(OH)₂ to form MgCl₂, thus closing the loop and improving the overall process efficiency."
+      "explanation": "While a low temperature gives a high equilibrium yield, the rate of reaction becomes too slow to be economical. A higher temperature is used to achieve a reasonable reaction rate, representing a compromise between yield and rate."
     },
     {
       "id": 35,
-      "question": "What is 'brine' in the context of the Chlor-Alkali process, and why must it be purified?",
+      "question": "Why is high pressure (e.g., 250-300 atm) used in the Haber-Bosch process?",
       "options": {
-        "A": "Molten NaCl, must be kept pure to prevent explosions",
-        "B": "Solid NaCl, needs purification for efficient electrolysis",
-        "C": "Concentrated NaCl solution, impurities like Ca²⁺, Mg²⁺, SO₄²⁻ damage the membrane",
-        "D": "Dilute NaCl solution, needs purification to increase conductivity"
+        "A": "To keep the reactants in a liquid state",
+        "B": "To decrease the activation energy",
+        "C": "To favor the forward reaction, which has fewer moles of gas",
+        "D": "To make the reaction more exothermic"
       },
       "answer": "C",
-      "explanation": "Brine is a concentrated NaCl solution. It must be purified to remove impurities such as Ca²⁺, Mg²⁺, and SO₄²⁻ ions, as these can precipitate and damage the ion-exchange membrane used in the process."
+      "explanation": "The forward reaction (N₂(g) + 3H₂(g) → 2NH₃(g)) goes from 4 moles of gas to 2 moles of gas. According to Le Chatelier's principle, increasing the pressure will shift the equilibrium to the side with fewer moles of gas to reduce the pressure, thus favoring ammonia production."
     },
     {
       "id": 36,
-      "question": "In the Chlor-Alkali process, how is the purification of brine typically achieved, and what types of compounds are used?",
+      "question": "What catalyst is used to speed up the reaction in the Haber-Bosch process?",
       "options": {
-        "A": "Filtration only, to remove particulate matter",
-        "B": "Precipitation using hydroxide, carbonate, and sulfate ions to remove calcium, magnesium, and barium.",
-        "C": "Distillation to separate water from NaCl",
-        "D": "Electrolysis to remove charged impurities"
+        "A": "Platinum-rhodium (Pt/Rh)",
+        "B": "Vanadium(V) oxide (V₂O₅)",
+        "C": "Nickel (Ni)",
+        "D": "Iron (Fe) with promoters"
       },
-      "answer": "B",
-      "explanation": "Brine purification involves the precipitation of impurities using chemical treatments. Hydroxide ions (OH⁻) precipitate Mg²⁺, carbonate ions (CO₃²⁻) precipitate Ca²⁺, and sulfate ions (SO₄²⁻) precipitate Ba²⁺. These precipitates are then filtered out."
+      "answer": "D",
+      "explanation": "An iron catalyst, enhanced with promoters like K₂O and Al₂O₃, is used to increase the rate at which the reaction reaches equilibrium."
     },
     {
       "id": 37,
-      "question": "Why is oxidation of chloride ions favored over the oxidation of water at the anode in a membrane cell during the Chlor-Alkali process?",
+      "question": "How is the ammonia product separated from the unreacted nitrogen and hydrogen gases?",
       "options": {
-        "A": "The anode is made of a material that only reacts with chloride",
-        "B": "High Cl⁻ concentration and overpotential favor Cl⁻ oxidation",
-        "C": "Water is more difficult to oxidize at any concentration.",
-        "D": "Oxidation of water would produce explosive gas mixtures."
+        "A": "By fractional distillation",
+        "B": "By filtering out the solid ammonia",
+        "C": "By cooling the gas mixture to liquefy only the ammonia",
+        "D": "By absorbing the ammonia in water"
       },
-      "answer": "B",
-      "explanation": "Due to the high concentration of chloride ions in the brine and the overpotential for water oxidation, the oxidation of chloride ions to chlorine gas is favored at the anode."
+      "answer": "C",
+      "explanation": "Ammonia has a much higher boiling point (-33°C) than nitrogen (-196°C) and hydrogen (-253°C). By cooling the mixture, the ammonia condenses into a liquid and can be removed, while N₂ and H₂ remain as gases to be recycled."
     },
     {
       "id": 38,
-      "question": "What is the role of Na⁺ ions in the Chlor-Alkali membrane cell, and how do they contribute to the formation of sodium hydroxide?",
+      "question": "The Ostwald process is used to manufacture which important industrial acid?",
       "options": {
-        "A": "To react with chlorine gas, forming NaCl",
-        "B": "To catalyze water electrolysis",
-        "C": "To migrate through the membrane balancing OH⁻ charge",
-        "D": "To react with H₂ forming NaH"
+        "A": "Sulfuric acid (H₂SO₄)",
+        "B": "Hydrochloric acid (HCl)",
+        "C": "Nitric acid (HNO₃)",
+        "D": "Phosphoric acid (H₃PO₄)"
       },
       "answer": "C",
-      "explanation": "Na⁺ ions migrate from the anode compartment through the ion-selective membrane into the cathode compartment. They balance the negative charge of the hydroxide ions (OH⁻) produced by water electrolysis, resulting in the formation of a pure NaOH solution."
+      "explanation": "The Ostwald process is the primary method for the industrial production of nitric acid from the catalytic oxidation of ammonia."
     },
     {
       "id": 39,
-      "question": "What is Total Fatty Matter (TFM) in soap, and why is it an important quality parameter?",
+      "question": "What are the products of the first step of the Ostwald process, the catalytic oxidation of ammonia?",
       "options": {
-        "A": "The amount of water in soap, indicating freshness",
-        "B": "The percentage of fatty matter (soap) by mass, determines cleaning effectiveness",
-        "C": "Total fat used, related to soap price",
-        "D": "Total fatty acid used, indicating the source quality"
+        "A": "Nitrogen dioxide (NO₂) and water (H₂O)",
+        "B": "Nitric oxide (NO) and water (H₂O)",
+        "C": "Nitrogen gas (N₂) and hydrogen gas (H₂)",
+        "D": "Ammonium nitrate (NH₄NO₃)"
       },
       "answer": "B",
-      "explanation": "Total Fatty Matter (TFM) is the percentage by mass of fatty matter (soap) in a soap cake. A higher TFM generally indicates better cleaning effectiveness because it represents a higher concentration of the active cleaning agents."
+      "explanation": "In the first step, ammonia and oxygen are passed over a platinum-rhodium catalyst at high temperature, producing nitric oxide and water according to the equation: 4NH₃ + 5O₂ → 4NO + 6H₂O."
     },
     {
       "id": 40,
-      "question": "In the saponification process, what are the typical reaction conditions, such as temperature, and why is heating necessary?",
+      "question": "What happens in the second step of the Ostwald process?",
       "options": {
-        "A": "Room temperature, no heat needed",
-        "B": "Around 70°C, speeds up triglyceride hydrolysis",
-        "C": "150°C, ensures complete reaction",
-        "D": "0°C, prevents decomposition"
+        "A": "Nitric oxide is reacted with water.",
+        "B": "Nitric oxide is oxidized by more oxygen to form nitrogen dioxide.",
+        "C": "Nitrogen dioxide is reduced back to nitric oxide.",
+        "D": "Nitric oxide is cooled to form a liquid."
       },
       "answer": "B",
-      "explanation": "Saponification is typically carried out at around 70°C. Heating the mixture increases the rate of hydrolysis of the triglycerides, speeding up the saponification process."
+      "explanation": "After the hot nitric oxide gas from the first step is cooled, it spontaneously reacts with more oxygen from the air to form brown nitrogen dioxide gas (2NO + O₂ → 2NO₂)."
     },
     {
       "id": 41,
-      "question": "What is the equilibrium expression for soap precipitation in 'salting out,' and how does it influence the precipitation process?",
+      "question": "In the final step of the Ostwald process, nitrogen dioxide is absorbed in water. What are the products of this reaction?",
       "options": {
-        "A": "RCOONa(s) = RCOO⁻(aq) + Na⁺(aq), shifting equilibrium left",
-        "B": "RCOONa(aq) = RCOO⁻(aq) + Na⁺(aq), high Na pushes right",
-        "C": "RCOONa(s) = RCOO⁻(aq) + Na⁺(aq), shifts right to dissolve soap",
-        "D": "RCOONa(aq) + H₂O(l) = RCOOH(aq) + NaOH(aq), not about precipitation"
+        "A": "Only nitric acid",
+        "B": "Nitric acid and nitric oxide",
+        "C": "Nitric acid and nitrogen gas",
+        "D": "Ammonia and oxygen"
       },
-      "answer": "A",
-      "explanation": "The equilibrium expression is RCOONa(s) ⇌ RCOO⁻(aq) + Na⁺(aq). Adding a high concentration of Na⁺ ions from brine shifts the equilibrium to the left, decreasing the solubility of RCOONa (soap) and causing it to precipitate."
+      "answer": "B",
+      "explanation": "Nitrogen dioxide reacts with water in a disproportionation reaction to produce nitric acid and nitric oxide: 3NO₂(g) + H₂O(l) → 2HNO₃(aq) + NO(g). The NO is then recycled."
     },
     {
       "id": 42,
-      "question": "In the Solvay process, which compounds react in the carbonation tower, and what is the primary product of this step?",
+      "question": "The Contact process is the modern industrial method for producing which chemical?",
       "options": {
-        "A": "NaCl + H₂O, forming NaOH",
-        "B": "CO₂ + NH₄OH, forming NH₄HCO₃",
-        "C": "NaCl + NH₄HCO₃, precipitating NaHCO₃",
-        "D": "CaO+ NH₄Cl, recovering NH₃"
+        "A": "Ammonia",
+        "B": "Sulfuric acid",
+        "C": "Sodium carbonate",
+        "D": "Titanium dioxide"
       },
-      "answer": "C",
-      "explanation": "In the carbonation tower, sodium chloride (NaCl) reacts with ammonium bicarbonate (NH₄HCO₃) to precipitate sodium bicarbonate (NaHCO₃). This is the primary step for separating sodium in a solid form."
+      "answer": "B",
+      "explanation": "The Contact process is the method used to produce sulfuric acid (H₂SO₄), the world's most produced chemical."
     },
     {
       "id": 43,
-      "question": "What is the balanced chemical equation for the calcination of sodium bicarbonate in the Solvay process?",
+      "question": "What are the reaction conditions for the key 'Contact' step, 2SO₂(g) + O₂(g) ⇌ 2SO₃(g)?",
       "options": {
-        "A": "NaHCO₃(s) → NaOH(s) + CO₂(g)",
-        "B": "2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g)",
-        "C": "NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g)",
-        "D": "2NaHCO₃(s) + heat → Na₂O(s) + 2CO₂(g) + H₂(g)"
+        "A": "800 °C, 200 atm, Fe catalyst",
+        "B": "450 °C, 1 atm, V₂O₅ catalyst",
+        "C": "100 °C, 1 atm, no catalyst",
+        "D": "1000 °C, 10 atm, Pt catalyst"
       },
       "answer": "B",
-      "explanation": "The balanced equation for the calcination of sodium bicarbonate is 2NaHCO₃(s) --(∆)--> Na₂CO₃(s) + H₂O(g) + CO₂(g). Heating sodium bicarbonate decomposes it into sodium carbonate, water, and carbon dioxide."
+      "explanation": "The catalytic oxidation of sulfur dioxide to sulfur trioxide is carried out at a compromise temperature of 450 °C and atmospheric pressure, using a vanadium(V) oxide (V₂O₅) catalyst."
     },
     {
       "id": 44,
-      "question": "In the ammonia recovery step of the Solvay process, what reactants are used to regenerate ammonia, and what is the by-product of this step?",
+      "question": "In the Contact process, why is sulfur trioxide (SO₃) not absorbed directly into water?",
       "options": {
-        "A": "NH₄Cl + H₂O, making NH₃ and HCl",
-        "B": "NH₄Cl + NaOH, NH₃ recovered, NaCl as byproduct",
-        "C": "NH₄Cl + CaO, NH₃ recovered, CaCl₂ as byproduct",
-        "D": "NH₄NO₃ → NH₃ + HNO₃, recovering both acids"
+        "A": "The reaction is too slow.",
+        "B": "SO₃ does not dissolve in water.",
+        "C": "The reaction is extremely exothermic and creates a corrosive acid mist.",
+        "D": "The reaction is reversible and has a poor yield in water."
       },
       "answer": "C",
-      "explanation": "The ammonia recovery step involves reacting ammonium chloride (NH₄Cl) with calcium oxide (CaO), which regenerates ammonia (NH₃) and produces calcium chloride (CaCl₂) as a by-product."
+      "explanation": "The direct reaction of SO₃ with water is violently exothermic, boiling the solution and creating a fine mist of sulfuric acid that is difficult to handle and contain."
     },
     {
       "id": 45,
-      "question": "What are the common sources of nitrogen and hydrogen used in the Haber-Bosch process for ammonia synthesis?",
+      "question": "How is concentrated sulfuric acid actually produced in the Contact process?",
       "options": {
-        "A": "Nitrogen from air, hydrogen from water electrolysis",
-        "B": "Nitrogen from liquefied air, hydrogen from natural gas",
-        "C": "Nitrogen from decomposition of NH₄NO₃, H₂ from hydrocarbons pyrolysis",
-        "D": "Nitrogen and hydrogen from electrolysis of water"
+        "A": "By absorbing SO₃ in dilute H₂SO₄.",
+        "B": "By absorbing SO₃ in concentrated H₂SO₄ to form oleum, then diluting the oleum.",
+        "C": "By directly bubbling SO₃ through water under high pressure.",
+        "D": "By electrolyzing a solution of sodium sulfate."
       },
       "answer": "B",
-      "explanation": "Nitrogen is obtained from the fractional distillation of liquid air, while hydrogen is primarily produced from the steam reforming of natural gas (methane) or other hydrocarbons."
+      "explanation": "To manage the heat, SO₃ is first dissolved in 98% sulfuric acid to form a substance called oleum (H₂S₂O₇). The oleum is then safely and carefully diluted with water to produce more concentrated sulfuric acid."
     },
     {
       "id": 46,
-      "question": "What catalyst is used in the Haber-Bosch process, and what are the roles of promoters often added to the catalyst?",
+      "question": "What is the chemical formula for oleum?",
       "options": {
-        "A": "Vanadium oxide, promoters speed kinetics",
-        "B": "Iron, promoters increase activity and stability",
-        "C": "Platinum, supports high temp operation",
-        "D": "Nickel, enhances surface area"
+        "A": "H₂SO₃",
+        "B": "H₂SO₄·SO₃",
+        "C": "H₂S₂O₇",
+        "D": "Both B and C are correct representations"
       },
-      "answer": "B",
-      "explanation": "An iron (Fe) catalyst is used in the Haber-Bosch process. Promoters, such as K₂O (potassium oxide) and Al₂O₃ (aluminum oxide), are added to the iron catalyst to increase its activity and stability."
+      "answer": "D",
+      "explanation": "Oleum, or pyrosulfuric acid, has the chemical formula H₂S₂O₇. It can also be thought of as a solution of sulfur trioxide (SO₃) dissolved in sulfuric acid (H₂SO₄), so H₂SO₄·SO₃ is also a valid representation."
     },
     {
       "id": 47,
-      "question": "How is the unreacted nitrogen and hydrogen gas recycled in the Haber-Bosch process flow, and why is this recycling step important?",
+      "question": "What is a major use of sulfuric acid?",
       "options": {
-        "A": "Directly burned for process heat, saves energy",
-        "B": "Reformed back to methane, to feed H₂ production",
-        "C": "Recycled to increase the yield, reducing waste",
-        "D": "Used to pressurize reaction vessels, controlling rates"
+        "A": "As a food preservative",
+        "B": "Production of phosphate fertilizers",
+        "C": "Manufacture of plastics like PVC",
+        "D": "As a refrigerant"
       },
-      "answer": "C",
-      "explanation": "The unreacted nitrogen and hydrogen are recycled back into the reaction chamber. This recycling step is crucial for maximizing the overall yield of ammonia and reducing waste, which enhances the efficiency and sustainability of the process."
+      "answer": "B",
+      "explanation": "A very large proportion of the world's sulfuric acid production is used to manufacture phosphate fertilizers by reacting it with phosphate rock."
     },
     {
       "id": 48,
-      "question": "In the catalytic oxidation of ammonia in the Ostwald process, what is the balanced chemical equation for the reaction?",
+      "question": "The Chloride process is used to produce what important white pigment?",
       "options": {
-        "A": "2NH₃(g) + 3O₂(g) → 2N₂(g) + 6H₂O(g)",
-        "B": "4NH₃(g) + 3O₂(g) → 2N₂(g) + 6H₂O(g)",
-        "C": "4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g)",
-        "D": "2NH₃(g) + O₂(g) → N₂O(g) + 3H₂O(g)"
+        "A": "Zinc oxide (ZnO)",
+        "B": "Titanium dioxide (TiO₂)",
+        "C": "Calcium carbonate (CaCO₃)",
+        "D": "Barium sulfate (BaSO₄)"
       },
-      "answer": "C",
-      "explanation": "The balanced chemical equation for the catalytic oxidation of ammonia is 4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g). This reaction is carried out over a platinum-rhodium (Pt/Rh) catalyst at high temperatures."
+      "answer": "B",
+      "explanation": "The Chloride process is a modern method for producing high-purity titanium dioxide, which is a brilliant white pigment used in paints, plastics, paper, and other products."
     },
     {
       "id": 49,
-      "question": "What catalyst is used in the catalytic oxidation of ammonia in the Ostwald process, and at what temperature range does this reaction typically occur?",
+      "question": "In the first step of the Chloride process, what is the role of coke (carbon)?",
       "options": {
-        "A": "Vanadium oxide, 200-300°C",
-        "B": "Platinum-rhodium (Pt/Rh), 800-850°C",
-        "C": "Iron, 400-500°C",
-        "D": "Nickel, 600-700°C"
+        "A": "It acts as a catalyst.",
+        "B": "It acts as a flux to remove impurities.",
+        "C": "It acts as a reducing agent.",
+        "D": "It provides heat by burning."
       },
-      "answer": "B",
-      "explanation": "The catalytic oxidation of ammonia in the Ostwald process uses a platinum-rhodium (Pt/Rh) catalyst and typically occurs in a temperature range of 800-850°C."
+      "answer": "C",
+      "explanation": "In the chlorination step (TiO₂ + 2C + 2Cl₂ → TiCl₄ + 2CO), the carbon acts as a reducing agent, allowing the chlorine to replace the oxygen in the titanium ore."
     },
     {
       "id": 50,
-      "question": "What is the role of dry air in the sulfur dioxide production stage of the Contact process, and what happens if moisture is present?",
+      "question": "What intermediate compound is formed and purified by distillation in the Chloride process?",
       "options": {
-        "A": "Dries the sulfur, improving SO₂ yield.",
-        "B": "Provides O₂ for combustion and dilutes SO₂.",
-        "C": "Dry prevents SO₃ mist. Moisture forms sulfuric mist.",
-        "D": "Prevents explosive mixtures. Moisture not an issue."
+        "A": "Titanium(II) chloride (TiCl₂)",
+        "B": "Titanium monoxide (TiO)",
+        "C": "Titanium tetrachloride (TiCl₄)",
+        "D": "Carbon tetrachloride (CCl₄)"
       },
       "answer": "C",
-      "explanation": "Dry air is used in the production of sulfur dioxide to prevent the formation of a corrosive mist of sulfuric acid. If moisture is present, it can react with SO₃ to form H₂SO₄ mist, which is difficult to handle."
+      "explanation": "The first step converts the solid, impure TiO₂ ore into volatile titanium tetrachloride (TiCl₄), a liquid at room temperature. This liquid can be purified by fractional distillation before the final step."
     },
     {
       "id": 51,
-      "question": "What temperature and pressure conditions are typically employed in the 'Contact' step (SO₂ to SO₃ conversion) of the Contact process, and why are these conditions optimal?",
+      "question": "How is pure titanium dioxide formed from titanium tetrachloride in the final step of the Chloride process?",
       "options": {
-        "A": "200°C low pressure, kinetic controls yield.",
-        "B": "450°C 1 atm, optimal rate and yield equilibrium",
-        "C": "800°C high pressure, max yield kinetic factors",
-        "D": "Room Temperature and atm. Pressure"
+        "A": "By reacting it with water (hydrolysis)",
+        "B": "By reacting it with pure oxygen at high temperature",
+        "C": "By electrolysis of molten TiCl₄",
+        "D": "By reducing it with hydrogen gas"
       },
       "answer": "B",
-      "explanation": "The Contact step is carried out at around 450°C and 1 atm pressure. This compromise temperature provides a reasonable reaction rate and a favorable equilibrium yield for SO₃ formation. Higher pressures favor the product as there are fewer gas molecules after the reaction, but are generally not used due to cost."
+      "explanation": "The purified TiCl₄ vapor is reacted with pure oxygen at a very high temperature (around 1000°C) to produce solid, pure TiO₂ and chlorine gas, which is then recycled."
     },
     {
       "id": 52,
-      "question": "What is oleum, and what makes it crucial for efficient sulfuric acid production in the Contact process?",
+      "question": "What are the three main solid materials charged into the top of a blast furnace for iron extraction?",
       "options": {
-        "A": "Dilute H₂SO₄ improves absorption",
-        "B": "Mixture of H₂SO₄ by-products prevents the SO₃ loss",
-        "C": "SO₃ absorbed in H₂SO₄ higher efficiency.",
-        "D": "H₂SO₄ with SO₂, storage material "
+        "A": "Iron ore, sand, and water",
+        "B": "Coke, iron, and slag",
+        "C": "Iron ore, coke, and limestone",
+        "D": "Hematite, bauxite, and rutile"
       },
       "answer": "C",
-      "explanation": "Oleum (H₂S₂O₇) is formed by absorbing sulfur trioxide (SO₃) in concentrated sulfuric acid (H₂SO₄). Absorbing SO₃ in H₂SO₄ rather than water is crucial because the direct reaction of SO₃ with water is highly exothermic, creating a corrosive mist."
+      "explanation": "The charge for a blast furnace consists of iron ore (the source of iron, e.g., hematite Fe₂O₃), coke (carbon, which acts as fuel and a reducing agent), and limestone (calcium carbonate, which acts as a flux)."
     },
     {
       "id": 53,
-      "question": "What are the purposes of coke and chlorine gas in the chlorination of rutile ore to titanium tetrachloride (TiCl₄)?",
+      "question": "What are the two distinct functions of coke in a blast furnace?",
       "options": {
-        "A": "Coke reacts with chlorine. Chlorine produces TiCl₄",
-        "B": "Chlorine acts reducing. Coke facilitates Cl₂ diffusion",
-        "C": "Coke as reducing agent. Chlorine reacts TiO₂ to TiCl₄.",
-        "D": "Coke for heat. Chlorine carrier volatile complex."
+        "A": "To act as a catalyst and to form slag",
+        "B": "To act as a fuel and to produce the main reducing agent (CO)",
+        "C": "To lower the melting point of iron and to remove impurities",
+        "D": "To provide carbon for the steel and to act as a flux"
       },
-      "answer": "C",
-      "explanation": "Coke (carbon) acts as a reducing agent, removing oxygen from titanium dioxide (TiO₂). Chlorine reacts with the titanium and carbon at high temperatures to form titanium tetrachloride (TiCl₄) and carbon oxides."
+      "answer": "B",
+      "explanation": "Coke first burns in hot air to provide the high temperatures needed (Fuel: C + O₂ → CO₂). Then, at high temperatures, it reacts with the CO₂ to produce carbon monoxide (CO), which is the primary reducing agent in the furnace (CO₂ + C → 2CO)."
     },
     {
       "id": 54,
-      "question": "What are the conditions for TiCl₄ oxidation reaction with O₂ and the chlorine recycle? Why?",
+      "question": "What is the purpose of adding limestone (CaCO₃) to the blast furnace?",
       "options": {
-        "A": "High temp for rate Cl₂ recycling improves economy.",
-        "B": "Low temp shifts equilibrium. Cl₂ is byproduct",
-        "C": "High pressure prevents oxidation. Cl₂ recycled via oxidation.",
-        "D": "Low pressure makes reaction easier"
+        "A": "To act as the primary reducing agent",
+        "B": "To increase the temperature of the furnace",
+        "C": "To remove acidic, sandy impurities (like SiO₂) by forming slag",
+        "D": "To provide CO₂ for the reduction of iron ore"
       },
-      "answer": "A",
-      "explanation": "High temperature is used for the TiCl₄ oxidation reaction to increase the reaction rate. Chlorine recycling improves the economy of the process by reusing the chlorine gas that is produced during the oxidation step."
+      "answer": "C",
+      "explanation": "Limestone decomposes to calcium oxide (CaO), which is a basic oxide. This CaO acts as a flux, reacting with the acidic impurity silica (SiO₂) to form molten calcium silicate (CaSiO₃), known as slag."
     },
     {
       "id": 55,
-      "question": "Describe the multi-step reduction of iron ore within the blast furnace, detailing the chemical transformations.",
+      "question": "What is the primary reducing agent responsible for the reduction of iron ore in the blast furnace?",
       "options": {
-        "A": "Multi zone reaction. Fe₂O₃-> Fe₃O₄ ->FeO -> Fe step redox",
-        "B": "Single reduction. CO converts Fe₂O₃ to Fe metal",
-        "C": "Molten metal oxidation then electrochemical reduction",
-        "D": "Carbide mediated reaction from CO, then cementation"
+        "A": "Carbon (Coke)",
+        "B": "Carbon monoxide (CO)",
+        "C": "Hydrogen (H₂)",
+        "D": "Calcium oxide (CaO)"
       },
-      "answer": "A",
-      "explanation": "The reduction of iron ore in a blast furnace is a multi-step process that occurs in different temperature zones. The primary chemical transformations are: 3Fe₂O₃(s) + CO(g) → 2Fe₃O₄(s) + CO₂(g), Fe₃O₄(s) + CO(g) → 3FeO(s) + CO₂(g), and FeO(s) + CO(g) → Fe(l) + CO₂(g)."
+      "answer": "B",
+      "explanation": "While solid carbon does some reduction at the very hottest parts, the main reduction of iron ore as it descends through the furnace is carried out by carbon monoxide gas."
     },
     {
       "id": 56,
-      "question": "What is the fate of limestone (CaCO3) added in blast furnace? Give relevant reactions.",
+      "question": "Which equation represents the formation of slag in a blast furnace?",
       "options": {
-        "A": "Flux. SiO₂ impurities + CaO slag. Reactions: CaO form/slag.",
-        "B": "Direct reduction agent replaces Coke efficiently",
-        "C": "CO₂ source prevents carbon monoxide production",
-        "D": "Slag production, prevents acid gases"
+        "A": "Fe₂O₃(s) + 3CO(g) → 2Fe(l) + 3CO₂(g)",
+        "B": "CaCO₃(s) → CaO(s) + CO₂(g)",
+        "C": "C(s) + O₂(g) → CO₂(g)",
+        "D": "CaO(s) + SiO₂(s) → CaSiO₃(l)"
       },
-      "answer": "A",
-      "explanation": "Limestone acts as a flux. The reactions are: CaCO₃(s) → CaO(s) + CO₂(g) and CaO(s) + SiO₂(s) → CaSiO₃(l) (slag)."
+      "answer": "D",
+      "explanation": "The basic oxide calcium oxide (from limestone) reacts with the acidic oxide silicon dioxide (sandy impurity) to form molten calcium silicate, or slag."
     },
     {
       "id": 57,
-      "question": "What two products are produced separately during the iron extraction process in a blast furnace, and which properties determine their separation?",
+      "question": "Why does molten slag float on top of the molten iron in the blast furnace?",
       "options": {
-        "A": "Fe and SiO₂, electrical properties separation",
-        "B": "Fe and steel composition segregation",
-        "C": "Molten iron heavy, molten slag on top density differences.",
-        "D": "Pig iron collected solid, slag tapped."
+        "A": "Slag is hotter than the iron.",
+        "B": "Slag is magnetic and is repelled from the bottom.",
+        "C": "Slag is less dense than molten iron.",
+        "D": "Slag is a solid, while iron is a liquid."
       },
       "answer": "C",
-      "explanation": "Molten iron is denser and sinks to the bottom of the furnace, while molten slag (mainly calcium silicate) is less dense and floats on top. This density difference allows for their separate tapping."
+      "explanation": "Molten slag has a lower density than molten iron, causing it to form a separate layer that floats on the surface. This layer also has the benefit of protecting the hot iron from being re-oxidized by the incoming hot air."
     },
     {
       "id": 58,
-      "question": "What enzyme helps to hydrolyze sugar in the first step for industrial ethanol production?",
+      "question": "The production of ethanol from sugars by the action of yeast is known as what process?",
       "options": {
-        "A": "Amylase",
-        "B": "Zymase",
-        "C": "Invertase (Sucrase)",
-        "D": "Catalase"
+        "A": "Transesterification",
+        "B": "Saponification",
+        "C": "Fermentation",
+        "D": "Steam distillation"
       },
       "answer": "C",
-      "explanation": "Sucrase or Invertase catalyze sugar hydrolysis, so yeast can use fermentation. Hydrolysis of Sucrose: C12H22O11(aq) + H2O(l) --(sucrase)--> C6H12O6(aq)(glucose) + C6H12O6 (aq) (fructose)."
+      "explanation": "Fermentation is the metabolic process by which microorganisms like yeast convert sugars (like glucose) into ethanol and carbon dioxide in the absence of oxygen."
     },
     {
       "id": 59,
-      "question": "What is the role of catalyst in transesterification during biodiesel production from tryglyceride, methanol?",
+      "question": "What is the correct chemical equation for the fermentation of glucose (C₆H₁₂O₆)?",
       "options": {
-        "A": "NaOH, produce biodiesel glycerol easily in base.",
-        "B": "Pt catalyst adds H₂ oils to saturated esters. ",
-        "C": "Acid catalyst esterifys free acids into biodiesel directly",
-        "D": "Polymer catalyst makes ester linkages."
+        "A": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+        "B": "C₁₂H₂₂O₁₁ + H₂O → 2C₆H₁₂O₆",
+        "C": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+        "D": "Triglyceride + 3CH₃OH → 3 FAMEs + Glycerol"
       },
       "answer": "A",
-      "explanation": "A strong base catalyst, typically sodium hydroxide (NaOH) or potassium hydroxide (KOH) is used in transesterification to produce biodiesel from tryglyceride and methanol."
+      "explanation": "Yeast enzymes break down one molecule of glucose into two molecules of ethanol (C₂H₅OH) and two molecules of carbon dioxide (CO₂)."
     },
     {
       "id": 60,
-      "question": "What is Dalton's Law and how is it applied in the extraction of essential oils by steam distillation?",
+      "question": "The production of biodiesel from vegetable oils and methanol is an example of what type of reaction?",
       "options": {
-        "A": "Partial Pressure makes boiling water. Essential oils have high BP.",
-        "B": "Dalton,s molecular velocity helps steam distillation move compounds",
-        "C": "Pressure sum oils boil with steam low-temp avoids harm oils",
-        "D": "Vapor pressure addition steam extraction pressure efficient"
+        "A": "Hydrolysis",
+        "B": "Fermentation",
+        "C": "Saponification",
+        "D": "Transesterification"
+      },
+      "answer": "D",
+      "explanation": "Transesterification is the process of exchanging the organic group R″ of an ester with the organic group R′ of an alcohol. In this case, the glycerol portion of the triglyceride (an ester) is exchanged for methyl groups from methanol."
+    },
+    {
+      "id": 61,
+      "question": "What are the two main products of the transesterification of a triglyceride with methanol?",
+      "options": {
+        "A": "Soap and glycerol",
+        "B": "Fatty acids and water",
+        "C": "Biodiesel (FAMEs) and glycerol",
+        "D": "Ethanol and carbon dioxide"
       },
       "answer": "C",
-      "explanation": "Dalton's Law of Partial Pressures states that the total pressure of a mixture of gases is the sum of the partial pressures of each individual gas. In steam distillation, the mixture of water vapor and oil vapor boils at a temperature below 100°C because the combined partial pressures reach atmospheric pressure at a lower temperature than either substance would boil alone, preventing degradation of essential oils from high temperatures."
+      "explanation": "The reaction produces a mixture of fatty acid methyl esters (FAMEs), which is the fuel known as biodiesel, and a glycerol by-product."
+    },
+    {
+      "id": 62,
+      "question": "What scientific principle allows for the extraction of essential oils using steam distillation at a temperature below 100°C?",
+      "options": {
+        "A": "Le Chatelier's Principle",
+        "B": "Hess's Law",
+        "C": "The Common Ion Effect",
+        "D": "Dalton's Law of Partial Pressures"
+      },
+      "answer": "D",
+      "explanation": "According to Dalton's Law, the total pressure of a mixture of immiscible liquids is the sum of their individual vapor pressures. The mixture boils when this total pressure equals atmospheric pressure. Since both water and oil contribute to the pressure, the boiling point of the mixture is lower than the boiling point of either pure component."
+    },
+    {
+      "id": 63,
+      "question": "How is the essential oil separated from the water after the steam distillation process?",
+      "options": {
+        "A": "By filtration",
+        "B": "By fractional distillation",
+        "C": "The oil and water are immiscible and form separate layers.",
+        "D": "By adding salt to precipitate the oil."
+      },
+      "answer": "C",
+      "explanation": "After the vapor mixture is condensed back into a liquid, the oil and water do not mix (they are immiscible). They form two distinct layers, which can be easily separated, usually with a separating funnel."
     }
-  
-
-
   ]
 }
